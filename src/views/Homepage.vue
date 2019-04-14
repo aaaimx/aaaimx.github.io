@@ -17,7 +17,7 @@
       <!-- Backgound Image -->
       <div
         class="bg-image bg-parallax overlay"
-        style="background-image:url(../static/img/claudia.jpg)"
+        style="background-image:url(./static/img/claudia.jpg)"
       ></div>
       <!-- /Backgound Image -->
 

@@ -5,7 +5,7 @@
       <!-- Backgound Image -->
       <div
         class="bg-image bg-parallax overlay"
-        style="background-image:url(../static/img/page-background.jpg)"
+        style="background-image:url(./static/img/page-background.jpg)"
       ></div>
       <!-- /Backgound Image -->
 
