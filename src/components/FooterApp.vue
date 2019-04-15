@@ -21,23 +21,7 @@
 
         <!-- footer nav -->
         <div class="col-md-6">
-          <ul class="footer-nav">
-            <li>
-            <router-link to="/" tag="a">Home</router-link>
-          </li>
-          <li>
-            <a href="#why-us">About</a>
-          </li>
-          <li>
-            <a href="#courses">Events</a>
-          </li>
-          <li>
-            <router-link to="/blog" tag="a">Blog</router-link>
-          </li>
-          <li>
-            <router-link to="/contact" tag="a">Contact</router-link>
-          </li>
-          </ul>
+          <nav-app classes="footer-nav"/>
         </div>
         <!-- /footer nav -->
       </div>
@@ -91,7 +75,7 @@
         <div class="col-md-8 col-md-pull-4">
           <div class="footer-copyright">
             <span>
-             AAAI SC Mexico &copy; Copyright 2019. All Rights Reserved. | This website is made by
+             AAAI México &copy; Copyright 2019. All Rights Reserved. | This website is made by
               <a href="https://github.com/RaulNovelo">RaulNovelo</a>
             </span>
           </div>
@@ -103,6 +87,15 @@
     <!-- /container -->
   </footer>
 </template>
+
+<script>
+import NavApp from '@/components/NavApp'
+export default {
+  components: {
+    NavApp
+  }
+}
+</script>
 
 <style scope>
 .blog-share a.github {

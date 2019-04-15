@@ -1,72 +1,62 @@
 <template>
-  <div id="why-us" class="section">
-    <!-- container -->
+    <section id="about-us">
     <div class="container">
-      <!-- row -->
       <div class="row">
-        <div class="section-header text-center">
-          <h1>
-            <strong>ABOUT US</strong>
-          </h1>
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase"><strong>About us</strong></h2>
           <hr>
-          <p class="lead"></p>
+          <h3 class="section-subheading text-muted"></h3>
         </div>
-
-        <!-- feature -->
+      </div>
+      <div class="row text-center">
         <div class="col-md-4">
-          <div class="feature">
-            <i class="feature-icon fa fa-flask"></i>
-            <div class="feature-content">
-              <h4>Mision</h4>
-              <p style="text-align: justify">
-                Our goal is to promote the knowledge and practice of AI in
+          <span class="fa-stack fa-4x" style="border-radius: 50%; border: 1px solid #EBEBEB; width: 120px; height: 120px;">
+            <i class="fas fa-flask fa-stack-1x" style="color: #800040;"></i>
+          </span>
+          <h4 class="service-heading">Mision</h4>
+          <p class="text-muted">Our goal is to promote the knowledge and practice of AI in
                 both the ITM and the local
                 community, encouraging more students to join and promote research and technological
-                developments.
-              </p>
-            </div>
-          </div>
+                developments.</p>
         </div>
-        <!-- /feature -->
-
-        <!-- feature -->
         <div class="col-md-4">
-          <div class="feature">
-            <i class="feature-icon fa fa-eye"></i>
-            <div class="feature-content">
-              <h4>Vision</h4>
-              <p style="text-align: justify">
-                We propose to achieve this through a solid core of
+          <span class="fa-stack fa-4x" style="border-radius: 50%; border: 1px solid #EBEBEB; width: 120px; height: 120px;">
+            <i class="fas fa-eye fa-stack-1x fa-inverse" style="color: #800040; "></i>
+          </span>
+          <h4 class="service-heading">Vision</h4>
+          <p class="text-muted">We propose to achieve this through a solid core of
                 researchers from both ITM
                 and leading research centers such as CIMAT and CentroGeo, who will bring IA knowledge
                 to students, in the form of conferences, symposiums, meetings, etc., but mainly, through
                 workshops and courses, whose contents will be replicated to future generations of
-                students.
-              </p>
-            </div>
-          </div>
+                students.</p>
         </div>
-        <!-- /feature -->
-
-        <!-- feature -->
         <div class="col-md-4">
-          <div class="feature">
-            <i class="feature-icon fa fa-users"></i>
-            <div class="feature-content">
-              <h4>Community</h4>
-              <p>
-                We are a community dedicated to increase knowledge and promote greater awareness of
+          <span class="fa-stack fa-4x" style="border-radius: 50%; border: 1px solid #EBEBEB; width: 120px; height: 120px;">
+            <i class="fas fa-users fa-stack-1x fa-inverse" style="color: #800040;"></i>
+          </span>
+          <h4 class="service-heading">Community</h4>
+          <p class="text-muted">We are a community dedicated to increase knowledge and promote greater awareness of
                 Artificial Intelligence, located (mainly) in Merida, Yucatan, Mexico. The headquarters
                 of the chapter are located at the Merida Institute of Technology (Instituto Tecnológico
-                de Mérida)
-              </p>
-            </div>
-          </div>
+                de Mérida).</p>
         </div>
-        <!-- /feature -->
       </div>
-      <!-- /row -->
     </div>
-    <!-- /container -->
-  </div>
+  </section>
 </template>
+
+<style scoped>
+
+@import url('../static/css/agency.min.css');
+@import url('../static/vendor/bootstrap/css/bootstrap.min.css');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
+
+#about-us {
+  padding-bottom: 0%;
+  padding-top: 10%;
+}
+</style>

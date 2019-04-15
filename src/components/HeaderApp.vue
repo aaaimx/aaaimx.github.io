@@ -21,23 +21,7 @@
 
       <!-- Navigation -->
       <nav id="nav">
-        <ul class="main-menu nav navbar-nav navbar-right">
-          <li>
-            <router-link to="/" tag="a">Home</router-link>
-          </li>
-          <li v-show="$route.name == 'Home'">
-            <a href="#why-us">About</a>
-          </li>
-          <li v-show="$route.name == 'Home'">
-            <a href="#courses">Events</a>
-          </li>
-          <li>
-            <router-link to="/blog" tag="a">Blog</router-link>
-          </li>
-          <li>
-            <router-link to="/contact" tag="a">Contact</router-link>
-          </li>
-        </ul>
+        <nav-app classes="main-menu nav navbar-nav navbar-right"/>
       </nav>
       <!-- /Navigation -->
     </div>
@@ -46,11 +30,15 @@
 </template>
 
 <script>
+import NavApp from '@/components/NavApp'
 export default {
   data () {
     return {
       isActive: false
     }
+  },
+  components: {
+    NavApp
   },
   methods: {
     myFilter () {

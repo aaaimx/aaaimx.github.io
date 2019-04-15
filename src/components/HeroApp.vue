@@ -13,11 +13,11 @@
               <br>
               <img src="static/img/aaai-logo-transpeps.png">
               <br>AAAI Student Chapter
-              <br>at Yucatán, Mexico
+              <br>at Yucatán, México
             </h1>
             <p
               style="color: white;"
-            >Merida Institute of Technology (Instituto Tecnológico de Mérida)</p>
+            >Mérida Institute of Technology (Instituto Tecnológico de Mérida)</p>
             <a class="main-button icon-button" href="#">Become a member!</a>
           </div>
         </div>
