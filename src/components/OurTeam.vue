@@ -11,30 +11,35 @@
           <h3 class="section-subheading text-muted">
             We are a group of students and researchers from the Center for Mathematical Research
             (CIMAT) and CentroGeo,
-            two of the leading research centers in Yucatan, Mexico.
+            two of the leading research centers in Yucatán, México.
           </h3>
         </div>
       </div>
       <div class="row">
         <div v-for="t in team" :key="t.name" class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="../static/img/avatar.png" alt>
+            <img class="mx-auto rounded-circle" :src=" t.avatar ? t.avatar : '../static/img/avatar.png'" alt>
             <h4>{{ t.name }}</h4>
             <p class="text-muted">{{ t.description }}</p>
             <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
+              <li v-if="t.social.twitter" class="list-inline-item">
+                <a :href="t.social.twitter">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
+              <li v-if="t.social.fb" class="list-inline-item">
+                <a :href="t.social.fb">
                   <i class="fa fa-facebook-f"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
+              <li v-if="t.social.in" class="list-inline-item">
+                <a :href="t.social.in">
                   <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li v-if="t.social.github" class="list-inline-item">
+                <a :href="t.social.github">
+                  <i class="fab fa-github"></i>
                 </a>
               </li>
             </ul>
@@ -46,19 +51,24 @@
             <h4>{{ f.name }}</h4>
             <p class="text-muted">{{ f.description }}</p>
             <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
+              <li v-if="f.social.twitter" class="list-inline-item">
+                <a :href="f.social.twitter">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
+              <li v-if="f.social.fb" class="list-inline-item">
+                <a :href="f.social.fb">
                   <i class="fa fa-facebook-f"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a href="#">
+              <li v-if="f.social.in" class="list-inline-item">
+                <a :href="f.social.in">
                   <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li v-if="f.social.github" class="list-inline-item">
+                <a :href="f.social.github">
+                  <i class="fab fa-github"></i>
                 </a>
               </li>
             </ul>
@@ -68,7 +78,7 @@
 
       <div class="row justify-content-center">
 
-        <button class="btn collapsible" type="button" @click="myFilter()">Founders</button>
+        <button class="btn collapsible" type="button" @click="toggleFounders()">Founders</button>
       </div>
 
     </div>
@@ -81,18 +91,14 @@ export default {
   data () {
     return {
       team,
-      founders,
-      isActive: false
+      founders
     }
   },
   methods: {
-    myFilter () {
+    toggleFounders () {
       var coll = document.getElementsByClassName('content')
-      console.log(coll)
-      var i
-      for (i = 0; i < coll.length; i++) {
-        if (coll[i].style.display === 'block') coll[i].style.display = 'none'
-        else coll[i].style.display = 'block'
+      for (let el of coll) {
+        el.style.display === 'block' ? el.style.display = 'none' : el.style.display = 'block'
       }
     }
   }

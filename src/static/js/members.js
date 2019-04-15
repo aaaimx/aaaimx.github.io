@@ -4,7 +4,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -12,7 +12,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -20,7 +20,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -28,7 +28,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -36,7 +36,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: null
     }
   },
   {
@@ -44,7 +44,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -52,7 +52,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -60,7 +60,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -68,7 +68,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -76,7 +76,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -84,7 +84,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -92,7 +92,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -100,7 +100,7 @@ const founders = [
     description: 'Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   }
 ]
@@ -111,15 +111,15 @@ const team = [
     description: 'CEO /  Lead ML Student',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
     name: 'Raul Novelo',
     description: 'Project Manager / Student Lead Software',
-    avatar: null,
+    avatar: 'https://avatars2.githubusercontent.com/u/36168284?s=400&u=dd850c4cf79d1fb9a152d8acf1426b1db4af6a1a&v=4',
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/raul.novelocruz', github: 'https://github.com/RaulNovelo', in: null
     }
   },
   {
@@ -127,7 +127,7 @@ const team = [
     description: 'CTO / Student Lead Eletronics',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -135,7 +135,7 @@ const team = [
     description: 'Treasurer / Lead Maths Student',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/'
     }
   },
   {
@@ -143,7 +143,7 @@ const team = [
     description: 'President / ITM Investigator',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      researchID: null
     }
   },
   {
@@ -151,7 +151,7 @@ const team = [
     description: 'Vicepresident / CentroGeo Investigator',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      researchID: null
     }
   },
   {
@@ -159,7 +159,7 @@ const team = [
     description: 'Tresure / CIMAT Investigator',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      researchID: null
     }
   },
   {
@@ -167,7 +167,7 @@ const team = [
     description: 'Web Master / Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   },
   {
@@ -175,7 +175,7 @@ const team = [
     description: 'Operations Officer / Student Founder',
     avatar: null,
     social: {
-      fb: '', github: '', twitter: '', linkedin: ''
+      fb: 'https://www.facebook.com/', github: 'https://github.com/'
     }
   }
 ]
