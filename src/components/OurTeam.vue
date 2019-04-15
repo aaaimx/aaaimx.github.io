@@ -18,7 +18,8 @@
       <div class="row">
         <div v-for="t in team" :key="t.name" class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" :src=" t.avatar ? t.avatar : '../static/img/avatar.png'" alt>
+            <img class="mx-auto rounded-circle" v-if="t.avatar" alt>
+            <img class="mx-auto rounded-circle" v-else src="../static/img/avatar.png" alt>
             <h4>{{ t.name }}</h4>
             <p class="text-muted">{{ t.description }}</p>
             <ul class="list-inline social-buttons">
