@@ -119,7 +119,7 @@ const team = [
     description: 'Project Manager / Student Lead Software',
     avatar: 'https://avatars2.githubusercontent.com/u/36168284?s=400&u=dd850c4cf79d1fb9a152d8acf1426b1db4af6a1a&v=4',
     social: {
-      fb: 'https://www.facebook.com/raul.novelocruz', github: 'https://github.com/RaulNovelo', in: null
+      fb: 'https://www.facebook.com/raul.novelocruz', github: 'https://github.com/RaulNovelo', in: 'https://www.linkedin.com/in/raul-novelo-664224169/'
     }
   },
   {

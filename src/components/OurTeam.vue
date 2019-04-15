@@ -18,7 +18,7 @@
       <div class="row">
         <div v-for="t in team" :key="t.name" class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" v-if="t.avatar" alt>
+            <img class="mx-auto rounded-circle" v-if="t.avatar" :src="t.avatar" alt>
             <img class="mx-auto rounded-circle" v-else src="../static/img/avatar.png" alt>
             <h4>{{ t.name }}</h4>
             <p class="text-muted">{{ t.description }}</p>
@@ -48,7 +48,8 @@
         </div>
         <div v-for="f in founders" :key="f.name" class="col-sm-4 content">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="../static/img/avatar.png" alt>
+            <img class="mx-auto rounded-circle" v-if="f.avatar" :src="f.avatar" alt>
+            <img class="mx-auto rounded-circle" v-else src="../static/img/avatar.png" alt>
             <h4>{{ f.name }}</h4>
             <p class="text-muted">{{ f.description }}</p>
             <ul class="list-inline social-buttons">
