@@ -24,7 +24,7 @@
 <script>
 export default {
   props: {
-    classes: String,
+    classes: String
   }
 }
 </script>
