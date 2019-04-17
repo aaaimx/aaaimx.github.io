@@ -7,7 +7,8 @@
         <!-- Logo -->
         <div class="navbar-brand">
           <router-link class="logo" to="/" tag="a">
-            <img src="../static/img/logo01.jpg" alt="logo">
+            <img v-if="$route.name != 'Home'" src="../static/img/logo01.jpg" alt="logo">
+            <img v-else src="../static/img/logo-blanco.jpeg" alt="logo">
           </router-link>
         </div>
         <!-- /Logo -->

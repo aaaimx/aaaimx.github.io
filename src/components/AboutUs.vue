@@ -10,8 +10,8 @@
       </div>
       <div class="row text-center">
         <div class="col-md-4">
-          <span class="fa-stack fa-4x" style="border-radius: 50%; border: 1px solid #EBEBEB; width: 120px; height: 120px;">
-            <i class="fas fa-flask fa-stack-1x" style="color: #800040;"></i>
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-flask fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Mision</h4>
           <p class="text-muted">Our goal is to promote the knowledge and practice of AI in
@@ -20,8 +20,8 @@
                 developments.</p>
         </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-4x" style="border-radius: 50%; border: 1px solid #EBEBEB; width: 120px; height: 120px;">
-            <i class="fas fa-eye fa-stack-1x fa-inverse" style="color: #800040; "></i>
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-eye fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Vision</h4>
           <p class="text-muted">We propose to achieve this through a solid core of
@@ -32,8 +32,8 @@
                 students.</p>
         </div>
         <div class="col-md-4">
-          <span class="fa-stack fa-4x" style="border-radius: 50%; border: 1px solid #EBEBEB; width: 120px; height: 120px;">
-            <i class="fas fa-users fa-stack-1x fa-inverse" style="color: #800040;"></i>
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-users fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Community</h4>
           <p class="text-muted">We are a community dedicated to increase knowledge and promote greater awareness of
@@ -58,5 +58,16 @@
 #about-us {
   padding-bottom: 0%;
   padding-top: 10%;
+}
+
+i {
+  color: #800040;
+}
+
+span {
+  border-radius: 50%;
+  border: 1px solid #EBEBEB;
+  width: 120px;
+  height: 120px;
 }
 </style>

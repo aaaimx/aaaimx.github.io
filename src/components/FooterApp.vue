@@ -97,7 +97,7 @@ export default {
 }
 </script>
 
-<style scope>
+<style scoped>
 .blog-share a.github {
   background-color: #000;
 }

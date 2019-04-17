@@ -51,13 +51,16 @@
             <h4>Contact Information</h4>
             <ul class="contact-details">
               <li>
-                <i class="fa fa-envelope"></i>Educate@email.com
+                <i class="fas fa-graduation-cap"></i><a>Mérida Institute of Technology, Yucatán, México</a>
               </li>
               <li>
-                <i class="fa fa-phone"></i>122-547-223-45
+                <i class="fa fa-envelope"></i><a>aaaimx@gmail.com</a>
               </li>
               <li>
-                <i class="fa fa-map-marker"></i>4476 Clement Street
+                <i class="fa fa-facebook-f"></i><a>AAAI ITM México</a>
+              </li>
+              <li>
+                <i class="fa fa-map-marker"></i>Perif. de Mérida Lic. Manuel Berzunza, Zona Dorada, Mérida, Yuc.
               </li>
             </ul>
 
