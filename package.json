@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --port 8080 --hot --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js && ./deploy.sh"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "vue": "^2.5.2",

@@ -13,7 +13,7 @@
           <span class="fa-stack fa-4x">
             <i class="fas fa-flask fa-stack-1x"></i>
           </span>
-          <h4 class="service-heading">Mision</h4>
+          <h4 class="service-heading">Mission</h4>
           <p class="text-muted">Our goal is to promote the knowledge and practice of AI in
                 both the ITM and the local
                 community, encouraging more students to join and promote research and technological
