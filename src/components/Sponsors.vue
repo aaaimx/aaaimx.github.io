@@ -13,7 +13,7 @@
       <div class="sblogos" data-random="true" data-interval="1500" data-keep-alive="4000">
         <div class="sblogos__row">
           <div class="sblogos__col">
-            <a href="#" class="sblogos__link">
+            <a href="http://www.itmerida.mx/" class="sblogos__link">
               <img class="sblogos__img" src="../static/img/tec.png" title="Mérida Institute of Technology">
             </a>
           </div>
@@ -27,18 +27,18 @@
             </a>
           </div>
           <div class="sblogos__col">
-            <a href="#" class="sblogos__link">
+            <a href="https://www.centrogeo.org.mx/" class="sblogos__link">
               <img
                 class="sblogos__img"
-                src="/static/img/centrogeo.af00a1e.png"
+                src="../static/img/centrogeo.af00a1e.png"
                 title="CentroGEO"
                 alt="CentroGEO"
               >
             </a>
           </div>
           <div class="sblogos__col">
-            <a href="#" class="sblogos__link">
-              <img class="sblogos__img" src="/static/img/cimat.9a29195.png" title="CIMAT">
+            <a href="https://www.cimat.mx/" class="sblogos__link">
+              <img class="sblogos__img" src="../static/img/cimat.9a29195.png" title="CIMAT">
             </a>
           </div>
           <div class="sblogos__col">
@@ -47,7 +47,7 @@
             </a>
           </div>
           <div class="sblogos__col">
-            <a href="#" class="sblogos__link">
+            <a href="https://www.aaai.org/" class="sblogos__link">
               <img class="sblogos__img" src="../static/img/aaai-logo-transpeps.png" title="AAAI">
             </a>
           </div>
