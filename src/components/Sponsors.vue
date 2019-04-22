@@ -30,7 +30,7 @@
             <a href="https://www.centrogeo.org.mx/" class="sblogos__link">
               <img
                 class="sblogos__img"
-                src="../static/img/centrogeo.af00a1e.png"
+                src="../static/img/centrogeo.png"
                 title="CentroGEO"
                 alt="CentroGEO"
               >
@@ -38,7 +38,7 @@
           </div>
           <div class="sblogos__col">
             <a href="https://www.cimat.mx/" class="sblogos__link">
-              <img class="sblogos__img" src="../static/img/cimat.9a29195.png" title="CIMAT">
+              <img class="sblogos__img" src="../static/img/cimat.png" title="CIMAT">
             </a>
           </div>
           <div class="sblogos__col">
