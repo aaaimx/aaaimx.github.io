@@ -7,7 +7,7 @@
         <!-- footer logo -->
         <div class="col-md-6">
           <div class="footer-logo">
-            <a class="logo" href="index.html">
+            <a class="logo">
               <img src="../static/img/aaai-logo-transpeps.png" alt="logo">
               <img src="../static/img/logo01.jpg" alt="logo">
               <img src="../static/img/tec.png" alt="logo">
@@ -33,13 +33,8 @@
         <div class="col-md-4 col-md-push-8">
           <ul class="footer-social">
             <li>
-              <a href="#" class="facebook">
+              <a href="https://www.facebook.com/AAAI-student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/" class="facebook">
                 <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="twitter">
-                <i class="fa fa-twitter"></i>
               </a>
             </li>
             <li>

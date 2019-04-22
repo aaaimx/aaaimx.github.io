@@ -9,8 +9,10 @@
     <!-- /About -->
 
     <!-- Courses -->
-    <events/>
+    <!-- <events/> -->
     <!-- /Courses -->
+
+    <sponsors/>
 
     <!-- Call To Action -->
     <div id="cta" class="section">
@@ -26,13 +28,11 @@
         <!-- row -->
         <div class="row">
           <div class="col-md-6">
-            <h2 class="white-text">Ceteros fuisset mei no, soleat epicurei adipiscing ne vis.</h2>
-            <p class="lead white-text">
-              Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas
-              veniam
-              nominati.
+            <h2 style="font-style: italic;" class="white-text">“A year spent in artificial intelligence is enough to make one believe in God.”</h2>
+            <p  class="lead white-text">
+               —Alan Perlis
             </p>
-            <a class="main-button icon-button" href="#">Get Started!</a>
+            <a class="main-button icon-button" href="#">Become a member!</a>
           </div>
         </div>
         <!-- /row -->
@@ -54,6 +54,7 @@
 
 <script>
 import HeroApp from '@/components/HeroApp'
+import Sponsors from '@/components/Sponsors'
 import AboutUs from '@/components/AboutUs'
 import OurTeam from '@/components/OurTeam'
 import Events from '@/components/Events'
@@ -65,6 +66,7 @@ export default {
     Events,
     Clients,
     AboutUs,
+    Sponsors,
     OurTeam,
     Contact,
     HeroApp

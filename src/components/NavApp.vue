@@ -6,9 +6,9 @@
       <li v-show="$route.name == 'Home'">
         <a href="#about-us">About</a>
       </li>
-      <!--<li v-show="$route.name == 'Home'">
-        <a href="#courses">Events</a>
-      </li>-->
+      <li v-show="$route.name == 'Home'">
+        <a href="#sponsors">Sponsors</a>
+      </li>
       <li v-show="$route.name == 'Home'">
         <a href="#team">Team</a>
       </li>

@@ -131,14 +131,6 @@ const team = [
     }
   },
   {
-    name: 'Fernando Herrera',
-    description: 'Treasurer / Lead Maths Student',
-    avatar: null,
-    social: {
-      fb: 'https://www.facebook.com/'
-    }
-  },
-  {
     name: 'Dr. Mauricio Orozco',
     description: 'President / ITM Investigator',
     avatar: null,
@@ -160,6 +152,14 @@ const team = [
     avatar: null,
     social: {
       researchID: null
+    }
+  },
+  {
+    name: 'Fernando Herrera',
+    description: 'Treasurer / Lead Maths Student',
+    avatar: null,
+    social: {
+      fb: 'https://www.facebook.com/'
     }
   },
   {

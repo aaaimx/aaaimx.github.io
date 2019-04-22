@@ -54,7 +54,7 @@
                 <i class="fas fa-graduation-cap"></i><a>Mérida Institute of Technology, Yucatán, México</a>
               </li>
               <li>
-                <i class="fa fa-envelope"></i><a>aaaimx@gmail.com</a>
+                <i class="fa fa-envelope"></i><a>contact@aaaimx.org</a>
               </li>
               <li>
                 <i class="fa fa-facebook-f"></i><a>AAAI ITM México</a>

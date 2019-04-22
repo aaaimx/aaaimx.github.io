@@ -94,6 +94,7 @@
 <script>
 import { events, courses, breaks } from '@/static/js/events'
 export default {
+  name: 'events',
   data () {
     return {
       events,
@@ -102,7 +103,7 @@ export default {
     }
   },
   created () {
-    this.events = this.events.filter()
+    // this.events = this.events.filter()
   },
   computed: {
     sliceArray () {
