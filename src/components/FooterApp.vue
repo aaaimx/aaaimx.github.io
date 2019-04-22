@@ -75,8 +75,7 @@
         <div class="col-md-8 col-md-pull-4">
           <div class="footer-copyright">
             <span>
-             AAAI México &copy; Copyright 2019. All Rights Reserved. | This website is made by
-              <a href="https://github.com/RaulNovelo">RaulNovelo</a>
+             AAAI México &copy; Copyright 2019. All Rights Reserved. | Powered by <strong>AAAI MX Team</strong>
             </span>
           </div>
         </div>

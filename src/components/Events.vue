@@ -1,7 +1,7 @@
 <template>
   <div id="courses" class="section">
     <!-- container -->
-    <div class="container">
+    <div class="container" v-show="false">
       <!-- row -->
       <div class="row">
         <div class="section-header text-center">

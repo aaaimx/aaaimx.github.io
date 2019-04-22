@@ -6,15 +6,15 @@
       <li v-show="$route.name == 'Home'">
         <a href="#about-us">About</a>
       </li>
-      <li v-show="$route.name == 'Home'">
+      <!--<li v-show="$route.name == 'Home'">
         <a href="#courses">Events</a>
-      </li>
+      </li>-->
       <li v-show="$route.name == 'Home'">
         <a href="#team">Team</a>
       </li>
-      <li>
+      <!--<li>
         <router-link to="/blog" tag="a">Blog</router-link>
-      </li>
+      </li>-->
       <li>
         <router-link to="/contact" tag="a">Contact</router-link>
       </li>

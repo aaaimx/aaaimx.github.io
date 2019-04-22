@@ -24,22 +24,22 @@
             <p class="text-muted">{{ t.description }}</p>
             <ul class="list-inline social-buttons">
               <li v-if="t.social.twitter" class="list-inline-item">
-                <a :href="t.social.twitter">
+                <a target="_blank" :href="t.social.twitter">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li v-if="t.social.fb" class="list-inline-item">
-                <a :href="t.social.fb">
+                <a target="_blank" :href="t.social.fb">
                   <i class="fa fa-facebook-f"></i>
                 </a>
               </li>
               <li v-if="t.social.in" class="list-inline-item">
-                <a :href="t.social.in">
+                <a target="_blank" :href="t.social.in">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li v-if="t.social.github" class="list-inline-item">
-                <a :href="t.social.github">
+                <a target="_blank" :href="t.social.github">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
@@ -54,22 +54,22 @@
             <p class="text-muted">{{ f.description }}</p>
             <ul class="list-inline social-buttons">
               <li v-if="f.social.twitter" class="list-inline-item">
-                <a :href="f.social.twitter">
+                <a target="_blank" :href="f.social.twitter">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li v-if="f.social.fb" class="list-inline-item">
-                <a :href="f.social.fb">
+                <a target="_blank" :href="f.social.fb">
                   <i class="fa fa-facebook-f"></i>
                 </a>
               </li>
               <li v-if="f.social.in" class="list-inline-item">
-                <a :href="f.social.in">
+                <a target="_blank" :href="f.social.in">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li v-if="f.social.github" class="list-inline-item">
-                <a :href="f.social.github">
+                <a target="_blank" :href="f.social.github">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
@@ -78,10 +78,10 @@
         </div>
       </div>
 
-      <div class="row justify-content-center">
+      <!--<div class="row justify-content-center">
 
         <button class="btn collapsible" type="button" @click="toggleFounders()">Founders</button>
-      </div>
+      </div>-->
 
     </div>
   </section>

@@ -64,6 +64,11 @@ i {
   color: #800040;
 }
 
+.service-heading {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 span {
   border-radius: 50%;
   border: 1px solid #EBEBEB;
