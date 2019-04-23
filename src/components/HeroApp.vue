@@ -18,7 +18,7 @@
             <p
               style="color: white;"
             >Mérida Institute of Technology (Instituto Tecnológico de Mérida)</p>
-            <a class="main-button icon-button" href="#">Become a member!</a>
+            <!--<a class="main-button icon-button" href="#">Become a member!</a>-->
           </div>
         </div>
       </div>

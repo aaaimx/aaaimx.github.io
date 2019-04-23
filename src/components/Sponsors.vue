@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h1 class="section-heading text-uppercase">
-            <strong>Sponsors</strong>
+            <strong>Partners & Sponsors</strong>
           </h1>
           <hr>
           <h3 class="section-subheading text-muted"></h3>
@@ -13,21 +13,21 @@
       <div class="sblogos" data-random="true" data-interval="1500" data-keep-alive="4000">
         <div class="sblogos__row">
           <div class="sblogos__col">
-            <a href="http://www.itmerida.mx/" class="sblogos__link">
+            <a href="http://www.itmerida.mx/" target="_blank" class="sblogos__link">
               <img class="sblogos__img" src="../static/img/tec.png" title="Mérida Institute of Technology">
             </a>
           </div>
           <div class="sblogos__col">
-            <a href="https://www.jarkol.com/" class="sblogos__link">
+            <a href="https://www.jarkol.com/" target="_blank" class="sblogos__link">
               <img
                 class="sblogos__img"
-                src="https://drive.google.com/uc?export=view&id=10Bt4oW2mgumGoLntEHsBtL_xHg6yhzpv"
+                src="../static/img/jarkol-logo.png"
                 title="Jarkol Technologies"
               >
             </a>
           </div>
           <div class="sblogos__col">
-            <a href="https://www.centrogeo.org.mx/" class="sblogos__link">
+            <a href="https://www.centrogeo.org.mx/" target="_blank" class="sblogos__link">
               <img
                 class="sblogos__img"
                 src="../static/img/centrogeo.png"
@@ -37,18 +37,18 @@
             </a>
           </div>
           <div class="sblogos__col">
-            <a href="https://www.cimat.mx/" class="sblogos__link">
+            <a href="https://www.cimat.mx/" target="_blank" class="sblogos__link">
               <img class="sblogos__img" src="../static/img/cimat.png" title="CIMAT">
             </a>
           </div>
           <div class="sblogos__col">
-            <a href="#" class="sblogos__link">
-              <img class="sblogos__img" src="../static/img/logo01.jpg" title="AAAI MX">
+            <a href="https://www.aaai.org/" target="_blank" class="sblogos__link">
+              <img class="sblogos__img" src="../static/img/aaai-logo-transpeps.png" title="AAAI">
             </a>
           </div>
           <div class="sblogos__col">
-            <a href="https://www.aaai.org/" class="sblogos__link">
-              <img class="sblogos__img" src="../static/img/aaai-logo-transpeps.png" title="AAAI">
+            <a href="#" target="_blank" class="sblogos__link">
+              <img class="sblogos__img" src="../static/img/logo01.jpg" title="AAAI MX">
             </a>
           </div>
         </div>

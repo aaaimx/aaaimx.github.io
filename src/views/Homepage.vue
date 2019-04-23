@@ -28,11 +28,11 @@
         <!-- row -->
         <div class="row">
           <div class="col-md-6">
-            <h2 style="font-style: italic;" class="white-text">“A year spent in artificial intelligence is enough to make one believe in God.”</h2>
+            <h2 style="font-style: italic;" class="white-text">“If a machine is expected to be infallible, it cannot also be intelligent.”</h2>
             <p  class="lead white-text">
-               —Alan Perlis
+               —Alan Turing
             </p>
-            <a class="main-button icon-button" href="#">Become a member!</a>
+            <!--<a class="main-button icon-button" href="#">Become a member!</a>-->
           </div>
         </div>
         <!-- /row -->
