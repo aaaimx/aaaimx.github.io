@@ -38,7 +38,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="github">
+              <a href="https://github.com/aaaimx" class="github">
                 <i class="fa fa-github"></i>
               </a>
             </li>
@@ -70,7 +70,7 @@
         <div class="col-md-8 col-md-pull-4">
           <div class="footer-copyright">
             <span>
-             AAAI México &copy; Copyright 2019. All Rights Reserved. | Powered by <strong>AAAI MX Team</strong>
+             AAAI México &copy; Copyright 2019. All Rights Reserved. | Powered by <strong><a href="https://github.com/aaaimx">@aaaimx</a></strong>
             </span>
           </div>
         </div>
