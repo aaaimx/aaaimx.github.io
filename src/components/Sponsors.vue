@@ -10,7 +10,7 @@
           <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
-      <div class="sblogos" data-random="true" data-interval="1500" data-keep-alive="4000">
+      <div class="sblogos" data-random="false" data-interval="1500" data-keep-alive="4000">
         <div class="sblogos__row">
           <div class="sblogos__col">
             <a href="http://www.itmerida.mx/" target="_blank" class="sblogos__link">
@@ -24,6 +24,11 @@
                 src="../static/img/jarkol-logo.png"
                 title="Jarkol Technologies"
               >
+            </a>
+          </div>
+          <div class="sblogos__col">
+            <a href="#" target="_blank" class="sblogos__link">
+              <img class="sblogos__img" src="https://drive.google.com/uc?export&id=10F9LnH7Kcr8_9OArthick3vzUP5kG83-" title="Indaico">
             </a>
           </div>
           <div class="sblogos__col">
@@ -44,11 +49,6 @@
           <div class="sblogos__col">
             <a href="https://www.aaai.org/" target="_blank" class="sblogos__link">
               <img class="sblogos__img" src="../static/img/aaai-logo-transpeps.png" title="AAAI">
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="#" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="../static/img/logo01.jpg" title="AAAI MX">
             </a>
           </div>
         </div>
@@ -92,17 +92,17 @@
 }
 @media (min-width: 540px) {
   .sblogos__col {
-    width: 25%;
+    width: 33.33%
   }
 }
 @media (min-width: 768px) {
   .sblogos__col {
-    width: 20%;
+    width: 33.33%
   }
 }
 @media (min-width: 992px) {
   .sblogos__col {
-    width: 20%;
+    width: 16.6667%;
   }
 }
 @media (min-width: 1200px) {
@@ -114,22 +114,22 @@
 /* --- */
 
 @media (max-width: 539px) {
-  .sblogos__col:nth-child(1n + 5) {
+  .sblogos__col:nth-child(1n + 7) {
     display: none;
   }
 }
 @media (min-width: 540px) and (max-width: 767px) {
-  .sblogos__col:nth-child(1n + 5) {
+  .sblogos__col:nth-child(1n + 7) {
     display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .sblogos__col:nth-child(1n + 6) {
+  .sblogos__col:nth-child(1n + 7) {
     display: none;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .sblogos__col:nth-child(1n + 6) {
+  .sblogos__col:nth-child(1n + 7) {
     display: none;
   }
 }

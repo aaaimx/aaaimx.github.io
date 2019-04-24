@@ -168,7 +168,7 @@ const team = [
   },
   {
     name: 'Juan López',
-    description: 'EC Memberr',
+    description: 'EC Member',
     avatar: 'https://drive.google.com/uc?export&id=1-bg4NDfupc7nsz6OVOKF58czmpEDYtic',
     social: {
       fb: 'https://www.facebook.com/juanli07', github: 'https://github.com/Juanli07'

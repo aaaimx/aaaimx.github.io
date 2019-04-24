@@ -9,8 +9,8 @@
           </h2>
           <hr>
           <h3 class="section-subheading text-muted">
-            We are a group of students from the ITM along with researchers from the ITM, the Center for Mathematical Research
-            (CIMAT) and CentroGeo, some the leading educational and research centers in Yucatán, México.
+           We are a group of students and researchers from the ITM along with researchers from the Center for Mathematical Research (CIMAT) and CentroGeo,
+            some of the leading educational and research centers in Yucatán, México.
           </h3>
         </div>
       </div>
