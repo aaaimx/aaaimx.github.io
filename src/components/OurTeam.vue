@@ -26,7 +26,7 @@
         <div v-for="t in team"  :key="t.name" class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" v-if="t.avatar" :src="t.avatar" alt>
-            <img class="mx-auto rounded-circle" v-else src="../static/img/avatar.png" alt>
+            <img class="mx-auto rounded-circle" v-else src="static/img/avatar.png" alt>
             <h4>{{ t.name }}</h4>
             <p class="text-muted">{{ t.description }}</p>
             <ul class="list-inline social-buttons">
@@ -56,7 +56,7 @@
         <div v-for="f in founders" :key="f.name" class="col-sm-4 content">
           <div class="team-member">
             <img class="mx-auto rounded-circle" v-if="f.avatar" :src="f.avatar" alt>
-            <img class="mx-auto rounded-circle" v-else src="../static/img/avatar.png" alt>
+            <img class="mx-auto rounded-circle" v-else src="static/img/avatar.png" alt>
             <h4>{{ f.name }}</h4>
             <p class="text-muted">{{ f.description }}</p>
             <ul class="list-inline social-buttons">
@@ -96,12 +96,12 @@
         <div v-for="t in panel" :key="t.name" class="col-sm-4">
           <div class="team-member">
             <img class="mx-auto rounded-circle" v-if="t.avatar" :src="t.avatar" alt>
-            <img class="mx-auto rounded-circle" v-else src="../static/img/avatar.png" alt>
+            <img class="mx-auto rounded-circle" v-else src="static/img/avatar.png" alt>
             <h4>{{ t.name }}</h4>
             <p class="text-muted">{{ t.description }}</p>
               <a style="text-decoration: none; color: inherit;" target="_blank" title="ResearchGate" :href="t.social.researchGate">
                 <!--<i class="fa-3x fab fa-researchgate"></i>-->
-                <img style="border: 0px solid #fff !important; width: 50px !important; height: 50px !important;" src="../static/img/rg-logo.png">
+                <img style="border: 0px solid #fff !important; width: 50px !important; height: 50px !important;" src="static/img/logos/rg-logo.png">
               </a>
           </div>
         </div>

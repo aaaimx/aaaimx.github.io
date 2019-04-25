@@ -5,7 +5,7 @@
       <!-- Backgound Image -->
       <div
         class="bg-image bg-parallax overlay"
-        style="background-image:url(./static/img/page-background.jpg)"
+        style="background-image:url(https://drive.google.com/uc?export&id=1XrGdTrdrf8Djwy5FiTze8uXq93IXfVrl)"
       ></div>
       <!-- /Backgound Image -->
 
@@ -14,7 +14,7 @@
           <div class="col-md-10 col-md-offset-1 text-center">
             <ul class="hero-area-tree">
               <li>
-                <a href="index.html">Home</a>
+                <a href="">Home</a>
               </li>
               <li>Contact</li>
             </ul>

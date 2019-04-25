@@ -19,7 +19,7 @@
       <!-- Backgound Image -->
       <div
         class="bg-image bg-parallax overlay"
-        style="background-image:url(./static/img/claudia.jpg)"
+        style="background-image:url(https://drive.google.com/uc?export&id=1ZKQIr_hAFs7_itZiGBd1DwnVRdEz23_p)"
       ></div>
       <!-- /Backgound Image -->
 
@@ -59,12 +59,10 @@ import AboutUs from '@/components/AboutUs'
 import OurTeam from '@/components/OurTeam'
 import Events from '@/components/Events'
 import Contact from '@/components/Contact'
-import Clients from '@/components/Clients'
 export default {
   name: 'App',
   components: {
     Events,
-    Clients,
     AboutUs,
     Sponsors,
     OurTeam,

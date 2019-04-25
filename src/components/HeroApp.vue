@@ -1,7 +1,7 @@
 <template>
   <div id="home" class="hero-area">
     <!-- Backgound Image -->
-    <div class="bg-image bg-parallax overlay" style="background-image:url(./static/img/ia01.jpg)"></div>
+    <div class="bg-image bg-parallax overlay" style="background-image:url(https://drive.google.com/uc?export&id=15O07PwhRIs5gKwmmhpOuNkMgxk2Ps9Q7)"></div>
     <!-- /Backgound Image -->
 
     <div class="home-wrapper">
@@ -11,7 +11,7 @@
             <h1 class="white-text">
               <br>
               <br>
-              <img src="static/img/aaai-logo-transpeps.png">
+              <img src="static/img/logos/aaai-logo-transpeps.png">
               <br>AAAI Student Chapter
               <br>at Yucatán, México
             </h1>

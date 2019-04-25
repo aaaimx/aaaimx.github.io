@@ -1,7 +1,7 @@
 <template>
   <div id="contact-cta" class="section">
     <!-- Backgound Image -->
-    <div class="bg-image bg-parallax overlay" style="background-image:url(./static/img/markus.jpg)"></div>
+    <div class="bg-image bg-parallax overlay" style="background-image:url(https://drive.google.com/uc?export&id=1qRR6NIvaU6jhCeaFI7lRuS83cfKTB4r_)"></div>
     <!-- Backgound Image -->
 
     <!-- container -->

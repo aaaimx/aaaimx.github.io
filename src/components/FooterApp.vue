@@ -8,12 +8,12 @@
         <div class="col-md-6">
           <div class="footer-logo">
             <a class="logo">
-              <img src="../static/img/aaai-logo-transpeps.png" alt="logo">
-              <img src="../static/img/logo01.jpg" alt="logo">
-              <img src="../static/img/tec.png" alt="logo">
-              <img src="../static/img/tecnm.png" alt="logo">
-              <img src="../static/img/cimat.png" alt="logo">
-              <img src="../static/img/centrogeo.png" alt="logo">
+              <img src="static/img/logos/aaai-logo-transpeps.png" alt="logo">
+              <img src="static/img/logos/logo01.jpg" alt="logo">
+              <img src="static/img/logos/tec.png" alt="logo">
+              <img src="static/img/logos/tecnm.png" alt="logo">
+              <img src="static/img/logos/cimat.png" alt="logo">
+              <img src="static/img/logos/centrogeo.png" alt="logo">
             </a>
           </div>
         </div>

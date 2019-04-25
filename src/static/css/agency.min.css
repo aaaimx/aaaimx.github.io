@@ -159,16 +159,6 @@ img::-moz-selection {
     }
 }
 
-header.masthead {
-    text-align: center;
-    color: #fff;
-    background-image: url(../img/header-bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover
-}
-
 header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px
@@ -572,13 +562,6 @@ header.masthead .intro-text .intro-heading {
 
 .team-member p {
     margin-top: 0
-}
-
-section#contact {
-    background-color: #212529;
-    background-image: url(../img/map-image.png);
-    background-repeat: no-repeat;
-    background-position: center
 }
 
 section#contact .section-heading {

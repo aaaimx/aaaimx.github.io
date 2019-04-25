@@ -14,28 +14,28 @@
         <div class="sblogos__row">
           <div class="sblogos__col">
             <a href="http://www.itmerida.mx/" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="../static/img/tec.png" title="Mérida Institute of Technology">
+              <img class="sblogos__img" src="static/img/logos/tec.png" title="Mérida Institute of Technology">
             </a>
           </div>
           <div class="sblogos__col">
             <a href="https://www.jarkol.com/" target="_blank" class="sblogos__link">
               <img
                 class="sblogos__img"
-                src="../static/img/jarkol-logo.png"
+                src="static/img/logos/jarkol-logo.png"
                 title="Jarkol Technologies"
               >
             </a>
           </div>
           <div class="sblogos__col">
             <a href="#" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="https://drive.google.com/uc?export&id=10F9LnH7Kcr8_9OArthick3vzUP5kG83-" title="Indaico">
+              <img class="sblogos__img" src="static/img/logos/indaico.png" title="Indaico">
             </a>
           </div>
           <div class="sblogos__col">
             <a href="https://www.centrogeo.org.mx/" target="_blank" class="sblogos__link">
               <img
                 class="sblogos__img"
-                src="../static/img/centrogeo.png"
+                src="static/img/logos/centrogeo.png"
                 title="CentroGEO"
                 alt="CentroGEO"
               >
@@ -43,12 +43,12 @@
           </div>
           <div class="sblogos__col">
             <a href="https://www.cimat.mx/" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="../static/img/cimat.png" title="CIMAT">
+              <img class="sblogos__img" src="static/img/logos/cimat.png" title="CIMAT">
             </a>
           </div>
           <div class="sblogos__col">
             <a href="https://www.aaai.org/" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="../static/img/aaai-logo-transpeps.png" title="AAAI">
+              <img class="sblogos__img" src="static/img/logos/aaai-logo-transpeps.png" title="AAAI">
             </a>
           </div>
         </div>

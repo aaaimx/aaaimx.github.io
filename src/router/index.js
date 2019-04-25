@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Homepage from '@/views/Homepage'
 import Contact from '@/views/Contact'
-import Blog from '@/views/Blog'
 
 Vue.use(Router)
 
@@ -19,11 +18,6 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
-    },
-    {
-      path: '/blog',
-      name: 'Blog',
-      component: Blog
     },
     {
       path: '*',
