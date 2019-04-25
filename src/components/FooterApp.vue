@@ -34,7 +34,7 @@
           <ul class="footer-social">
             <li>
               <a target="_blank" href="https://www.facebook.com/AAAI-student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/" class="facebook">
-                <i class="fab fa-facebook-f"></i>
+                <i class="fa fa-facebook-f"></i>
               </a>
             </li>
             <li>

@@ -37,7 +37,7 @@
               </li>
               <li v-if="t.social.fb" class="list-inline-item">
                 <a target="_blank" title="Facebook" :href="t.social.fb">
-                  <i class="fab fa-facebook-f"></i>
+                  <i class="fa fa-facebook-f"></i>
                 </a>
               </li>
               <li v-if="t.social.in" class="list-inline-item">
@@ -67,7 +67,7 @@
               </li>
               <li v-if="f.social.fb" class="list-inline-item">
                 <a target="_blank" :href="f.social.fb">
-                  <i class="fab fa-facebook-f"></i>
+                  <i class="fa fa-facebook-f"></i>
                 </a>
               </li>
               <li v-if="f.social.in" class="list-inline-item">
