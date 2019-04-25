@@ -71,3 +71,9 @@ export default {
   }
 }
 </script>
+
+<style>
+section {
+  padding-bottom: 0px !important;
+}
+</style>

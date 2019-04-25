@@ -2,16 +2,6 @@
   <div id="courses" class="section">
     <!-- container -->
     <div class="container" v-show="false">
-      <!-- row -->
-      <div class="row">
-        <div class="section-header text-center">
-          <h1>Events</h1>
-          <hr>
-          <p class="lead">Incoming events, workshops and courses</p>
-        </div>
-      </div>
-      <!-- /row -->
-
       <!-- courses -->
       <div id="courses-wrapper">
         <!-- row -->

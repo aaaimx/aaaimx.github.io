@@ -4,19 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-// Bootstrap
-import './static/css/bootstrap.min.css'
-
-// Font Awesome Icon
-import './static/css/font-awesome.min.css'
-
 // Custom stylesheet
 import './static/css/style.css'
+import './static/css/font-awesome.min.css'
 
 // JQuery Plugins
-import './static/js/jquery.min.js'
-// import './static/js/google-map.js'
-import './static/js/bootstrap.min.js'
 import './static/js/main.js'
 import './static/js/scroll-offset.js'
 

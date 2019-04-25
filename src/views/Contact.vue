@@ -57,10 +57,10 @@
                 <i class="fa fa-envelope"></i><a href="mailto:contact@aaaimx.org">contact@aaaimx.org</a>
               </li>
               <li>
-                <i class="fa fa-facebook-f"></i><a>AAAI ITM México</a>
+                <i class="fab fa-facebook-f"></i><a>AAAI ITM México</a>
               </li>
               <li>
-                <i class="fa fa-map-marker"></i>Perif. de Mérida Lic. Manuel Berzunza, Zona Dorada, Mérida, Yuc.
+                <i class="fas fa-map-marker-alt"></i>Perif. de Mérida Lic. Manuel Berzunza, Zona Dorada, Mérida, Yuc.
               </li>
             </ul>
 

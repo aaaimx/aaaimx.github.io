@@ -56,7 +56,6 @@
 
 <style scoped>
 @import url("../static/css/agency.min.css");
-@import url("../static/vendor/bootstrap/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");

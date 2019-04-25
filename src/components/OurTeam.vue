@@ -37,7 +37,7 @@
               </li>
               <li v-if="t.social.fb" class="list-inline-item">
                 <a target="_blank" title="Facebook" :href="t.social.fb">
-                  <i class="fa fa-facebook-f"></i>
+                  <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li v-if="t.social.in" class="list-inline-item">
@@ -67,7 +67,7 @@
               </li>
               <li v-if="f.social.fb" class="list-inline-item">
                 <a target="_blank" :href="f.social.fb">
-                  <i class="fa fa-facebook-f"></i>
+                  <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li v-if="f.social.in" class="list-inline-item">
@@ -138,10 +138,6 @@ export default {
 <style scoped>
 @import url("../static/css/agency.min.css");
 @import url("../static/vendor/bootstrap/css/bootstrap.min.css");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700");
 
 .hidden {
   visibility: hidden;

@@ -34,12 +34,12 @@
           <ul class="footer-social">
             <li>
               <a target="_blank" href="https://www.facebook.com/AAAI-student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/" class="facebook">
-                <i class="fa fa-facebook"></i>
+                <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li>
               <a target="_blank" href="https://github.com/aaaimx" class="github">
-                <i class="fa fa-github"></i>
+                <i class="fab fa-github"></i>
               </a>
             </li>
             <!--<li>
