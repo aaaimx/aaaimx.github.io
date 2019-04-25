@@ -31,7 +31,7 @@
       <div class="container">
         <!-- row -->
         <div class="row">
-          <!-- contact form -->
+          <!-- contact form
           <div class="col-md-6">
             <div class="contact-form">
               <h4>Send A Message</h4>
@@ -43,18 +43,18 @@
                 <button class="main-button icon-button pull-right">Send Message</button>
               </form>
             </div>
-          </div>
+          </div> -->
           <!-- /contact form -->
 
           <!-- contact information -->
-          <div class="col-md-5 col-md-offset-1">
-            <h4>Contact Information</h4>
+          <div class="col-md-12 col-md-offset-1">
+            <h3>Contact Information</h3>
             <ul class="contact-details">
               <li>
                 <i class="fas fa-graduation-cap"></i><a>Mérida Institute of Technology, Yucatán, México</a>
               </li>
               <li>
-                <i class="fa fa-envelope"></i><a>contact@aaaimx.org</a>
+                <i class="fa fa-envelope"></i><a href="mailto:contact@aaaimx.org">contact@aaaimx.org</a>
               </li>
               <li>
                 <i class="fa fa-facebook-f"></i><a>AAAI ITM México</a>

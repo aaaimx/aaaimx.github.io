@@ -36,17 +36,17 @@
                 </a>
               </li>
               <li v-if="t.social.fb" class="list-inline-item">
-                <a target="_blank" :href="t.social.fb">
+                <a target="_blank" title="Facebook" :href="t.social.fb">
                   <i class="fa fa-facebook-f"></i>
                 </a>
               </li>
               <li v-if="t.social.in" class="list-inline-item">
-                <a target="_blank" :href="t.social.in">
+                <a target="_blank" title="LinkedIn" :href="t.social.in">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li v-if="t.social.github" class="list-inline-item">
-                <a target="_blank" :href="t.social.github">
+                <a target="_blank" title="Github" :href="t.social.github">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
@@ -99,32 +99,13 @@
             <img class="mx-auto rounded-circle" v-else src="../static/img/avatar.png" alt>
             <h4>{{ t.name }}</h4>
             <p class="text-muted">{{ t.description }}</p>
-            <ul class="list-inline social-buttons">
-              <li v-if="t.social.twitter" class="list-inline-item">
-                <a target="_blank" :href="t.social.twitter">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li v-if="t.social.fb" class="list-inline-item">
-                <a target="_blank" :href="t.social.fb">
-                  <i class="fa fa-facebook-f"></i>
-                </a>
-              </li>
-              <li v-if="t.social.in" class="list-inline-item">
-                <a target="_blank" :href="t.social.in">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-              <li v-if="t.social.github" class="list-inline-item">
-                <a target="_blank" :href="t.social.github">
-                  <i class="fab fa-github"></i>
-                </a>
-              </li>
-            </ul>
+              <a style="text-decoration: none; color: inherit;" target="_blank" title="ResearchGate" :href="t.social.researchGate">
+                <!--<i class="fa-3x fab fa-researchgate"></i>-->
+                <img style="border: 0px solid #fff !important; width: 50px !important; height: 50px !important;" src="../static/img/rg-logo.png">
+              </a>
           </div>
         </div>
       </div>
-
       <!--<div class="row justify-content-center">
 
         <button class="btn collapsible" type="button" @click="toggleFounders()">Founders</button>

@@ -102,7 +102,7 @@ const panel = [
     description: 'Chair / ITM Researcher',
     avatar: 'https://drive.google.com/uc?export&id=1-p-3xZJOi6bzmQRGKrAacZBy2_d94Inh',
     social: {
-      researchID: null
+      researchGate: 'https://www.researchgate.net/profile/Mauricio_Orozco-del-Castillo2'
     }
   },
   {
@@ -110,7 +110,7 @@ const panel = [
     description: 'Co-Chair / CentroGeo Researcher',
     avatar: 'https://drive.google.com/uc?export&id=103nQgLa06eXaDJGUAfzfgrZuor1uOaVx',
     social: {
-      researchID: null
+      researchGate: 'https://www.researchgate.net/profile/Juan_Valdiviezo-N'
     }
   },
   {
@@ -118,7 +118,7 @@ const panel = [
     description: 'Secretary / CIMAT Researcher',
     avatar: 'https://drive.google.com/uc?export&id=1-eFUdsxtQJ5AbbaTOP_r5xyFl-xsWhtL',
     social: {
-      researchID: null
+      researchGate: 'https://www.researchgate.net/profile/Joel_Trejo-Sanchez'
     }
   }
 ]
@@ -145,7 +145,7 @@ const team = [
   {
     name: 'Humberto Sarabia',
     description: 'EC Member / Electronics Division Leader',
-    avatar: null,
+    avatar: 'https://drive.google.com/uc?export&id=10FYCMiyUHIvJC4cQcKXD2IAQ9DGK7Oi5',
     social: {
       fb: 'https://www.facebook.com/jesus.sarabiaosorio', github: 'https://github.com/ImHumbert'
     }

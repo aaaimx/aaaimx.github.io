@@ -18,6 +18,7 @@ import './static/js/jquery.min.js'
 // import './static/js/google-map.js'
 import './static/js/bootstrap.min.js'
 import './static/js/main.js'
+import './static/js/scroll-offset.js'
 
 Vue.config.productionTip = false
 
