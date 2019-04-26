@@ -2,14 +2,22 @@
   <div id="app">
   <!-- Navigation -->
   <nav-app/>
+
   <!-- Hero -->
   <hero-app/>
+
   <!-- About us -->
   <about-us/>
+
+  <!-- About us -->
   <sponsors/>
+
+  <!-- About us -->
   <our-team/>
+
   <!-- Contact -->
   <contact/>
+
   <!-- Footer -->
   <footer-app/>
   </div>

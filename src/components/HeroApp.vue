@@ -1,5 +1,5 @@
 <template>
-  <header class="masthead" id="home">
+  <header class="masthead" id="home" style="background-image: url('./static/img/header-bg.jpg');">
     <br>
     <br>
     <div class="container">

@@ -1,5 +1,5 @@
 <template>
-  <section id="contact">
+  <section id="contact" style="background-image: url('./static/img/map-image.png');">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
