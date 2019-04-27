@@ -8,7 +8,7 @@
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com/AAAI-student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/">
+              <a target="_blank" href="https://www.facebook.com/AAAI-Student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>

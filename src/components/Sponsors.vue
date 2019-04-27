@@ -12,43 +12,12 @@
       </div>
       <div class="sblogos" data-random="false" data-interval="1500" data-keep-alive="4000">
         <div class="sblogos__row">
-          <div class="sblogos__col">
-            <a href="http://www.itmerida.mx/" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="static/img/logos/tec.png" title="Mérida Institute of Technology">
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="https://www.jarkol.com/" target="_blank" class="sblogos__link">
+          <div v-for="sponsor in sponsors" :key="sponsor.name" class="sblogos__col">
+            <a :href="sponsor.website" target="_blank" class="sblogos__link">
               <img
                 class="sblogos__img"
-                src="static/img/logos/jarkol-logo.png"
-                title="Jarkol Technologies"
-              >
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="#" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="static/img/logos/indaico.png" title="Indaico">
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="https://www.centrogeo.org.mx/" target="_blank" class="sblogos__link">
-              <img
-                class="sblogos__img"
-                src="static/img/logos/centrogeo.png"
-                title="CentroGEO"
-                alt="CentroGEO"
-              >
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="https://www.cimat.mx/" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="static/img/logos/cimat.png" title="CIMAT">
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="https://www.aaai.org/" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="static/img/logos/aaai-logo-transpeps.png" title="AAAI">
+                :src="sponsor.logo"
+                :title="sponsor.name">
             </a>
           </div>
         </div>
@@ -56,6 +25,17 @@
     </div>
   </section>
 </template>
+
+<script>
+import { sponsors } from '../assets/js/sponsors'
+export default {
+  data () {
+    return {
+      sponsors
+    }
+  }
+}
+</script>
 
 <style scoped>
 

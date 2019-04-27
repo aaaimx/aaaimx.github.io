@@ -1,5 +1,5 @@
 <template>
-  <header class="masthead" id="home" style="background-image: url('./static/img/header-bg.jpg');">
+  <header class="masthead" id="home" style="background-image: url('./static/img/banners/header-bg.jpg');">
     <br>
     <br>
     <div class="container">
@@ -8,7 +8,7 @@
           <h1 class="white-text">
             <br>
             <br>
-            <img src="static/img/logos/aaai-logo-transpeps.png">
+            <img src="static/img/logos/aaai-transpeps.png">
             <br>AAAI Student Chapter
             <br>at Yucatán, México
           </h1>

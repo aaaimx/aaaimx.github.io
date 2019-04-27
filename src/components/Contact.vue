@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" style="background-image: url('./static/img/map-image.png');">
+  <section id="contact" style="background-image: url('./static/img/banners/map-image-bg.png');">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -31,12 +31,12 @@
             </div>
             <div class="form-group">
               <li class="list-inline-item text-center">
-                <a target="_blank" href="https://www.facebook.com/AAAI-student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/">
+                <a target="_blank" href="https://www.facebook.com/AAAI-Student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <label>
-                <strong>AAAI ITM México</strong>
+                <strong>AAAI Student Chapter Yucatán, México</strong>
               </label>
             </div>
             <div style="color: white;" class="form-group">

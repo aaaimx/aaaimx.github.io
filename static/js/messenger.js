@@ -1,4 +1,6 @@
-
+/**
+ * Init Facebook Messanger Chat
+ */
 window.fbAsyncInit = function () {
     FB.init({
         xfbml: true,
