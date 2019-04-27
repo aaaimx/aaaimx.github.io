@@ -1,23 +1,46 @@
 <template>
   <div id="app">
-    <!--<img src="./assets/logo.png">-->
-    <header-app/>
+  <!-- Navigation -->
+  <nav-app/>
 
-    <router-view/>
-    <!-- Footer -->
-    <footer-app/>
-    <!-- /Footer -->
+  <!-- Hero -->
+  <hero-app/>
+
+  <!-- About us -->
+  <about-us/>
+
+  <!-- About us -->
+  <sponsors/>
+
+  <!-- About us -->
+  <our-team/>
+
+  <!-- Contact -->
+  <contact/>
+
+  <!-- Footer -->
+  <footer-app/>
   </div>
 </template>
 
 <script>
-import HeaderApp from './components/HeaderApp'
-import FooterApp from './components/FooterApp'
+import NavApp from '@/components/NavApp'
+import FooterApp from '@/components/FooterApp'
+import HeroApp from '@/components/HeroApp'
+import Sponsors from '@/components/Sponsors'
+import AboutUs from '@/components/AboutUs'
+import OurTeam from '@/components/OurTeam'
+import Contact from '@/components/Contact'
 export default {
   name: 'App',
   components: {
-    FooterApp,
-    HeaderApp
+    NavApp,
+    AboutUs,
+    Sponsors,
+    OurTeam,
+    Contact,
+    HeroApp,
+    FooterApp
   }
 }
 </script>

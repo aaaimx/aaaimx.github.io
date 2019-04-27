@@ -1,30 +1,31 @@
 <template>
-    <ul :class="classes">
-      <li>
-        <router-link to="/" tag="a">Home</router-link>
-      </li>
-      <li v-show="$route.name == 'Home'">
-        <a href="#about-us">About</a>
-      </li>
-      <li v-show="$route.name == 'Home'">
-        <a href="#sponsors">Sponsors</a>
-      </li>
-      <li v-show="$route.name == 'Home'">
-        <a href="#team">Team</a>
-      </li>
-      <!--<li>
-        <router-link to="/blog" tag="a">Blog</router-link>
-      </li>-->
-      <li>
-        <router-link to="/contact" tag="a">Contact</router-link>
-      </li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="static/img/logos/aaaimx-transparent.png" width="50px" alt="logo">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </template>
-
-<script>
-export default {
-  props: {
-    classes: String
-  }
-}
-</script>

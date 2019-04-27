@@ -1,19 +1,17 @@
 <template>
-  <section id="about-us">
+  <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">
-            <strong>About us</strong>
-          </h2>
+          <h2 class="section-heading text-uppercase">About us</h2>
           <hr>
-          <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-flask fa-stack-1x"></i>
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-flask fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Mission</h4>
           <p class="text-muted">
@@ -25,7 +23,8 @@
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-eye fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fas fa-eye fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Vision</h4>
           <p class="text-muted">
@@ -39,6 +38,7 @@
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-users fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Community</h4>
@@ -55,29 +55,7 @@
 </template>
 
 <style scoped>
-@import url("../static/css/agency.min.css");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700");
-
-#about-us {
-  padding-bottom: 0% !important;
-}
-
-i {
-  color: #800040;
-}
-
-.service-heading {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-span {
-  border-radius: 50%;
-  border: 1px solid #ebebeb;
-  width: 120px;
-  height: 120px;
+section {
+  padding-bottom: 0%;
 }
 </style>

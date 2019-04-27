@@ -1,6 +1,6 @@
 <template>
   <section id="sponsors">
-    <div class="container section">
+    <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h1 class="section-heading text-uppercase">
@@ -12,43 +12,12 @@
       </div>
       <div class="sblogos" data-random="false" data-interval="1500" data-keep-alive="4000">
         <div class="sblogos__row">
-          <div class="sblogos__col">
-            <a href="http://www.itmerida.mx/" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="static/img/logos/tec.png" title="Mérida Institute of Technology">
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="https://www.jarkol.com/" target="_blank" class="sblogos__link">
+          <div v-for="sponsor in sponsors" :key="sponsor.name" class="sblogos__col">
+            <a :href="sponsor.website" target="_blank" class="sblogos__link">
               <img
                 class="sblogos__img"
-                src="static/img/logos/jarkol-logo.png"
-                title="Jarkol Technologies"
-              >
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="#" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="static/img/logos/indaico.png" title="Indaico">
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="https://www.centrogeo.org.mx/" target="_blank" class="sblogos__link">
-              <img
-                class="sblogos__img"
-                src="static/img/logos/centrogeo.png"
-                title="CentroGEO"
-                alt="CentroGEO"
-              >
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="https://www.cimat.mx/" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="static/img/logos/cimat.png" title="CIMAT">
-            </a>
-          </div>
-          <div class="sblogos__col">
-            <a href="https://www.aaai.org/" target="_blank" class="sblogos__link">
-              <img class="sblogos__img" src="static/img/logos/aaai-logo-transpeps.png" title="AAAI">
+                :src="sponsor.logo"
+                :title="sponsor.name">
             </a>
           </div>
         </div>
@@ -56,6 +25,17 @@
     </div>
   </section>
 </template>
+
+<script>
+import { sponsors } from '../assets/js/sponsors'
+export default {
+  data () {
+    return {
+      sponsors
+    }
+  }
+}
+</script>
 
 <style scoped>
 
@@ -65,28 +45,25 @@
   padding-right: 15px;
   text-align: center;
 }
-
 @media (max-width: 539px) {
   .sblogos {
     height: 300px;
   }
+  section {
+    padding-bottom: 50%;
+  }
 }
-
 .sblogos__row {
   margin-left: -15px;
   margin-right: -15px;
 }
-
 .sblogos__col {
   float: left;
 }
-
 .sblogos__link {
   padding: 30px 15px;
 }
-
 /* --- */
-
 .sblogos__col {
   width: 50%;
 }
@@ -94,25 +71,39 @@
   .sblogos__col {
     width: 33.33%
   }
+  section {
+    padding-bottom: 40%;
+  }
 }
 @media (min-width: 768px) {
   .sblogos__col {
     width: 33.33%
+  }
+  section {
+    padding-bottom: 30%;
   }
 }
 @media (min-width: 992px) {
   .sblogos__col {
     width: 16.6667%;
   }
+  section {
+    padding-bottom: 10%;
+  }
 }
 @media (min-width: 1200px) {
   .sblogos__col {
     width: 16.6667%;
   }
+  .sblogos__row {
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  .sblogos {
+    height: 180px;
+  }
 }
-
 /* --- */
-
 @media (max-width: 539px) {
   .sblogos__col:nth-child(1n + 7) {
     display: none;
@@ -138,32 +129,26 @@
     display: none;
   }
 }
-
 /* --- */
-
 .sblogos__row,
 .sblogos__col,
 .sblogos__link,
 .sblogos__link:before {
   height: 100%;
 }
-
 @media (max-width: 539px) {
   .sblogos__col {
     height: 50%;
   }
 }
-
 .sblogos__link,
 .sblogos__link:before {
   display: inline-block;
 }
-
 .sblogos__link {
   max-width: 100%;
   max-height: 100%;
 }
-
 .sblogos__img {
   display: inline-block;
   vertical-align: middle;
@@ -171,18 +156,14 @@
   max-height: 100%;
   max-width: 100%;
 }
-
 .sblogos__link:before {
   content: "";
   vertical-align: middle;
 }
-
 /* Transition Base */
-
 .sblogos__col.active {
   position: relative;
 }
-
 .sblogos__col.active .prev,
 .sblogos__col.active .next {
   position: absolute;
@@ -192,19 +173,15 @@
   left: 0;
   transition-easing: ease;
 }
-
 .sblogos .sblogos__col.active {
   perspective: 500px;
 }
-
 .sblogos .sblogos__col.active .prev {
   transition: opacity 2.75s ease-out, transform 2.75s ease;
 }
-
 .sblogos .sblogos__col.active .next {
   transition: opacity 1.5s ease-out, transform 1.5s ease;
 }
-
 /* start */
 .sblogos .sblogos__col.active .next {
   opacity: 0;
