@@ -1,0 +1,5 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://127.0.0.1:5500/$1 [R=301,L]
