@@ -1,0 +1,12 @@
+.parallax {
+    background-blend-mode: screen;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50vh;
+  }
+
+.hidden {
+  display: none !important;
+}
