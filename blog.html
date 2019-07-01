@@ -31,13 +31,10 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/aaaimx.css" rel="stylesheet">
+  <link href="css/blog.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: Reveal
-    Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+  <script src="https://unpkg.com/vue"></script>
+
 </head>
 
 <body id="body">
@@ -129,86 +126,138 @@
 
   <main id="main">
     <br>
-    <section id="contact" class="wow fadeInUp">
 
 
-      <div class="container">
-        <div class="section-header">
-          <h2>Contact Us</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim
-            export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export
-            irure minim illum fore</p>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Blog Entries Column -->
+        <div class="col-md-8" id="app">
+
+          <h1 class="my-4">Papers & Projects
+          </h1>
+
+          <!-- Blog Post -->
+          <div v-for="post in last" class="card mb-4">
+            <img class="card-img-top"
+              :src="post.thumbnailUrl"
+              alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">{{post.title}}</h2>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus atque neque
+                labore cum dolores sequi quae, consequatur ex qui illo, accusantium esse id dolorum eaque alias
+                reprehenderit sapiente inventore at!</p>
+              <a :href="post.url" class="btn btn-primary">Read More →</a>
+            </div>
+            <div class="card-footer text-muted">
+              Posted on January {{post.id + post.albumId}}, 2109 by
+              <a href="#">AAAIMX</a>
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <ul class="pagination justify-content-center mb-4">
+            <li class="page-item">
+              <a class="page-link" href="#">← Older</a>
+            </li>
+            <li class="page-item disabled">
+              <a class="page-link" href="#">Newer →</a>
+            </li>
+          </ul>
+
         </div>
 
-        <div class="container ">
-          <div class="row">
-            <div class="container mb-4 col-sm-12 col-md-6 col-lg-6">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.1334292434917!2d-89.66899778548616!3d21.013003986006936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674891d01315f%3A0xcb8ba96b39a6031c!2sInstituto+Tecnol%C3%B3gico+de+M%C3%A9rida+Campus+Poniente!5e1!3m2!1sen!2sbg!4v1561779443994!5m2!1sen!2sbg"
-                width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
 
-            <div class="form col-sm-12 col-md-6 col-lg-6">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                      data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group col-md-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                      data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
-                  </div>
+          <!-- Search Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Search</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Categories Widget -->
+          <div class="card my-3">
+            <h5 class="card-header">Categories</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Machine Learning</a>
+                    </li>
+                    <li>
+                      <a href="#">Deep Learning</a>
+                    </li>
+                    <li>
+                      <a href="#">Software</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                    data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Maths</a>
+                    </li>
+                    <li>
+                      <a href="#">Robotic</a>
+                    </li>
+                    <li>
+                      <a href="#">Electronic</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required"
-                    data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Side Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">maelezo</h5>
+            <div class="card-body">
+              You can put anything you want inside of these side widgets. They are easy to use, and feature the new
+              Bootstrap 4 card containers!
+            </div>
+          </div>
+          <!-- Side Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">banner</h5>
+            <div class="card-body">
+              <img class="card-img-top"
+                src="https://2.bp.blogspot.com/-vvG5hMTFOro/W6RaoxdAikI/AAAAAAAAK1k/jezYdP7fvfYvt15Jv8a0agrGQE2lMU8YgCKgBGAs/s1600/MASAI-2.jpg"
+                alt="Card image cap">
+            </div>
+          </div>
+          <!-- tweeter -->
+          <div class="card my-4">
+            <h5 class="card-header">Tweeter here</h5>
+            <div class="card-body">
+
+              <a class="twitter-timeline" href="https://twitter.com/Luckmoshy?ref_src=twsrc%5Etfw">Tweets by
+                Luckmoshy</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a href="https://twitter.com/Luckmoshy?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                data-show-count="false">Follow @Luckmoshy</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
           </div>
         </div>
-        <hr>
-        <div class="row contact-info">
 
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="fa fa-map-marker"></i>
-              <h3>Address</h3>
-              <address>Mérida Institute of Technology, Yucatán, México</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="fa fa-facebook"></i>
-              <h3>Facebook</h3>
-              <p><a href="tel:+155895548855">AAAI Student Chapter México</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="fa fa-envelope-o"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:contact@aaaimx.org">contact@aaaimx.org</a></p>
-            </div>
-          </div>
-
-        </div>
       </div>
-    </section><!-- #contact -->
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
 
   </main>
 
@@ -225,11 +274,7 @@
       </div>
     </div>
   </footer><!-- #footer -->
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <!-- Your customer chat code -->
-  <div class="fb-customerchat" attribution=setup_tool page_id="408189306626213" theme_color="#800040">
-  </div>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
@@ -241,12 +286,13 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="lib/sticky/sticky.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-  <script src="js/messenger.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 
