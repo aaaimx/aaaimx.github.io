@@ -169,6 +169,13 @@ jQuery(document).ready(function ($) {
       }
     }
   });
-
-
+  $('.btn-lang').click(function () {
+    var lang = $(this).attr('data-lang')
+    console.log(lang)
+    if (lang == 'es') {
+      $('#lang').attr('src', 'img/mexico.png')
+    } else {
+      $('#lang').attr('src', 'img/USA.svg')
+    }
+  })
 });

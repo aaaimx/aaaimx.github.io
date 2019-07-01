@@ -194,7 +194,7 @@ h6 {
   max-width: 200px; 
   height: auto; 
   margin-left: 20px; 
-  margin-top: 20px
+  margin-top: 5px
 }
 
 #intro .intro-content h2 span {
@@ -613,7 +613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: black;
-  background: linear-gradient(45deg, #d9ad26 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, #d9ad26 0%, #d9ac2600 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -806,30 +806,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .social i {
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 2px;
 }
 
 /* Call To Action Section
 --------------------------------*/
 
-#call-to-action {
-  background: #081e5b;
+.call-to-action {
+  background: #800040;
   background-size: cover;
   padding: 40px 0;
 }
 
-#call-to-action .cta-title {
+.call-to-action .cta-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action .cta-text {
+.call-to-action .cta-text {
   color: #fff;
+  font-weight: bold;
 }
 
-#call-to-action .cta-btn {
+.call-to-action .cta-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -843,7 +844,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+.call-to-action .cta-btn:hover {
   background: #d9ad26;
   border: 3px solid #d9ad26;
 }
@@ -898,7 +899,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social i {
-  font-size: 16px;
+  font-size: 40px;
   margin: 0 2px;
 }
 
@@ -1032,8 +1033,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .credits a {
-  color: black;
+  color: #d9ad26;
 }
+
 
 @media (min-width: 768px) {
   #contact .contact-address,
@@ -1049,7 +1051,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
+  .call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
