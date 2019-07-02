@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Homepage from '@/views/Homepage'
+import Homepage from '@/views/Home'
 import Contact from '@/views/Contact'
+import Blog from '@/views/Blog'
 
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   scrollBehavior: () => ({ y: 0 }),
-  base: '/aaaimx-website/',
   routes: [
     {
       path: '/',
@@ -19,6 +19,11 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/blog',
+      name: 'Blog',
+      component: Blog
     },
     {
       path: '*',

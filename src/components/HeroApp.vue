@@ -1,22 +1,22 @@
 <template>
-  <header class="masthead" id="home" style="background-image: url('./static/img/banners/header-bg.jpg');">
-    <br>
-    <br>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <h1 class="white-text">
-            <br>
-            <br>
-            <img src="static/img/logos/aaai-transpeps.png">
-            <br>AAAI Student Chapter
-            <br>at Yucatán, México
-          </h1>
-          <p style="color: white;">Instituto Tecnológico de Mérida (Mérida Institute of Technology)</p>
-          <br>
-        </div>
+  <!--==========================
+      Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-content">
+      <img src="static/img/logos/aaai-transpeps.png" alt />
+      <h1>
+        AAAI Student Chapter
+        <br />at Yucatán, México
+      </h1>
+      <div>
+        <a href="#about" class="btn-get-started scrollto">Instituto Tecnológico de Mérida</a>
       </div>
     </div>
-  </header>
 
+    <div id="intro-carousel" class="owl-carousel">
+      <div class="item" style="background-image: url('./static/img/banners/header-bg.jpg');"></div>
+    </div>
+  </section>
+  <!-- #intro -->
 </template>

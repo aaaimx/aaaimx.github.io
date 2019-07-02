@@ -1,57 +1,52 @@
 <template>
-  <section id="contact" style="background-image: url('./static/img/banners/map-image-bg.png');">
+  <!--==========================
+        Contact Section
+  ============================-->
+  <section id="contact" class="wow fadeInUp">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted"></h3>
-        </div>
+      <div class="section-header">
+        <h2>Contact Us</h2>
+        <p>
+          Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam
+          enim
+          export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit
+          export
+          irure minim illum fore
+        </p>
       </div>
-      <div class="row">
-        <div class="col-md-12 col-md-offset-1">
-          <ul class="list-inline social-buttons">
-            <div style="color: white;" class="form-group">
-              <li class="list-inline-item text-center">
-                <a href="#">
-                  <i class="fas fa-graduation-cap"></i>
-                </a>
-              </li>&nbsp;
-                <strong>Mérida Institute of Technology, Yucatán, México</strong>
-            </div>
+      <br />
+      <div class="row contact-info">
+        <div class="col-md-4">
+          <div class="contact-address">
+            <i class="fa fa-map-marker"></i>
+            <h3>Address</h3>
+            <address>Mérida Institute of Technology, Yucatán, México</address>
+          </div>
+        </div>
 
-            <div class="form-group">
-              <li class="list-inline-item text-center">
-                <a href="mailto:contact@aaaimx.org">
-                  <i class="fa fa-envelope"></i>
-                </a>
-              </li>
-              <label>
-                <strong><a href="mailto:contact@aaaimx.org">contact@aaaimx.org</a></strong>
-              </label>
-            </div>
-            <div class="form-group">
-              <li class="list-inline-item text-center">
-                <a target="_blank" href="https://www.facebook.com/AAAI-Student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <label>
-                <strong>AAAI Student Chapter Yucatán, México</strong>
-              </label>
-            </div>
-            <div style="color: white;" class="form-group">
-              <li class="list-inline-item text-center">
-                <a href="#">
-                  <i class="fas fa-map-marker-alt"></i>
-                </a>
-              </li>&nbsp;
-              <strong>Perif. de Mérida Lic. Manuel Berzunza, Zona Dorada, Mérida, Yuc.</strong>
-            </div>
-          </ul>
+        <div class="col-md-4">
+          <div class="contact-phone">
+            <i class="fa fa-facebook"></i>
+            <h3>Facebook</h3>
+            <p>
+              <a href="tel:+155895548855">AAAI Student Chapter México</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="contact-email">
+            <i class="fa fa-envelope-o"></i>
+            <h3>Email</h3>
+            <p>
+              <a href="mailto:contact@aaaimx.org">contact@aaaimx.org</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- #contact -->
 </template>
 
 <style scoped>

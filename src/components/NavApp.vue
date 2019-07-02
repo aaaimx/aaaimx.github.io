@@ -1,31 +1,150 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="static/img/logos/aaaimx-transparent.png" width="50px" alt="logo">
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <nav>
+    <!--==========================
+    Top Bar
+    ============================-->
+    <section id="topbar" class="d-none d-lg-block">
+      <div class="container clearfix">
+        <div class="contact-info float-left">
+          <i class="fa fa-envelope-o"></i>
+          <a href="mailto:contact@aaaimx.org">contact@aaaimx.org</a>
+        </div>
+        <div class="social-links float-right">
+          <a
+            href="https://www.facebook.com/AAAI-Student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/"
+            class="facebook"
+          >
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="https://github.com/aaaimx" class="linkedin">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <!--==========================
+      Header
+    ============================-->
+    <header id="header">
+      <div class="container">
+        <div id="logo" class="pull-left">
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a @click="toHome()">
+            <img
+              src="static/img/logos/aaaimx-transparent.png"
+              style="max-width: 80px; height: auto;"
+              alt
+              title
+            />
+          </a>
+        </div>
+
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li v-show="$route.name != 'Home'">
+              <a @click="toHome()" href>Home</a>
+            </li>
+            <li class="menu-has-children" v-show="$route.name == 'Home'">
+              <a href="#">About Us</a>
+              <ul>
+                <li>
+                  <a href="#services">Who Are?</a>
+                </li>
+                <li>
+                  <a href="#clients">Partners & Sponsors</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-has-children" v-show="$route.name == 'Home'">
+              <a href="#">Members</a>
+              <ul>
+                <li>
+                  <a href="#testimonials">Executive Committee</a>
+                </li>
+                <li>
+                  <a href="#team">Board</a>
+                </li>
+                <li class="menu-has-children">
+                  <a>Divisions</a>
+                  <ul>
+                    <li>
+                      <a href="#">Machine Learning</a>
+                    </li>
+                    <li>
+                      <a href="#">Software</a>
+                    </li>
+                    <li>
+                      <a href="#">Robotic & Electronic</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <router-link to="/founders" tag="a">Founders</router-link>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <router-link to="/blog" tag="a">Articles</router-link>
+            </li>
+            <li>
+              <a href="#" @click="toContact()">Contact</a>
+            </li>
+            <li class="menu-has-children d-none d-lg-block d-md-block">
+              <a href="#">
+                <img v-if="english" src="static/img/USA.svg" height="20" alt />
+                <img v-else src="static/img/mexico.png" height="20" alt />
+              </a>
+              <ul>
+                <li>
+                  <a @click="english = true" href="#">English</a>
+                </li>
+                <li>
+                  <a @click="english = false" href="#">Spanish</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-has-children d-sm-block d-xs-block d-md-none">
+              <a href="#">Language</a>
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="static/img/USA.svg" height="20" alt />&nbsp;&nbsp;English
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="static/img/mexico.png" height="20" alt />&nbsp;&nbsp;Spanish
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </header>
+    <!-- #header -->
   </nav>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      english: true
+    }
+  },
+  methods: {
+    toHome () {
+      this.$router.push('/')
+      window.location.reload()
+    },
+    toContact () {
+      this.$router.push('/contact')
+      window.location.reload()
+    }
+  }
+}
+</script>

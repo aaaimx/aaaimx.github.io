@@ -1,25 +1,27 @@
 <template>
   <div id="app">
-  <!-- Navigation -->
-  <nav-app/>
+    <!-- Navigation -->
+    <nav-app />
+    <!-- Hero -->
+    <hero-app />
+    <router-view />
+    <!-- Footer -->
+    <footer-app />
 
-  <!-- Hero -->
-  <hero-app/>
-
-  <!-- About us -->
-  <about-us/>
-
-  <!-- About us -->
-  <sponsors/>
-
-  <!-- About us -->
-  <our-team/>
-
-  <!-- Contact -->
-  <contact/>
-
-  <!-- Footer -->
-  <footer-app/>
+    <a v-if="$route.name != 'Contact'" href="#" class="back-to-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+    <div v-else>
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <!-- Your customer chat code -->
+      <div
+        class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="408189306626213"
+        theme_color="#800040"
+      ></div>
+    </div>
   </div>
 </template>
 
