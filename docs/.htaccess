@@ -2,4 +2,4 @@ RewriteEngine On
 Options +FollowSymLinks
 
 RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)index.html$ http://0.0.0.0:8080/$1 [R=301,L]
+RewriteRule ^(.*)index.html$ http://raulnovelo.github.io/aaaimx-website/$1 [R=301,L]
