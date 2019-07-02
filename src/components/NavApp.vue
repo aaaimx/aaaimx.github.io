@@ -54,6 +54,9 @@
                 <li>
                   <a href="#clients">Partners & Sponsors</a>
                 </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
               </ul>
             </li>
             <li class="menu-has-children" v-show="$route.name == 'Home'">
