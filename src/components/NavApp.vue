@@ -43,7 +43,8 @@
         <nav id="nav-menu-container">
           <ul class="nav-menu">
             <li v-show="$route.name != 'Home'">
-              <a @click="toHome()" href="#body">{{ $t('home') }}</a>
+              <a href="#" class="d-none d-md-block d-lg-block d-xl-block" @click="toHome()">{{ $t('home') }}</a>
+              <router-link class="d-md-none d-lg-none d-xs-block d-sm-block" to="/" tag="a">{{ $t('home') }}</router-link>
             </li>
             <li class="menu-has-children" v-show="$route.name == 'Home'">
               <a href="#">{{ $t('about_us') }}</a>
@@ -53,9 +54,6 @@
                 </li>
                 <li>
                   <a href="#clients">Partners & Sponsors</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
                 </li>
               </ul>
             </li>
@@ -89,10 +87,11 @@
             </li>
 
             <li>
-              <router-link to="/blog" tag="a">{{ $t('articles') }}</router-link>
+              <router-link class="" to="/blog" tag="a">{{ $t('articles') }}</router-link>
             </li>
             <li>
-              <a href="#" @click="toContact()">{{ $t('contact') }}</a>
+              <a href="#" class="d-none d-md-block d-lg-block d-xl-block" @click="toContact()">{{ $t('contact') }}</a>
+              <router-link class="d-md-none d-lg-none d-xs-block d-sm-block" to="/contact" tag="a">{{ $t('contact') }}</router-link>
             </li>
             <li class="menu-has-children d-none d-lg-block d-md-block">
               <a href="#">
