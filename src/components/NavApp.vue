@@ -90,8 +90,7 @@
               <router-link class="" to="/blog" tag="a">{{ $t('articles') }}</router-link>
             </li>
             <li>
-              <a href="#" class="d-none d-md-block d-lg-block d-xl-block" @click="toContact()">{{ $t('contact') }}</a>
-              <router-link class="d-md-none d-lg-none d-xs-block d-sm-block" to="/contact" tag="a">{{ $t('contact') }}</router-link>
+              <router-link to="/contact" tag="a">{{ $t('contact') }}</router-link>
             </li>
             <li class="menu-has-children d-none d-lg-block d-md-block">
               <a href="#">
@@ -125,6 +124,7 @@ export default {
     },
     toContact () {
       this.$router.push('/contact')
+      console.log('hi')
       window.location.reload()
     }
   }

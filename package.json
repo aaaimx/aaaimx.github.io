@@ -14,6 +14,7 @@
   "dependencies": {
     "trae": "^1.4.2",
     "vue": "^2.5.2",
+    "vue-fb-customer-chat": "^0.1.4",
     "vue-i18n": "^8.0.0",
     "vue-loading-spinner": "^1.0.11",
     "vue-router": "^3.0.6"

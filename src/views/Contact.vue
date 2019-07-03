@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <hr>
+      <hr />
       <div class="row contact-info">
         <div class="col-md-4">
           <div class="contact-address">
