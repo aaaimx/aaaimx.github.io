@@ -1,12 +1,12 @@
 const sponsors = [
   {
     logo: 'static/img/partners/tec.png',
-    name: 'Mérida Institute of Technology',
+    name: 'Instituto Tecnólogico de Mérida',
     website: 'http://www.itmerida.mx/'
   },
   {
     logo: 'static/img/sponsors/jarkol-logo.png',
-    name: 'Jarkol Technologies',
+    name: 'Jarkol Technologies S.A. de C.V.',
     website: 'https://www.jarkol.com/'
   },
   {
@@ -16,8 +16,8 @@ const sponsors = [
   },
   {
     logo: 'static/img/partners/centrogeo.png',
-    name: 'CentroGEO',
-    website: 'https://www.centrogeo.org.mx/'
+    name: 'CentroGEO Sede Yucatán',
+    website: 'http://mid.geoint.mx/'
   },
   {
     logo: 'static/img/partners/cimat.png',
@@ -26,7 +26,7 @@ const sponsors = [
   },
   {
     logo: 'static/img/logos/aaai-transpeps.png',
-    name: 'AAAI',
+    name: 'Association for the Advancement of Artificial Intelligence',
     website: 'https://www.aaai.org/'
   }
 ]

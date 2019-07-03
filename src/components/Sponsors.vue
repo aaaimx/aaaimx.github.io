@@ -1,29 +1,25 @@
 <template>
-  <section id="sponsors">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="section-heading text-uppercase">
-            <strong>Partners & Sponsors</strong>
-          </h1>
-          <hr>
-          <h3 class="section-subheading text-muted"></h3>
-        </div>
-      </div>
-      <div class="sblogos" data-random="false" data-interval="1500" data-keep-alive="4000">
-        <div class="sblogos__row">
-          <div v-for="sponsor in sponsors" :key="sponsor.name" class="sblogos__col">
-            <a :href="sponsor.website" target="_blank" class="sblogos__link">
-              <img
-                class="sblogos__img"
-                :src="sponsor.logo"
-                :title="sponsor.name">
-            </a>
+   <!--==========================
+        Clients Section
+      ============================-->
+      <section id="clients" class="wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h2>Partners & Sponsors</h2>
+            <p>
+              Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam
+              enim
+              export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit
+              export
+              irure minim illum fore
+            </p>
+          </div>
+          <div class="owl-carousel clients-carousel">
+            <a v-for="s in sponsors" :key="s.website" target="_blank" :href="s.website"><img :src="s.logo" :title="s.name" /></a>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+      <!-- #clients -->
 </template>
 
 <script>

@@ -123,7 +123,7 @@
             </div>
           </div>
 
-          <!-- Side Widget 
+          <!-- Side Widget
           <div class="card my-4">
             <h5 class="card-header">maelezo</h5>
             <div class="card-body">
@@ -159,36 +159,34 @@
 </template>
 
 <script>
-import trae from "trae";
-import DoubleBounce from "vue-loading-spinner/src/components/DoubleBounce";
-import Circle8 from "vue-loading-spinner/src/components/Circle8";
+import trae from 'trae'
+import DoubleBounce from 'vue-loading-spinner/src/components/DoubleBounce'
+import Circle8 from 'vue-loading-spinner/src/components/Circle8'
 export default {
   components: {
     Circle8,
     DoubleBounce
   },
-  data() {
+  data () {
     return {
       posts: []
-    };
+    }
   },
-  created() {
-    trae.get("https://jsonplaceholder.typicode.com/photos").then(
+  created () {
+    trae.get('https://jsonplaceholder.typicode.com/photos').then(
       response => {
-        this.posts = response.data;
-        console.log(response);
+        this.posts = response.data
+        console.log(response)
       },
       err => {
-        console.log(err);
+        console.log(err)
       }
-    );
+    )
   },
   computed: {
-    last() {
-      return this.posts.slice(0, 5);
+    last () {
+      return this.posts.slice(0, 5)
     }
   }
-};
+}
 </script>
-
-

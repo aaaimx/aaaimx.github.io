@@ -18,6 +18,7 @@
       <div
         class="fb-customerchat"
         attribution="setup_tool"
+        logged_out_greeting="Hola, estamos a tu disposición para responder a tus preguntas"
         page_id="408189306626213"
         theme_color="#800040"
       ></div>

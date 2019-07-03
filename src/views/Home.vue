@@ -10,12 +10,10 @@
             <div class="col-lg-6 about-img">
               <img src="static/img/about-img.jpg" alt="">
             </div>
-  
             <div class="col-lg-6 content">
               <h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
               <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
                 laborum.</h3>
-  
               <ul>
                 <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </li>
@@ -25,10 +23,8 @@
                   Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
                   nulla pariatur.</li>
               </ul>
-  
             </div>
           </div>
-  
         </div>
       </section>#about-->
 
@@ -128,33 +124,8 @@
         </div>
       </section>
       <!-- #call-to-action -->
-      <!--==========================
-        Clients Section
-      ============================-->
-      <section id="clients" class="wow fadeInUp">
-        <div class="container">
-          <div class="section-header">
-            <h2>Partners & Sponsors</h2>
-            <p>
-              Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam
-              enim
-              export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit
-              export
-              irure minim illum fore
-            </p>
-          </div>
 
-          <div class="owl-carousel clients-carousel">
-            <img src="static/img/partners/tec.png" alt />
-            <img src="static/img/sponsors/jarkol-logo.png" alt />
-            <img src="static/img/sponsors/indaico.png" alt />
-            <img src="static/img/partners/centrogeo.png" alt />
-            <img src="static/img/partners/cimat.png" alt />
-            <img src="static/img/logos/aaai-transpeps.png" alt />
-          </div>
-        </div>
-      </section>
-      <!-- #clients -->
+      <Sponsors/>
 
       <!--==========================
         Our Portfolio Section
@@ -168,10 +139,8 @@
               irure minim illum fore</p>
           </div>
         </div>
-  
         <div class="container-fluid">
           <div class="row no-gutters">
-  
             <div class="col-lg-3 col-md-4">
               <div class="portfolio-item wow fadeInUp">
                 <a href="img/portfolio/1.jpg" class="portfolio-popup">
@@ -184,7 +153,6 @@
                 </a>
               </div>
             </div>
-  
             <div class="col-lg-3 col-md-4">
               <div class="portfolio-item wow fadeInUp">
                 <a href="img/portfolio/2.jpg" class="portfolio-popup">
@@ -197,7 +165,6 @@
                 </a>
               </div>
             </div>
-  
             <div class="col-lg-3 col-md-4">
               <div class="portfolio-item wow fadeInUp">
                 <a href="img/portfolio/3.jpg" class="portfolio-popup">
@@ -210,7 +177,6 @@
                 </a>
               </div>
             </div>
-  
             <div class="col-lg-3 col-md-4">
               <div class="portfolio-item wow fadeInUp">
                 <a href="img/portfolio/4.jpg" class="portfolio-popup">
@@ -223,7 +189,6 @@
                 </a>
               </div>
             </div>
-  
             <div class="col-lg-3 col-md-4">
               <div class="portfolio-item wow fadeInUp">
                 <a href="img/portfolio/5.jpg" class="portfolio-popup">
@@ -236,7 +201,6 @@
                 </a>
               </div>
             </div>
-  
             <div class="col-lg-3 col-md-4">
               <div class="portfolio-item wow fadeInUp">
                 <a href="img/portfolio/6.jpg" class="portfolio-popup">
@@ -249,7 +213,6 @@
                 </a>
               </div>
             </div>
-  
             <div class="col-lg-3 col-md-4">
               <div class="portfolio-item wow fadeInUp">
                 <a href="img/portfolio/7.jpg" class="portfolio-popup">
@@ -262,7 +225,6 @@
                 </a>
               </div>
             </div>
-  
             <div class="col-lg-3 col-md-4">
               <div class="portfolio-item wow fadeInUp">
                 <a href="img/portfolio/8.jpg" class="portfolio-popup">
@@ -275,9 +237,7 @@
                 </a>
               </div>
             </div>
-  
           </div>
-  
         </div>
       </section> #portfolio-->
 
@@ -546,12 +506,13 @@
   </div>
 </template>
 
-
 <script>
 import Contact from '@/components/Contact'
+import Sponsors from '@/components/Sponsors'
 export default {
   name: 'Home',
   components: {
+    Sponsors,
     Contact
   }
 }
