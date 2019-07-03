@@ -3,10 +3,10 @@
     <!-- Navigation -->
     <nav-app />
     <!-- Hero -->
-    <hero-app />
+    <hero-app/>
     <router-view />
     <!-- Footer -->
-    <footer-app />
+    <footer-app/>
 
     <a v-if="$route.name != 'Contact'" href="#" class="back-to-top">
       <i class="fa fa-chevron-up"></i>
@@ -30,6 +30,7 @@
 import NavApp from '@/components/NavApp'
 import FooterApp from '@/components/FooterApp'
 import HeroApp from '@/components/HeroApp'
+import HelloI18n from '@/components/HelloI18n'
 import Sponsors from '@/components/Sponsors'
 import AboutUs from '@/components/AboutUs'
 import OurTeam from '@/components/OurTeam'
@@ -42,6 +43,7 @@ export default {
     Sponsors,
     OurTeam,
     Contact,
+    HelloI18n,
     HeroApp,
     FooterApp
   }

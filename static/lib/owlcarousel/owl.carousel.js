@@ -1,3 +1,4 @@
+/* eslint-disable */
 /**
  * Owl Carousel v2.3.2
  * Copyright 2013-2018 David Deutsch

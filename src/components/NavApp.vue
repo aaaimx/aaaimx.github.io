@@ -43,10 +43,10 @@
         <nav id="nav-menu-container">
           <ul class="nav-menu">
             <li v-show="$route.name != 'Home'">
-              <a @click="toHome()" href>Home</a>
+              <a @click="toHome()" href="#body">{{ $t('home') }}</a>
             </li>
             <li class="menu-has-children" v-show="$route.name == 'Home'">
-              <a href="#">About Us</a>
+              <a href="#">{{ $t('about_us') }}</a>
               <ul>
                 <li>
                   <a href="#services">Who Are?</a>
@@ -60,7 +60,7 @@
               </ul>
             </li>
             <li class="menu-has-children" v-show="$route.name == 'Home'">
-              <a href="#">Members</a>
+              <a href="#">{{ $t('members') }}</a>
               <ul>
                 <li>
                   <a href="#testimonials">Executive Committee</a>
@@ -89,37 +89,22 @@
             </li>
 
             <li>
-              <router-link to="/blog" tag="a">Articles</router-link>
+              <router-link to="/blog" tag="a">{{ $t('articles') }}</router-link>
             </li>
             <li>
-              <a href="#" @click="toContact()">Contact</a>
+              <a href="#" @click="toContact()">{{ $t('contact') }}</a>
             </li>
             <li class="menu-has-children d-none d-lg-block d-md-block">
               <a href="#">
-                <img v-if="english" src="static/img/USA.svg" height="20" alt />
+                <img v-if="$i18n.locale == 'en'" src="static/img/USA.svg" height="20" alt />
                 <img v-else src="static/img/mexico.png" height="20" alt />
               </a>
               <ul>
                 <li>
-                  <a @click="english = true" href="#">English</a>
+                  <a @click="$i18n.locale = 'en'" href="#">{{ $t('english') }}</a>
                 </li>
                 <li>
-                  <a @click="english = false" href="#">Spanish</a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-has-children d-sm-block d-xs-block d-md-none">
-              <a href="#">Language</a>
-              <ul>
-                <li>
-                  <a href="#">
-                    <img src="static/img/USA.svg" height="20" alt />&nbsp;&nbsp;English
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="static/img/mexico.png" height="20" alt />&nbsp;&nbsp;Spanish
-                  </a>
+                  <a @click="$i18n.locale = 'es'" href="#">{{ $t('spanish') }}</a>
                 </li>
               </ul>
             </li>
@@ -134,11 +119,6 @@
 
 <script>
 export default {
-  data () {
-    return {
-      english: true
-    }
-  },
   methods: {
     toHome () {
       this.$router.push('/')
