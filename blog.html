@@ -33,247 +33,282 @@
   <link href="css/aaaimx.css" rel="stylesheet">
   <link href="css/blog.css" rel="stylesheet">
 
-  <script src="https://unpkg.com/vue"></script>
-
 </head>
 
 <body id="body">
+  <div id="app">
 
-  <!--==========================
+    <!--==========================
     Top Bar
   ============================-->
-  <section id="topbar" class="d-none d-lg-block">
-    <div class="container clearfix">
-      <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@aaaimx.org">contact@aaaimx.org</a>
-      </div>
-      <div class="social-links float-right">
-        <a href="https://www.facebook.com/AAAI-Student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/"
-          class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="https://github.com/aaaimx" class="linkedin"><i class="fa fa-github"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <!--==========================
-    Header
-  ============================-->
-  <header id="header">
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html#body"><img src="img/logos/aaaimx-transparent.png" style="max-width: 80px; height: auto;"
-            alt="" title="" /></a>
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="index.html#about">About Us</a></li>
-          <li><a href="index.html#services">Sponsors</a></li>
-          <li><a href="index.html#team">Team</a></li>
-          <li class="menu-has-children"><a href="">More</a>
-            <ul>
-              <li class="menu-has-children"><a href="">Divisions</a>
-                <ul>
-                  <li><a href="#">Machine Learning</a></li>
-                  <li><a href="#">Software</a></li>
-                  <li><a href="#">Robotic & Electronic</a></li>
-                </ul>
-              </li>
-              <li><a href="blog.html">Papers & Proyects</a></li>
-              <li><a href="#">Become a member</a></li>
-              <li><a href="#">Store</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-          <li class="menu-has-children d-none d-lg-block d-md-block"><a><img id="lang" src="img/USA.svg" height="20"
-                alt=""></a>
-            <ul>
-              <li><a href="#" class="btn-lang" data-lang="en">English</a></li>
-              <li><a href="#" class="btn-lang" data-lang="es">Spanish</a></li>
-            </ul>
-          </li>
-        </ul>
-        <div class="d-sm-block d-xs-block d-md-none"
-          style="position: absolute; bottom: 0; align-content: center; padding: 3% 0; width: 100%; background: rgba(34, 34, 34, 0.294);">
-          <a class="btn-lang-mobile" data-lang="en"><img src="img/USA.svg" height="30"
-              style="margin-left: auto; margin-right: auto; display: block;" alt=""></a>
-          <a class="btn-lang-mobile hidden" data-lang="es"><img src="img/mexico.png" height="30"
-              style="margin-left: auto; margin-right: auto; display: block;" alt=""></a>
+    <section id="topbar">
+      <div class="container clearfix ">
+        <div class="social-links float-left d-md-none d-lg-none">
+          <a href="#" @click="$i18n.locale = 'en'">
+            <img id="lang" src="img/USA.svg" height="20" alt=""></a>
+          <a href="#" @click="$i18n.locale = 'es'">
+            <img id="lang" src="img/mexico.png" height="20" alt=""></a>
         </div>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
-    <div class="intro-content">
-      <img src="img/logos/aaai-transpeps.png" alt="">
-      <h1>AAAI Student Chapter <br> at Yucatán, México</h1>
-      <div>
-        <a href="#about" class="btn-get-started scrollto">Instituto Tecnológico de Mérida</a>
+        <div class="contact-info float-left d-none d-lg-block d-md-block">
+          <i class="fa fa-envelope-o"></i> <a href="mailto:contact@aaaimx.org">contact@aaaimx.org</a>
+        </div>
+        <div class="social-links float-right d-none d-lg-block d-md-block">
+          <a href="https://www.facebook.com/AAAI-Student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/"
+            class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://github.com/aaaimx" class="linkedin"><i class="fa fa-github"></i></a>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div id="intro-carousel" class="owl-carousel">
-      <div class="item" style="background-image: url('img/banners/header-bg.jpg');"></div>
-    </div>
+    <!--==========================
+      Header
+    ============================-->
+    <header id="header">
+      <div class="container">
 
-  </section><!-- #intro -->
-
-  <main id="main">
-    <br>
-
-
-
-    <!-- Page Content -->
-    <div class="container">
-
-      <div class="row">
-
-        <!-- Blog Entries Column -->
-        <div class="col-md-8" id="app">
-
-          <h1 class="my-4">Papers & Projects
-          </h1>
-
-          <!-- Blog Post -->
-          <div v-for="post in last" class="card mb-4">
-            <img class="card-img-top"
-              :src="post.thumbnailUrl"
-              alt="Card image cap">
-            <div class="card-body">
-              <h2 class="card-title">{{post.title}}</h2>
-              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus atque neque
-                labore cum dolores sequi quae, consequatur ex qui illo, accusantium esse id dolorum eaque alias
-                reprehenderit sapiente inventore at!</p>
-              <a :href="post.url" class="btn btn-primary">Read More →</a>
-            </div>
-            <div class="card-footer text-muted">
-              Posted on January {{post.id + post.albumId}}, 2109 by
-              <a href="#">AAAIMX</a>
-            </div>
-          </div>
-
-          <!-- Pagination -->
-          <ul class="pagination justify-content-center mb-4">
-            <li class="page-item">
-              <a class="page-link" href="#">← Older</a>
+        <div id="logo" class="pull-left">
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html#body"><img src="img/logos/aaaimx-transparent.png" style="max-width: 80px; height: auto;"
+              alt="" title="" /></a>
+        </div>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-has-children"><a href="#">{{ $t("navbar.about_us") }}</a>
+              <ul>
+                <li><a href="index.html#services">Who are?</a></li>
+                <li><a href="index.html#clients">Partners & Sponsors</a></li>
+              </ul>
             </li>
-            <li class="page-item disabled">
-              <a class="page-link" href="#">Newer →</a>
+            <li class="menu-has-children"><a href="">Members</a>
+              <ul>
+                <li><a href="index.html#testimonials">Executive Committee</a></li>
+                <li><a href="index.html#team">Board</a></li>
+                <li class="menu-has-children"><a href="">Divisions</a>
+                  <ul>
+                    <li><a href="#">Machine Learning</a></li>
+                    <li><a href="#">Software</a></li>
+                    <li><a href="#">Robotic & Electronic</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Founders</a></li>
+              </ul>
+            </li>
+            <li><a href="blog.html">Articles</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="menu-has-children d-none d-lg-block d-md-block"><a>
+
+                <img id="lang" v-if="$i18n.locale == 'en'" src="img/USA.svg" height="20" alt="">
+                <img id="lang" v-else src="img/mexico.png" height="20" alt="">
+              </a>
+              <ul>
+                <li><a href="#" @click="changeLang('en')">English</a></li>
+                <li><a href="#" @click="changeLang('es')">Spanish</a></li>
+              </ul>
             </li>
           </ul>
+        </nav><!-- #nav-menu-container -->
+      </div>
+    </header><!-- #header -->
 
+    <!--==========================
+      Intro Section
+    ============================-->
+    <section id="intro">
+      <div class="intro-content">
+        <img src="img/logos/aaai-transpeps.png" alt="">
+        <h1>AAAI Student Chapter <br> at Yucatán, México</h1>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Instituto Tecnológico de Mérida</a>
         </div>
+      </div>
 
-        <!-- Sidebar Widgets Column -->
-        <div class="col-md-4">
+      <div id="intro-carousel" class="owl-carousel">
+        <div class="item" style="background-image: url('img/banners/header-bg.jpg');"></div>
+      </div>
 
-          <!-- Search Widget -->
-          <div class="card my-4">
-            <h5 class="card-header">Search</h5>
-            <div class="card-body">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for...">
-                <span class="input-group-btn">
-                  <button class="btn btn-secondary" type="button">Go!</button>
-                </span>
+    </section><!-- #intro -->
+
+    <main id="main">
+      <br>
+      <!-- Page Content -->
+      <div class="container">
+
+        <div class="row">
+
+          <!-- Blog Entries Column -->
+          <div class="col-md-8">
+
+            <h2 class="my-4">{{ $t("recent_articles") }}
+            </h2>
+
+            <!-- Blog Post -->
+            <div v-for="post in last" class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">{{post.title}}</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus atque neque
+                  labore cum dolores sequi quae, consequatur ex qui illo, accusantium esse id dolorum eaque alias
+                  reprehenderit sapiente inventore at!</p>
+                <a :href="post.url" class="btn btn-primary">Read More →</a>
+              </div>
+              <div class="card-footer text-muted">
+                Posted on January {{post.id + post.albumId}}, 2109 by
+                <a href="#">AAAIMX</a>
               </div>
             </div>
+
+            <!-- Pagination -->
+            <ul class="pagination justify-content-center mb-4">
+              <li class="page-item">
+                <a class="page-link" href="#">← {{ $t("older") }}</a>
+              </li>
+              <li class="page-item disabled">
+                <a class="page-link" href="#">{{ $t("newer") }} →</a>
+              </li>
+            </ul>
+
           </div>
 
-          <!-- Categories Widget -->
-          <div class="card my-3">
-            <h5 class="card-header">Categories</h5>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#">Machine Learning</a>
-                    </li>
-                    <li>
-                      <a href="#">Deep Learning</a>
-                    </li>
-                    <li>
-                      <a href="#">Software</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li>
-                      <a href="#">Maths</a>
-                    </li>
-                    <li>
-                      <a href="#">Robotic</a>
-                    </li>
-                    <li>
-                      <a href="#">Electronic</a>
-                    </li>
-                  </ul>
+          <!-- Sidebar Widgets Column -->
+          <div class="col-md-4">
+
+            <!-- Search Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Search</h5>
+              <div class="card-body">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">Go!</button>
+                  </span>
                 </div>
               </div>
             </div>
+
+            <!-- Categories Widget -->
+            <div class="card my-3">
+              <h5 class="card-header">Topics</h5>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Advisors</a>
+                      </li>
+                      <li>
+                        <a href="#">Students</a>
+                      </li>
+                      <li>
+                        <a href="#">Researchears</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">All articles</a>
+                      </li>
+                      <li>
+                        <a href="#">Lasted</a>
+                      </li>
+                      <li>
+                        <a href="#">Most recents</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories Widget -->
+            <div class="card my-3">
+              <h5 class="card-header">Topics</h5>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Machine Learning</a>
+                      </li>
+                      <li>
+                        <a href="#">Deep Learning</a>
+                      </li>
+                      <li>
+                        <a href="#">Software</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Applied Maths</a>
+                      </li>
+                      <li>
+                        <a href="#">Symbolic AI</a>
+                      </li>
+                      <li>
+                        <a href="#">Robotic & Electronic</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Side Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">maelezo</h5>
+              <div class="card-body">
+                You can put anything you want inside of these side widgets. They are easy to use, and feature the new
+                Bootstrap 4 card containers!
+              </div>
+            </div>
+            <!-- Side Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Our Logo</h5>
+              <div class="card-body">
+                <img class="card-img-top"
+                  src="img/logos/aaaimx-white.jpg"
+                  alt="Card image cap">
+              </div>
+            </div>
+            <!-- tweeter 
+            <div class="card my-4">
+              <h5 class="card-header">Tweeter here</h5>
+              <div class="card-body">
+
+                <a class="twitter-timeline" href="https://twitter.com/Luckmoshy?ref_src=twsrc%5Etfw">Tweets by
+                  Luckmoshy</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://twitter.com/Luckmoshy?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                  data-show-count="false">Follow @Luckmoshy</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div> 
+            </div>-->
           </div>
 
-          <!-- Side Widget -->
-          <div class="card my-4">
-            <h5 class="card-header">maelezo</h5>
-            <div class="card-body">
-              You can put anything you want inside of these side widgets. They are easy to use, and feature the new
-              Bootstrap 4 card containers!
-            </div>
-          </div>
-          <!-- Side Widget -->
-          <div class="card my-4">
-            <h5 class="card-header">banner</h5>
-            <div class="card-body">
-              <img class="card-img-top"
-                src="https://2.bp.blogspot.com/-vvG5hMTFOro/W6RaoxdAikI/AAAAAAAAK1k/jezYdP7fvfYvt15Jv8a0agrGQE2lMU8YgCKgBGAs/s1600/MASAI-2.jpg"
-                alt="Card image cap">
-            </div>
-          </div>
-          <!-- tweeter -->
-          <div class="card my-4">
-            <h5 class="card-header">Tweeter here</h5>
-            <div class="card-body">
-
-              <a class="twitter-timeline" href="https://twitter.com/Luckmoshy?ref_src=twsrc%5Etfw">Tweets by
-                Luckmoshy</a>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <a href="https://twitter.com/Luckmoshy?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-                data-show-count="false">Follow @Luckmoshy</a>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-          </div>
         </div>
+        <!-- /.row -->
 
       </div>
-      <!-- /.row -->
+      <!-- /.container -->
 
-    </div>
-    <!-- /.container -->
+    </main>
 
-  </main>
-
-  <!--==========================
-    Footer
-  ============================-->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright 2019 <strong>AAAIMX</strong>. All Rights Reserved
+    <!--==========================
+      Footer
+    ============================-->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright 2019 <strong>AAAIMX</strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Powered by <a href="https://github.com/aaaimx"><strong>@aaaimx</strong></a>
+        </div>
       </div>
-      <div class="credits">
-        Powered by <a href="https://github.com/aaaimx"><strong>@aaaimx</strong></a>
-      </div>
-    </div>
-  </footer><!-- #footer -->
+    </footer><!-- #footer -->
+  </div>
+
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
@@ -288,10 +323,14 @@
   <script src="lib/sticky/sticky.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
 
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/messages.js"></script>
   <script src="js/app.js"></script>
 
 </body>
