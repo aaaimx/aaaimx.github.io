@@ -80,36 +80,36 @@
 
         <nav id="nav-menu-container">
           <ul class="nav-menu">
-            <li class="menu-has-children"><a href="">About Us</a>
+            <li class="menu-has-children"><a href="">{{ $t("navbar.about_us1") }}</a>
               <ul>
-                <li><a href="#services">Who are?</a></li>
-                <li><a href="#clients">Partners & Sponsors</a></li>
+                <li><a href="#services">{{ $t("navbar.who") }}</a></li>
+                <li><a href="#clients">{{ $t("navbar.partners1") }}</a></li>
               </ul>
             </li>
-            <li class="menu-has-children"><a href="">Members</a>
+            <li class="menu-has-children"><a href="">{{ $t("navbar.memb") }}</a>
               <ul>
-                <li><a href="#testimonials">Executive Committee</a></li>
-                <li><a href="#team">Board</a></li>
-                <li class="menu-has-children"><a href="">Divisions</a>
+                <li><a href="#testimonials">{{ $t("navbar.execu_comit1") }}</a></li>
+                <li><a href="#team">{{ $t("navbar.board1") }}</a></li>
+                <li class="menu-has-children"><a href="">{{ $t("navbar.div") }}</a>
                   <ul>
-                    <li><a href="#">Machine Learning</a></li>
-                    <li><a href="#">Software</a></li>
-                    <li><a href="#">Robotic & Electronic</a></li>
-                    <li><a href="#">Operations</a></li>
+                    <li><a href="#">{{ $t("navbar.machine") }}</a></li>
+                    <li><a href="#">{{ $t("navbar.soft") }}</a></li>
+                    <li><a href="#">{{ $t("navbar.rob_elec") }}</a></li>
+                    <li><a href="#">{{ $t("navbar.operat") }}</a></li>
                   </ul>
                 </li>
-                <li><a href="">Founders</a></li>
+                <li><a href="">{{ $t("navbar.found") }}</a></li>
               </ul>
             </li>
-            <li><a href="research/index.html">Research</a></li>
-            <li><a href="research/contact.html">Contact</a></li>
+            <li><a href="research/index.html">{{ $t("navbar.res") }}</a></li>
+            <li><a href="research/contact.html">{{ $t("navbar.contact") }}</a></li>
             <li class="menu-has-children d-none d-lg-block d-md-block"><a>
                 <img id="lang" v-if="$i18n.locale == 'en'" src="img/USA.svg" height="20" alt="">
                 <img id="lang" v-else src="img/mexico.png" height="20" alt="">
               </a>
               <ul>
-                <li><a href="#" class="btn-lang" @click="changeLang('en')" data-lang="en">English</a></li>
-                <li><a href="#" class="btn-lang" @click="changeLang('es')" data-lang="es">Spanish</a></li>
+                <li><a href="#" class="btn-lang" @click="changeLang('en')" data-lang="en">{{ $t("navbar.lang1") }}</a></li>
+                <li><a href="#" class="btn-lang" @click="changeLang('es')" data-lang="es">{{ $t("navbar.lang2") }}</a></li>
               </ul>
             </li>
           </ul>
@@ -122,9 +122,9 @@
     <section id="intro">
       <div class="intro-content">
         <img src="img/logos/aaai-transpeps.png" alt="">
-        <h1>AAAI Student Chapter <br> at Yucatán, México</h1>
+        <h1>{{ $t("intro_section.logo_p1") }} <br> {{ $t("intro_section.logo_p2") }}</h1>
         <div>
-          <a href="#about" class="btn-get-started scrollto">Instituto Tecnológico de Mérida</a>
+          <a href="#about" class="btn-get-started scrollto">{{ $t("intro_section.itm") }}</a>
         </div>
       </div>
 
@@ -173,11 +173,9 @@
       <section id="services">
         <div class="container">
           <div class="section-header">
-            <h2>About us</h2>
+            <h2>{{ $t("services_section.about_us2") }}</h2>
             <p>
-              We are an association that care about the technological development of the country, contributing to more
-              students have knowledge about
-              artificial intelligence and other related fields that are becoming more popular.</p>
+              {{ $t("services_section.message_ab") }}</p>
           </div>
 
           <div class="row">
@@ -185,10 +183,8 @@
             <div class="col-lg-4">
               <div class="box wow fadeInLeft">
                 <div class="icon"><i class="fa fa-flask"></i></div>
-                <h4 class="title"><a href="">Mission</a></h4>
-                <p class="description">Our goal is to promote the knowledge and practice of AI in both the ITM and the
-                  local community, encouraging more students to join and promote research and technological
-                  developments.
+                <h4 class="title"><a href="">{{ $t("services_section.mission") }}</a></h4>
+                <p class="description">{{ $t("services_section.mission_desc") }}
                 </p>
               </div>
             </div>
@@ -196,23 +192,17 @@
             <div class="col-lg-4">
               <div class="box wow fadeInRight">
                 <div class="icon"><i class="fa fa-eye"></i></div>
-                <h4 class="title"><a href="">Vision</a></h4>
-                <p class="description">We propose to achieve this through a solid core of researchers from both ITM and
-                  leading research centers such as CIMAT and CentroGeo, who will bring IA knowledge to students, in the
-                  form of conferences, symposiums, meetings, etc., but mainly, through workshops and courses, whose
-                  contents will be replicated to future generations of students.</p>
+                <h4 class="title"><a href="">{{ $t("services_section.vision") }}</a></h4>
+                <p class="description">{{ $t("services_section.vision_desc") }}</p>
               </div>
             </div>
 
             <div class="col-lg-4">
               <div class="box wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="icon"><i class="fa fa-users"></i></div>
-                <h4 class="title"><a href="">Community</a></h4>
+                <h4 class="title"><a href="">{{ $t("services_section.community") }}</a></h4>
 
-                <p class="description">We are a community dedicated to increase knowledge and promote greater awareness
-                  of
-                  Artificial Intelligence, located (mainly) in Mérida, Yucatán, México. The headquarters of the chapter
-                  are located at the Mérida Institute of Technology (Instituto Tecnológico de Mérida).</p>
+                <p class="description">{{ $t("services_section.community_desc") }}</p>
               </div>
             </div>
 
@@ -247,9 +237,8 @@
       <section id="clients" class="wow fadeInUp">
         <div class="container">
           <div class="section-header">
-            <h2>Partners & Sponsors</h2>
-            <p>We work with several companies and institutes in Yucatán, México, focused
-              on Artificial Intelligence, Applied Maths and Software development projects.
+            <h2>{{ $t("clients_section.partners2") }}</h2>
+            <p>{{ $t("clients_section.partners_desc") }}
 
 
 
@@ -399,10 +388,8 @@
       <section id="testimonials" class="wow fadeInUp">
         <div class="container">
           <div class="section-header">
-            <h2>EXECUTIVE COMMITTEE</h2>
-            <p> <i>We are a group of students and researchers from the ITM along with researchers from the Center for
-                Mathematical Research (CIMAT) and CentroGeo, some of the leading educational and research centers in
-                Yucatán, México.</i></p>
+            <h2>{{ $t("testimonials_section.execu_comit2") }}</h2>
+            <p> <i>{{ $t("testimonials_section.execu_comit2_desc") }}</i></p>
           </div>
           <div class="owl-carousel testimonials-carousel">
 
@@ -410,7 +397,7 @@
               <div class="pic"><img src="img/team/commitee/esteban-brito.jpg" alt=""></div>
               <div class="details">
                 <h4>Esteban Brito</h4>
-                <span>Machine Learning Division Leader</span>
+                <span>{{ $t("testimonials_section.ml_leader") }}</span>
                 <div class="social">
 
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -424,7 +411,7 @@
               <div class="pic"><img src="img/team/commitee/raul-novelo.jpeg" alt=""></div>
               <div class="details">
                 <h4>Raúl Novelo</h4>
-                <span>Software Division Leader</span>
+                <span>{{ $t("testimonials_section.sof_leader") }}</span>
                 <div class="social">
 
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -438,7 +425,7 @@
               <div class="pic"><img src="img/team/commitee/humberto-sarabia.jpg" alt=""></div>
               <div class="details">
                 <h4>Humberto Sarabia</h4>
-                <span>Robotic/Electronic Division Leader</span>
+                <span>{{ $t("testimonials_section.rob_leader") }}</span>
                 <div class="social">
 
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -452,7 +439,7 @@
               <div class="pic"><img src="img/team/commitee/fernando-herrera.jpg" alt=""></div>
               <div class="details">
                 <h4>Fernando Herrera</h4>
-                <span>Applied Mathematics Division Leader</span>
+                <span>{{ $t("testimonials_section.math_leader") }}</span>
                 <div class="social">
 
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -467,7 +454,7 @@
                 <div class="pic"><img src="img/team/commitee/paul-mena.jpg" alt=""></div>
                 <div class="details">
                   <h4>Paul Mena</h4>
-                  <span>Operations Leader</span>
+                  <span>{{ $t("testimonials_section.ope_leader") }}</span>
                   <div class="social">
   
                     <a href=""><i class="fa fa-facebook"></i></a>
@@ -482,7 +469,7 @@
               <div class="pic"><img src="img/team/commitee/adolfo-alvarez.jpg" alt=""></div>
               <div class="details">
                 <h4>Adolfo Álvarez</h4>
-                <span>Web Master</span>
+                <span>{{ $t("testimonials_section.web_leader") }}</span>
                 <div class="social">
 
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -496,7 +483,7 @@
               <div class="pic"><img src="img/team/commitee/juan-lopez.jpg" alt=""></div>
               <div class="details">
                 <h4>Juan López</h4>
-                <span>EC Member</span>
+                <span>{{ $t("testimonials_section.basic_member1") }}</span>
                 <div class="social">
                   <a href=""><i class="fa fa-facebook"></i></a>
                   <a href=""><i class="fa fa-github"></i></a>
@@ -516,7 +503,7 @@
       <section id="team" class="wow fadeInUp">
         <div class="container">
           <div class="section-header">
-            <h2>BOARD</h2>
+            <h2>{{ $t("our_team_section.board2") }}</h2>
           </div>
           <div class="row">
             <div class="col-lg-4 col-md-6">
@@ -524,7 +511,7 @@
                 <div class="pic"><img src="img/team/board/dr-juan-carlos.jpg" alt=""></div>
                 <div class="details">
                   <h4>Juan Carlos Valdiviezo Navarro</h4>
-                  <span>Co-Chair / CentroGeo Researcher</span>
+                  <span>{{ $t("our_team_section.co_chair") }}</span>
                   <div class="social">
                     <a href=""><i class="fab fa-researchgate"></i></a>
                   </div>
@@ -537,7 +524,7 @@
                 <div class="pic"><img src="img/team/board/dr-mauricio-orozco.jpg" alt=""></div>
                 <div class="details">
                   <h4>Mauricio Orozco</h4>
-                  <span>Chair / ITM Researcher</span>
+                  <span>{{ $t("our_team_section.chair") }}</span>
                   <div class="social">
                     <a href=""><i class="fab fa-researchgate"></i></a>
                   </div>
@@ -550,7 +537,7 @@
                 <div class="pic"><img src="img/team/board/dr-joel-trejo.jpg" alt=""></div>
                 <div class="details">
                   <h4>Juan Carlos Trejo</h4>
-                  <span>Secretary / CIMAT Researcher</span>
+                  <span>{{ $t("our_team_section.secretary") }}</span>
                   <div class="social">
                     <a href=""><i class="fab fa-researchgate"></i></a>
                   </div>
@@ -568,22 +555,18 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-9 text-center text-lg-left">
-              <p class="cta-text trn">The chapter is focused on scientific research and dissemination, hence we
-                understand that there are different ways of thinking and as well as different points of view, all this
-                in a margin of respect regardless of race, ideology, socioeconomic status, sex, physical condition or
-                gender identity.
+              <p class="cta-text trn">{{ $t("call_to_action_section.des_main") }}
 
               </p>
               <p class="cta-text">
-                <em> "Sometimes people from whom nobody expects anything, is the one who does things that nobody can
-                  imagine"</em>
+                <em> {{ $t("call_to_action_section.des_sec") }}</em>
               </p>
 
-              <i class="cta-title trn">- Anonymous</i>
+              <i class="cta-title trn">{{ $t("call_to_action_section.say") }}</i>
             </div>
 
             <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle trn" target="_blank" href="docs/JARKOL_2019_SP.pdf">Discover</a>
+              <a class="cta-btn align-middle trn" target="_blank" href="docs/JARKOL_2019_SP.pdf">{{ $t("call_to_action_section.discover") }}</a>
             </div>
           </div>
 
@@ -595,9 +578,8 @@
       <section id="contact" class="wow fadeInUp">
         <div class="container">
           <div class="section-header">
-            <h2>Contact Us</h2>
-            <p>Do you have a particular challenge you are currently dealing with? Contact us today and explore what we
-              can do for you.</p>
+            <h2>{{ $t("contact_section.contact_us") }}</h2>
+            <p>{{ $t("contact_section.contact_us_desc") }}</p>
           </div>
           <br>
           <div class="row contact-info">
@@ -605,8 +587,8 @@
             <div class="col-md-4">
               <div class="contact-address">
                 <i class="fa fa-map-marker"></i>
-                <h3>Address</h3>
-                <address>Intituto Tecnólogico de Mérida Campus Poniente, Yucatán, México</address>
+                <h3>{{ $t("contact_section.address") }}</h3>
+                <address>{{ $t("contact_section.address_inf")}}</address>
               </div>
             </div>
 
@@ -614,14 +596,14 @@
               <div class="contact-phone">
                 <i class="fa fa-facebook"></i>
                 <h3>Facebook</h3>
-                <p><a href="tel:+155895548855">AAAI Student Chapter México</a></p>
+                <p><a href="tel:+155895548855">{{ $t("contact_section.AAAI_chap")}}</a></p>
               </div>
             </div>
 
             <div class="col-md-4">
               <div class="contact-email">
                 <i class="fa fa-envelope-o"></i>
-                <h3>Email</h3>
+                <h3>{{ $t("contact_section.email")}}</h3>
                 <p><a href="mailto:contact@aaaimx.org">contact@aaaimx.org</a></p>
               </div>
             </div>
@@ -639,10 +621,10 @@
     <footer id="footer">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright 2019 <strong>AAAIMX</strong>. All Rights Reserved
+          &copy; Copyright 2019 <strong>AAAIMX</strong>{{ $t("footer.arr")}}
         </div>
         <div class="credits">
-          Powered by <a href="https://github.com/aaaimx"><strong>@aaaimx</strong></a>
+          {{ $t("footer.pwby")}} <a href="https://github.com/aaaimx"><strong>@aaaimx</strong></a>
         </div>
       </div>
     </footer><!-- #footer -->
