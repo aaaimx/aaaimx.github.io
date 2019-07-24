@@ -2,7 +2,7 @@ const messages = {
   en: {
     navbar: {
       about_us1: 'About Us',
-      who: 'who we are?',
+      who: '¿Who we are?',
       partners1: 'Partners & Sponsors',
       memb: 'Members',
       execu_comit1: 'Executive Committee',
@@ -22,10 +22,10 @@ const messages = {
     intro_section: {
       logo_p1: 'AAAI Student Chapter',
       logo_p2: 'at Yucatán, México',
-      itm: 'Mérida Institute of Technology',
+      itm: 'Instituto Tecnologico De Mérida',
     },
     services_section: {
-      about_us2: 'About us',
+      about_us2: 'About Us',
       message_ab: 'We are an association that care about the technological development of the country, contributing to more students have knowledge about artificial intelligence and other related fields that are becoming more popular.',
       mission: 'Mission',
       mission_desc: 'Our goal is to promote the knowledge and practice of AI in both the ITM and the local community, encouraging more students to join and promote research and technological developments.',
@@ -65,7 +65,7 @@ const messages = {
       contact_us: 'Contact Us',
       contact_us_desc: 'Do you have a particular challenge you are currently dealing with? Contact us today and explore what we can do for you.',
       address: 'Address',
-      address_inf: 'Mérida Institute of Technology, West Campus, Yucatán, México.',
+      address_inf: 'Instituto Tecnologico De Mérida, Campus Poniente, Yucatán México.',
       AAAI_chap: 'AAAI Student Chapter México',
       email: 'Email',
     },
@@ -78,15 +78,15 @@ const messages = {
   es: {
     navbar: {
       about_us1: 'Nosotros',
-      who: 'quienes somos',
-      partners1: 'Socios y Patrocinadores',
+      who: '¿Quiénes Somos?',
+      partners1: 'Socios Y Patrocinadores',
       memb: 'Miembros',
       execu_comit1: 'Comité Ejecutivo',
       board1: 'Panel',
       div: 'Divisiones',
       machine: 'Aprendizaje Automatizado',
       soft: 'Software',
-      rob_elec: 'Robotica y Electronica',
+      rob_elec: 'Robotica Y Electronica',
       operat: 'Operaciones',
       found: 'Fundadores',
       res: 'Investigaciones',
@@ -103,15 +103,15 @@ const messages = {
     services_section: {
       about_us2: 'Nosotros',
       message_ab: 'Somos una asociación que se preocupa por el desarrollo tecnológico del país, contribuyendo a que más estudiantes tengan conocimiento sobre inteligencia artificial y otros campos relacionados que se están volviendo más populares.',
-      mission: 'Mision',
+      mission: 'Misión',
       mission_desc: 'Nuestro objetivo es promover el conocimiento y la práctica de la IA tanto en el ITM como en la comunidad local, alentando a más estudiantes a unirse y promover la investigación y los avances tecnológicos.',
-      vision: 'Vision',
+      vision: 'Visión',
       vision_desc: 'Proponemos lograr esto a través de un sólido núcleo de investigadores tanto de ITM como de centros de investigación líderes como CIMAT y CentroGeo, quienes aportarán el conocimiento de AI a los estudiantes, en forma de conferencias, simposios, reuniones, etc., pero principalmente a través de talleres. y cursos, cuyos contenidos serán replicados a futuras generaciones de estudiantes.',
       community: 'Comunidad',
       community_desc: 'Somos una comunidad dedicada a aumentar el conocimiento y promover una mayor conciencia de la Inteligencia Artificial, ubicada (principalmente) en Mérida, Yucatán, México. La sede del capítulo se encuentra en el Instituto Tecnológico de Mérida.',
     },
     clients_section: {
-      partners2: 'Socios y Patrocinadores',
+      partners2: 'Socios Y Patrocinadores',
       partners_desc: 'Trabajamos con varias compañías e institutos en Yucatán, México, enfocados en proyectos de inteligencia artificial, matemática aplicada y desarrollo de software.',
     },
     testimonials_section: {
@@ -127,27 +127,27 @@ const messages = {
     },
     our_team_section: {
       board2: 'Panel',
-      co_chair: 'Vicepresidente / Investigador del CentroGeo.',
+      co_chair: 'Vicepresidente / Investigador del CentroGeo',
       chair: 'Presidente / Investigador del ITM',
-      secretary: 'Secretario / Investigador del CIMAT.',
+      secretary: 'Secretario / Investigador del CIMAT',
     },
     call_to_action_section: {
       des_main: 'El capítulo se enfoca a la investigación y divulgación científica, por lo que entendemos que existen diferentes formas de pensar al igual que diversos puntos de vista, todo esto en un margen de respeto sin importar raza, ideología, condición fisica o identidad de género.',
       des_sec: '"A veces es la gente de la que nadie espera nada, la que hace cosas que nadie puede imaginar"',
-      say: '- Anonimo',
-      discover: 'Saber más...',
+      say: '- Anónimo',
+      discover: 'Saber Más...',
     },
     contact_section: {
       contact_us: 'Contáctenos',
       contact_us_desc: '¿Tienes un desafío particular con el que te estás enfrentando actualmente? Contáctanos hoy y explora lo que podemos hacer por ti.',
       address: 'Instituto Tecnólogico de Mérida Campus Poniente, Yucatán, México.',
-      address_inf: 'Instituto Tecnólogico de Mérida Campus Poniente, Yucatán, México',
+      address_inf: 'Instituto Tecnologico de Mérida Campus Poniente, Yucatán, México',
       AAAI_chap: 'AAAI Student Chapter México',
       email: 'Correo',
     },
     footer: {
       arr: '. Todos Los Derechos Reservados.',
-      pwby: 'Desarrollado Por',
+      pwby: 'Desarrollado por',
     }
   }
 }
