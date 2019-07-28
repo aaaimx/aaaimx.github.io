@@ -50,9 +50,9 @@
     <section id="topbar">
       <div class="container clearfix ">
         <div class="social-links float-left d-md-none d-lg-none">
-          <a href="#" @click="$i18n.locale = 'en'">
+          <a @click.prevent="$i18n.locale = 'en'">
             <img id="lang" src="img/USA.svg" height="20" alt=""></a>
-          <a href="#" @click="$i18n.locale = 'es'">
+          <a @click.prevent="$i18n.locale = 'es'">
             <img id="lang" src="img/mexico.png" height="20" alt=""></a>
         </div>
         <div class="contact-info float-left d-none d-lg-block d-md-block">
@@ -90,7 +90,7 @@
               <ul>
                 <li><a href="#testimonials">{{ $t("navbar.execu_comit1") }}</a></li>
                 <li><a href="#team">{{ $t("navbar.board1") }}</a></li>
-                <li class="menu-has-children"><a href="">{{ $t("navbar.div") }}</a>
+                <!--<li class="menu-has-children"><a href="">{{ $t("navbar.div") }}</a>
                   <ul>
                     <li><a href="#">{{ $t("navbar.machine") }}</a></li>
                     <li><a href="#">{{ $t("navbar.soft") }}</a></li>
@@ -98,18 +98,20 @@
                     <li><a href="#">{{ $t("navbar.operat") }}</a></li>
                   </ul>
                 </li>
-                <li><a href="">{{ $t("navbar.found") }}</a></li>
+                <li><a href="">{{ $t("navbar.found") }}</a></li>-->
               </ul>
             </li>
-            <li><a href="research/index.html">{{ $t("navbar.res") }}</a></li>
-            <li><a href="research/contact.html">{{ $t("navbar.contact") }}</a></li>
+            <li><a href="http://research.aaaimx.org">{{ $t("navbar.res") }}</a></li>
+            <li><a href="contact.html">{{ $t("navbar.contact") }}</a></li>
             <li class="menu-has-children d-none d-lg-block d-md-block"><a>
                 <img id="lang" v-if="$i18n.locale == 'en'" src="img/USA.svg" height="20" alt="">
                 <img id="lang" v-else src="img/mexico.png" height="20" alt="">
               </a>
               <ul>
-                <li><a href="#" class="btn-lang" @click="changeLang('en')" data-lang="en">{{ $t("navbar.lang1") }}</a></li>
-                <li><a href="#" class="btn-lang" @click="changeLang('es')" data-lang="es">{{ $t("navbar.lang2") }}</a></li>
+                <li><a href="#" class="btn-lang" @click="changeLang('en')" data-lang="en">{{ $t("navbar.lang1") }}</a>
+                </li>
+                <li><a href="#" class="btn-lang" @click="changeLang('es')" data-lang="es">{{ $t("navbar.lang2") }}</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -246,12 +248,12 @@
           </div>
 
           <div class="owl-carousel clients-carousel">
-            <img src="img/partners/tec.png" alt="">
-            <img src="img/sponsors/jarkol-logo.png" alt="">
-            <img src="img/sponsors/indaico.png" alt="">
-            <img src="img/partners/centrogeo.png" alt="">
-            <img src="img/partners/cimat.png" alt="">
-            <img src="img/logos/aaai-transpeps.png" alt="">
+            <a href="http://www.itmerida.mx/" target="_blank"><img src="img/partners/tec.png" alt=""></a>
+            <a href="http://www.jarkol.com/" target="_blank"><img src="img/sponsors/jarkol-logo.png" alt=""></a>
+            <a href="#" target="_blank"> <img src="img/sponsors/indaico.png" alt=""></a>
+            <a href="http://mid.geoint.mx/" target="_blank"><img src="img/partners/centrogeo.png" alt=""></a>
+            <a href="http://mid.geoint.mx/" target="_blank"><img src="img/partners/cimat.png" alt=""></a>
+            <a href="https://www.aaai.org/" target="_blank"><img src="img/logos/aaai-transpeps.png" alt=""></a>
           </div>
 
         </div>
@@ -449,21 +451,21 @@
               </div>
             </div>
 
-            
+
             <div class="testimonial-item">
-                <div class="pic"><img src="img/team/commitee/paul-mena.jpg" alt=""></div>
-                <div class="details">
-                  <h4>Paul Mena</h4>
-                  <span>{{ $t("testimonials_section.ope_leader") }}</span>
-                  <div class="social">
-  
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-github"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+              <div class="pic"><img src="img/team/commitee/paul-mena.jpg" alt=""></div>
+              <div class="details">
+                <h4>Paul Mena</h4>
+                <span>{{ $t("testimonials_section.ope_leader") }}</span>
+                <div class="social">
+
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-github"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
-  
+            </div>
+
 
             <div class="testimonial-item">
               <div class="pic"><img src="img/team/commitee/adolfo-alvarez.jpg" alt=""></div>
@@ -566,7 +568,8 @@
             </div>
 
             <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle trn" target="_blank" href="docs/JARKOL_2019_SP.pdf">{{ $t("call_to_action_section.discover") }}</a>
+              <a class="cta-btn align-middle trn" target="_blank"
+                href="docs/JARKOL_2019_SP.pdf">{{ $t("call_to_action_section.discover") }}</a>
             </div>
           </div>
 
