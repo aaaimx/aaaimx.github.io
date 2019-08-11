@@ -3,8 +3,8 @@
   <channel>
     <title>AAAIMX | Student Chapter</title>
     <description>We are a group of students and researchers from the ITM along with researchers from the Center for Mathematical Research (CIMAT) and CentroGeo</description>
-    <link>http://aaaimx.org/</link>
-    <atom:link href="http://aaaimx.org/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>GitHub Campus Experts 🚩</title>
@@ -34,11 +34,28 @@
 
 &lt;h4 id=&quot;do-i-need-to-know-how-to-use-gitgithub&quot;&gt;Do I need to know how to use Git/GitHub?&lt;/h4&gt;
 
-&lt;p&gt;Campus Experts is about &lt;em&gt;your community&lt;/em&gt;, not becoming a Git master. However, Campus Experts and the training does primarily take place through GitHub, so some Git/GitHub knowledge is helpful. You can learn everything you need to complete the training &lt;a href=&quot;https://services.github.com/on-demand/intro-to-github/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Campus Experts is about &lt;em&gt;your community&lt;/em&gt;, not becoming a Git master. However, Campus Experts and the training does primarily take place through GitHub, so some Git/GitHub knowledge is helpful. You can learn everything you need to complete the training &lt;a href=&quot;https://education.github.com/students/experts&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Aug 2019 04:00:00 -0500</pubDate>
-        <link>http://aaaimx.org/blog/campus-experts</link>
-        <guid isPermaLink="true">http://aaaimx.org/blog/campus-experts</guid>
+        <link>http://localhost:4000/blog/campus-experts</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/campus-experts</guid>
+      </item>
+    
+      <item>
+        <title>AWS Educate</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;AWS Educate is Amazon’s program to help students learn real-world cloud technology skills before graduating. It provides students and educators with the resources needed to accelerate cloud-related learning.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d1.awsstatic.com/Digital%20Marketing/House/temp/logo_aws-educate.812809f63186598d26a56d443d829afa390566d1.png&quot; alt=&quot;lockup&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;teach-tomorrows-cloud-workforce-today&quot;&gt;Teach Tomorrow’s Cloud Workforce Today&lt;/h4&gt;
+
+&lt;p&gt;With the increasing demand for cloud employees, AWS Educate provides an academic gateway for the next generation of IT and cloud professionals. AWS Educate is Amazon’s global initiative to provide students and educators with the resources needed to accelerate cloud-related learning. &lt;a href=&quot;https://aws.amazon.com/education/awseducate/?nc1=h_ls&quot;&gt;Apply now&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Aug 2019 04:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/aws-educate</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/aws-educate</guid>
       </item>
     
       <item>
@@ -47,21 +64,16 @@
   &lt;p&gt;There’s no substitute for hands-on experience. But for most students, real world tools can be cost-prohibitive.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img class=&quot;img-responsive feature-image&quot; src=&quot;https://dwa5x7aod66zk.cloudfront.net/assets/sdp-backpack-a64038716bf134f45e809ff86b9611fb97e41bbd2ccfa3181da73cf164d3c200.png&quot; style=&quot;display:none&quot; /&gt;&lt;/p&gt;
-
 &lt;h4 id=&quot;learn-to-ship-software-like-a-pro&quot;&gt;Learn to ship software like a pro.&lt;/h4&gt;
+&lt;p&gt;That’s why we created the GitHub Student Developer Pack with some of our partners and friends: to give students free access to the best developer tools in one place so they can learn by doing.&lt;/p&gt;
 
-&lt;p&gt;That’s why Github created the Student Developer Pack with some of its partners and friends: to give students free access to the best developer tools in one place so they can learn by doing.&lt;/p&gt;
-
-&lt;p&gt;Before you receive access to the offers, they will need to verify that you are a student.
+&lt;p&gt;Before you receive access to the offers, we’ll need to verify that you are a student.
 Teachers, researchers, faculty, and staff are not eligible for the Pack, but can get free and discounted access to GitHub.
-Navigate to this link to more details. &lt;a href=&quot;https://education.github.com/pack&quot;&gt;View on GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The software world is like the sea, there is more than we can see.&lt;/em&gt;&lt;/p&gt;
+Navigate to this link to more details. &lt;a href=&quot;https://education.github.com/pack#offers&quot;&gt;View on GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Aug 2019 03:00:00 -0500</pubDate>
-        <link>http://aaaimx.org/blog/developer-pack</link>
-        <guid isPermaLink="true">http://aaaimx.org/blog/developer-pack</guid>
+        <link>http://localhost:4000/blog/developer-pack</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/developer-pack</guid>
       </item>
     
   </channel>
