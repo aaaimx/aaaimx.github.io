@@ -37,7 +37,6 @@
   <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#040404">
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="theme-color" content="#ffffff">
-
   <link href="/css/main.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -105,14 +104,8 @@
             
             <li>
                 <a class=""
-                    href=" /schedule/ "
-                    >Events</a>
-            </li>
-            
-            <li>
-                <a class=""
-                    href=" /blog/ "
-                    >Blog</a>
+                    href=" https://web.facebook.com/pg/aaaimx/events/?ref=page_internal "
+                    target="_blank" >Events</a>
             </li>
             
             <li>
@@ -125,20 +118,22 @@
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             
             <li>
-                <a href=" https://forms.gle/92mpt3puXXUs2orZ7 "
+                <a onclick="showPopUpMmember(event)" href=" / "
                     target="_blank"
-                    >Become a member</a>
+                    >JOIN AT THE COMMUNITY</a>
             </li>
             
         </ul>
         
-        <a href=" https://forms.gle/92mpt3puXXUs2orZ7 "
+        <a onclick="showPopUpMmember(event)"
+            href=" / "
             class="right-nav-button right-nav-button-hidden btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm"
             target="_blank" >
-            Become a member
+            JOIN AT THE COMMUNITY
         </a>
         
     </nav>
+    
 </header>
 	<div class="content-wrapper">
 	    <div class="jumbotron text-left">
@@ -434,6 +429,26 @@ Navigate to this link to more details. <a href="https://education.github.com/pac
             }
         },
         "offers" : [
+        
+        {
+            "@type" : "Offer",
+            "name" : "AAAIMX T-Shirt",
+            "url" : "",
+            "price" : "$100",
+            "priceCurrency" : "",
+            "validFrom" : "2014-08-25T10:00",
+            "validThrough" : "2014-09-30T23:59"
+        },
+        
+        {
+            "@type" : "Offer",
+            "name" : "AAAIMX Kit",
+            "url" : "",
+            "price" : "$350",
+            "priceCurrency" : "",
+            "validFrom" : "2014-10-01T00:00",
+            "validThrough" : "2014-10-23T23:59"
+        }
          
         ],
         "performer" : [ 
@@ -527,6 +542,15 @@ Navigate to this link to more details. <a href="https://education.github.com/pac
         "typicalAgeRange" : "16+"
     }]
     </script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+    data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">
+    function showPopUpMmember(e) {
+        e.preventDefault();
+        document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        window.dojoRequire(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us20.list-manage.com", "uuid": "bfad14de23bae556ad5b55c59", "lid": "f6017c957e", "uniqueMethods": true }) })
+    }</script>
 </body>
 
 </html>
