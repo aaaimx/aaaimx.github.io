@@ -1,0 +1,25 @@
+{
+  "name": "aaaimx-website",
+  "version": "1.0.0",
+  "description": "### About Project Zeppelin allows you to setup awesome GDG DevFest site in 5 minutes.",
+  "main": "publish.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "publish": "node publish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://RaulNovelo:(08642)!2a@github.com/aaaimx/aaaimx-website.git"
+  },
+  "author": "Raul Novelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaaimx/aaaimx-website/issues"
+  },
+  "homepage": "https://github.com/aaaimx/aaaimx-website#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}

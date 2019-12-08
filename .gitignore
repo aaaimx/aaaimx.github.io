@@ -2,7 +2,7 @@
 *.lock
 
 _site
-aaaimx-website
+node_modules
 
 ### Sass ###
 .sass-cache
