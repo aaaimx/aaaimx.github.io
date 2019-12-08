@@ -28,6 +28,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/store/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/logistics/</loc>
 </url>
 <url>
