@@ -1,5 +1,13 @@
-node_modules
-deploy.sh
-dist
-.vscode
-blog.sh
+### General ###
+*.lock
+
+_site
+aaaimx-website
+
+### Sass ###
+.sass-cache
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db

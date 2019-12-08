@@ -1,0 +1,261 @@
+# Plugins
+plugins:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', '*.sh', 'CNAME']
+
+# Site Settings
+title: "AAAIMX | Student Chapter"
+email: "contact@aaaimx.org"
+description: "We are a group of students and researchers from the ITM along with researchers from the Center for Mathematical Research (CIMAT) and CentroGeo"
+baseurl: ""
+url: "http://aaaimx.org"
+domain: "http://www.aaaimx.org"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-43643469-5"
+googleAnalyticsSiteUrl: "raulnovelo.github.io"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+
+# Organizer Info
+organizerName: "AAAIMX"
+organizerAlternateName: "Google Developer Group Lviv"
+organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerEmail: "lviv@gdg.org.ua"
+organizerLogo: "/img/seo/aaaimx-black.jpeg"
+organizerLink: "http://lviv.gdg.org.ua/"
+
+# Head
+metaKeywords: "Artificial, Intelligence, aaaimx, AAAI, ITM, MIT, Student Chapter, Technology"
+twitterAccount: "@AAAIMX"
+socialImageSrcGooglePlus: "/img/seo/aaaimx-black.jpeg"
+socialImageSrcTwitter: "/img/seo/aaaimx-black.jpeg"
+socialImageSrcFacebook: "/img/seo/aaaimx-black.jpeg"
+
+# Documents
+c4pUrl: "#"
+becomaeAMemberForm: "/join"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/members/", text: "Members"}
+ - {permalink: "/structure/", text: "Structure"}
+ - {link: "http://research.aaaimx.org/", text: "Research"}
+ - {link: "https://web.facebook.com/pg/aaaimx/events/?ref=page_internal", text: "Events"}
+#- {permalink: "/logistics/", text: "Logistics"}
+# - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/contact/", text: "Contact"}
+bottomNavigationLinks:
+ - {link: "/", text: "BECOME A MEMBER"}
+rightNavigationButtons:
+ - {link: "/", text: "BECOME A MEMBER"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "AAAIMX Student Chapter at <typeout>"
+eventDate: "Technological Institute of Mérida"
+typeoutTextValues: '"", "Yucatán", "México", "ITM"'
+typeoutFallback: "Yucatán, México"
+heroButtons:
+ - {link: "/", text: "BECOME A MEMBER"}
+
+# Tickets Block
+ticketsTitle: "Membership"
+ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsOffers:
+ -
+  name: "AAAIMX T-Shirt"
+  price: "$100"
+  priceCurrency: ""
+  ticketsNumber: "150"
+  ribbon: "Basic"
+  buyButtonLink: ""
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Includes: ", "1 T-Shirt", "Preferent access to events"]
+  validFrom: "2014-08-25T10:00"
+  validThrough: "2014-09-30T23:59"
+ -
+  name: "AAAIMX Kit"
+  price: "$350"
+  priceCurrency: ""
+  ticketsNumber: "100"
+  ribbon: "Ginda"
+  featured: true
+  buyButtonLink: ""
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Includes: ", "1 T-Shirt","1 Mousepad", "10 Stickers",  "Preferent access to events"]
+  validFrom: "2014-10-01T00:00"
+  validThrough: "2014-10-23T23:59"
+  disabled: false
+
+# About Block
+aboutTitle: "About AAAIMX"
+aboutBlock:
+ - {title: "Mission", image: "hackathon.jpg", text: "Our goal is to promote the knowledge and practice of AI in both the ITM and the local community, encouraging more students to join and promote research and technological developments." }
+ - {title: "Vision", image: "conference.jpg", text: "We propose to achieve this through a solid core of researchers from both ITM and leading research centers such as CIMAT and CentroGeo, who will bring IA knowledge to students, in the form of conferences, symposiums, meetings, etc., but mainly, through workshops and courses, whose contents will be replicated to future generations of students." }
+ - {title: "Community", image: "workshop.jpg", text: "We are a community dedicated to increase knowledge and promote greater awareness of Artificial Intelligence, located (mainly) in Mérida, Yucatán, México. The headquarters of the chapter are located at the Mérida Institute of Technology (Instituto Tecnológico de Mérida)." }
+
+# Statistic Block
+statisticBlockImage: "1.jpg"
+statisticBlock:
+ - {count: "50", specialCharacter: "+", info: "Members", detail: "From everywhere"}
+ - {count: "4", specialCharacter: "+", info: "Partners", detail: "From everywhere"}
+ - {count: "100", specialCharacter: "+", info: "Research", detail: "Productivity work"}
+ - {count: "6", specialCharacter: "", info: "Divisions", detail: "Interest areas"}
+
+# Latest News Block
+latestNewsTitle: "Latest news"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Executive Committee"
+rockstarSpeakersButtonText: "See all members"
+
+# Venue Block
+venueBlockTitle: "Computer Systems Engineering"
+venueBigImage: "presentation-02.jpeg"
+venueSmallImage1: "presentation-01.jpeg"
+venueSmallImage2: "campus-noche.jpg"
+venueSmallImage3: "presentation-04.jpg"
+venueTitle: "Department of Systems and Computing"
+venueFeatures: ["AAAI Student Chapter México Presentation Ceremony", "Instituto Tecnológico de Mérida"]
+
+# Tweets Feed Block
+tweetsFeedImage: "patria.jpg"
+tweetsFeedTitle: "Do you have a particular challenge you are currently dealing with?"
+twitterHashTag: "aaaimx"
+twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+
+# Partners Block
+partnersTitle: "Partners & Sponsors"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+subscribeImage: "2.jpeg"
+subscribeTitle: "Intelligence is the best Human talent"
+subscribeAction: "http://research.aaaimx.org"
+subscribeInfo: "Contributing to more students having knowledge of Artificial Intelligence and other increasingly popular related fields"
+
+# Footer
+socialLinks:
+ - {link: "https://github.com/aaaimx", icon: "github"}
+ - {link: "https://twitter.com/aaaimxc", icon: "twitter"}
+ - {link: "https://www.facebook.com/AAAI-Student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/", icon: "facebook"}
+footerBlocks:
+-
+  title: "Divisions"
+  links:
+   - {permalink: "", text: "Machine Learning"}
+   - {permalink: "", text: "Robotics"}
+   - {permalink: "", text: "Software"}
+   - {permalink: "", text: "Applied Maths & Symbolic AI"}
+   - {permalink: "", text: "Operations"}
+   - {permalink: "", text: "Social Impact"}
+-
+  title: "Student Chapter"
+  links:
+   - {link: "https://www.aaai.org/", text: "Association for Advencement of Artificial Intelligence"}
+   - {link: "http://research.aaaimx.org", text: "Research"}
+   - {permalink: "/cod/", text: "Members Guidelines"}
+   - {link: "mailto:community@aaaimx.org", text: "Contact: community@aaaimx.org"}
+   - {permalink: "/benefits/", text: "Benefits"}
+-
+  title: "Useful Links"
+  links:
+   - {link: "https://www.aaai.org/Membership/membership-chapters.php", text: "AAAI Student Chapter Program"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: false
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "About us"
+aboutUs: "We are a group of students and researchers from the ITM along with researchers from the Center for Mathematical Research (CIMAT) and CentroGeo, some of the leading educational and research centers in Yucatán, México."
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "49.056728, 3.117289"
+logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+directionDetailsTitle: "Get around Lviv"
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+ - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+ - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+directionDetailsWideCards:
+ -
+  title: "Questions?"
+  subCards:
+   -
+    title: "Hotels"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Registration"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Attendance Details"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+
+# Hackathon
+hackathonTitle: "Contact"
+enableHackathon: true
+
+# Hackathon Judges Block
+judgesImage: "judges.jpg"
+judgesTitle: "Board"
+
+# Hackathon Prizes Block
+prizesTitle: "Prizes"
+prizes:
+ - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
+ - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+ - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+
+# Hackathon Location Block
+hackathonLocationBlockTitle: "Location"
+hackathonLocationName: "Communa"
+hackathonLocationLink: "http://communa.net.ua/"
+hackathonStreetAddress: "1 Halytska St"
+hackathonAddressLocality: "Lviv"
+hackathonAddressLocalityRegion: "Lvivska"
+hackathonPostalCode: "79000"
+hackathonAddressCountry: "Ukraine"
+hackathonTimeTitle: "Hack through"
+hackathonStartTime: "2014-10-24T10:00"
+hackathonDoorTime: "09:00"
+hackathonEndTime: "2014-10-25T00:00"
+viewOnMap: "View on Google Maps"
+hackathonPlaceCoordinates: "49.840999, 24.031144"
+hackathonMapCenterCoordinates: "49.840696, 24.028754"
+hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"

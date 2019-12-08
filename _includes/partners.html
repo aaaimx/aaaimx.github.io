@@ -1,0 +1,32 @@
+<!-- Begin Partners Section -->
+<section id="partners" class="partners">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.partnersTitle }}</h3>
+            {% for partner in site.data.partners %}
+            <h5>{{ partner.group }}</h5>
+            <ul class="list-inline">
+                {% for element in partner.elements %}
+                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                    <a href="{{ element.site }}" target="_blank">
+                        <img src="{{ site.baseurl }}/img/partners/{{ element.logoName }}" title="{{ element.name }}" alt="{{ element.alias }}">
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endfor %}
+            <a href="{{ site.c4sponsorsUrl | prepend: site.baseurl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">{{ site.partnersC4sponsorsButton }}</a>
+        </div>
+    </div> 
+</section>
+<style>
+.partners img {
+    width: 80%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+</style>
+<!-- End Partners Section -->
+

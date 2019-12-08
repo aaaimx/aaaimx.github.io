@@ -1,0 +1,258 @@
+[
+  {
+    "id": 0,
+    "name": "Esteban",
+    "surname": "Brito",
+    "charge": "Machine Learning Leader",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1rIyDCTzOt7v7tiYAk2vBZ2eY90KphjJ3",
+    "committee": true,
+    "ribbon": [
+      {
+        "abbr": "GDG",
+        "charge": "Google Developer Group"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/estebanemmanuel.britoborges"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/esteban-brito-4034b7177/"
+      },
+      {
+        "name": "github",
+        "link": "https://github.com/EstebanBrito"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Raul",
+    "surname": "Novelo",
+    "charge": "Software Leader",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1YdfbmIhTGpCCkhMaDrkEP777V7_fAOiG",
+    "committee": true,
+    "rg": "",
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/raul.novelocruz"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/raul-novelo-664224169/"
+      },
+      {
+        "name": "github",
+        "link": "https://github.com/RaulNovelo"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Humberto",
+    "surname": "Sarabia",
+    "charge": "Robotic/Electronic Leader",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1W8ZKWi0y0VR6BHnxiNKSFEk43INF4G2z",
+    "committee": true,
+    "ribbon": [
+      {
+        "abbr": "GDG",
+        "charge": "Google Developer Group"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/jesus.sarabiaosorio"
+      },
+      {
+        "name": "github",
+        "link": "https://github.com/ImHumbert"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Fernando",
+    "surname": "Herrera",
+    "charge": "Applied Maths Leader",
+    "thumbnailUrl": "https://drive.google.com/uc?id=147jtGvp0U7jwwNURjxNysA5MWYj_pN9j",
+    "committee": true,
+    "ribbon": [
+      {
+        "abbr": "GDG",
+        "charge": "Google Developer Group"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/profile.php?id=100009268537015"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Paul",
+    "surname": "Mena",
+    "charge": "Operations Leader / Treasure",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1rH8pja_Mpoma7aD5ku93sn2spvkGlsvl",
+    "committee": true,
+    "ribbon": [
+      {
+        "abbr": "GDG",
+        "charge": "Google Developer Group"
+      }
+    ],
+    "social": [
+      {
+        "name": "github",
+        "link": "https://github.com/paulspartan14"
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/in/paul-mena-428360185"
+      },
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/paul.mena.180"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Adolfo",
+    "surname": "Álvarez",
+    "charge": "Web Master",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1AHQdJOzqo02wYXp58ovb9B0pnAazoGn4",
+    "committee": true,
+    "ribbon": [
+      {
+        "abbr": "GDG",
+        "charge": "Google Developer Group"
+      }
+    ],
+    "social": [
+      {
+        "name": "github",
+        "link": "https://github.com/alvarez98"
+      },
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/profile.php?id=100015311889575"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Viridiana",
+    "surname": "Ramayo",
+    "charge": "Social Impact Co-Leader",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1KUtKN1hqzrRh5KhQqs5FXkpvN9-Bq382",
+    "committee": true,
+    "ribbon": [
+      {
+        "abbr": "GDG",
+        "charge": "Google Developer Group"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/profile.php?id=100015311889575"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Katia",
+    "surname": "Rosales",
+    "charge": "Social Impact Co-Leader",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1Ldo4mVOpFIEnVsTZjiHfMESIbmxBG6bL",
+    "committee": true,
+    "ribbon": [
+      {
+        "abbr": "GDG",
+        "charge": "Google Developer Group"
+      }
+    ],
+    "social": []
+  },
+  {
+    "id": 8,
+    "name": "Vicente",
+    "surname": "Yah",
+    "charge": "Applied Maths Division Member",
+    "thumbnailUrl": "/img/people/default-avatar.jpg",
+    "committee": true,
+    "ribbon": [
+      {
+        "abbr": "GDG",
+        "charge": "Google Developer Group"
+      }
+    ],
+    "social": []
+  },
+  {
+    "id": 20,
+    "name": "Juan Carlos",
+    "surname": "Valdiviezo-Navarro",
+    "charge": "Co-Chair / CentroGeo Researcher",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1OKP-nf96BvbHOp2BKCsDErNiYKvQyS2Q",
+    "board": true,
+    "social": [
+      {
+        "name": "rsearchgate",
+        "link": "https://www.researchgate.net/profile/Mauricio_Orozco-del-Castillo2"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Mauricio Gabriel",
+    "surname": "Orozco-del-Castillo",
+    "charge": "Chair / ITM Researcher",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1YXzETJvdQMv4UUfwP6_x1gCRUSN_v3xF",
+    "board": true,
+    "social": [
+      {
+        "name": "researchgate",
+        "link": "https://www.researchgate.net/profile/Juan_Valdiviezo-N"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Joel",
+    "surname": "Trejo-Sanchez",
+    "charge": "Secretary / CIMAT Researcher",
+    "thumbnailUrl": "/img/people/dr-joel-trejo.jpg",
+    "board": true,
+    "social": [
+      {
+        "name": "researchgate",
+        "link": "https://www.researchgate.net/profile/Joel_Trejo-Sanchez"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Juan Antonio",
+    "surname": "Recio-García",
+    "thumbnailUrl": "https://drive.google.com/uc?id=1nTEi2sYW43iZc6oAGAYFkyNsfGxJbBvn",
+    "thumbnailFile": "https://drive.google.com/file/d/1nTEi2sYW43iZc6oAGAYFkyNsfGxJbBvn/view?usp=drivesdk",
+    "charge": "Member / SE and AI Head of Department, UCM, España",
+    "board": true
+  },
+  {
+    "id": 24,
+    "name": "Jorge Javier",
+    "surname": "Hernández-Gómez",
+    "charge": "Senior Researcher, IPN-CDA, México",
+    "thumbnailUrl": "/img/people/jorge-hernandez.jpeg",
+    "board": true
+  }
+]

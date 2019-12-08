@@ -1,0 +1,45 @@
+<header id="top-header" class="top-header">
+    <div class="overlay white-solid"></div>
+    <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32">
+        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-menu"></use>
+    </svg>
+    <a href="{{ site.baseurl }}/" id="logo-header" class="logo-header">
+        <div class="logo logo-light">
+            <img class="logo logo-light" src="{{ site.baseurl }}/img/sprites/aaai-transpeps.png"
+                style="width: 80px !important" alt="" srcset="">
+
+        </div>
+    </a>
+    <nav class="st-menu st-effect" id="menu">
+        <div class="logo-navbar logo logo-dark visible-xs">
+            <img src="{{ site.baseurl }}/img/sprites/aaai-logo.jpg" style="width: 80px !important" alt="" srcset="">
+        </div>
+        <ul>
+            {% for navigationLink in site.navigationLinks %}
+            <li>
+                <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"
+                    href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}"
+                    {% if navigationLink.link != null %}target="_blank" {% endif %}>{{ navigationLink.text}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
+            {% for bottomNavigationLink in site.bottomNavigationLinks %}
+            <li>
+                <a onclick="showPopUpMmember(event)" href="{% if bottomNavigationLink.permalink != null %} {{ bottomNavigationLink.permalink | prepend: site.baseurl }} {% else %} {{ bottomNavigationLink.link }} {% endif %}"
+                    {% if bottomNavigationLink.link != null %}target="_blank"
+                    {% endif %}>{{ bottomNavigationLink.text }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% for rightNavigationButton in site.rightNavigationButtons %}
+        <a onclick="showPopUpMmember(event)"
+            href="{% if rightNavigationButton.permalink != null %} {{ rightNavigationButton.permalink | prepend: site.baseurl }} {% else %} {{ rightNavigationButton.link }} {% endif %}"
+            class="right-nav-button right-nav-button-hidden btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm"
+            {% if rightNavigationButton.link != null %}target="_blank" {% endif %}>
+            {{ rightNavigationButton.text }}
+        </a>
+        {% endfor %}
+    </nav>
+    
+</header>
