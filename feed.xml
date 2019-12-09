@@ -3,8 +3,8 @@
   <channel>
     <title>AAAIMX | Student Chapter</title>
     <description>We are a group of students and researchers from the ITM along with researchers from the Center for Mathematical Research (CIMAT) and CentroGeo</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://aaaimx.org/</link>
+    <atom:link href="http://aaaimx.org/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>GitHub Campus Experts 🚩</title>
@@ -37,8 +37,8 @@
 &lt;p&gt;Campus Experts is about &lt;em&gt;your community&lt;/em&gt;, not becoming a Git master. However, Campus Experts and the training does primarily take place through GitHub, so some Git/GitHub knowledge is helpful. You can learn everything you need to complete the training &lt;a href=&quot;https://education.github.com/students/experts&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Aug 2019 04:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/campus-experts</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/campus-experts</guid>
+        <link>http://aaaimx.org/blog/campus-experts</link>
+        <guid isPermaLink="true">http://aaaimx.org/blog/campus-experts</guid>
       </item>
     
       <item>
@@ -54,8 +54,8 @@
 &lt;p&gt;With the increasing demand for cloud employees, AWS Educate provides an academic gateway for the next generation of IT and cloud professionals. AWS Educate is Amazon’s global initiative to provide students and educators with the resources needed to accelerate cloud-related learning. &lt;a href=&quot;https://aws.amazon.com/education/awseducate/?nc1=h_ls&quot;&gt;Apply now&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Aug 2019 04:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/aws-educate</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/aws-educate</guid>
+        <link>http://aaaimx.org/blog/aws-educate</link>
+        <guid isPermaLink="true">http://aaaimx.org/blog/aws-educate</guid>
       </item>
     
       <item>
@@ -72,8 +72,8 @@ Teachers, researchers, faculty, and staff are not eligible for the Pack, but can
 Navigate to this link to more details. &lt;a href=&quot;https://education.github.com/pack#offers&quot;&gt;View on GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Aug 2019 03:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/developer-pack</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/developer-pack</guid>
+        <link>http://aaaimx.org/blog/developer-pack</link>
+        <guid isPermaLink="true">http://aaaimx.org/blog/developer-pack</guid>
       </item>
     
   </channel>
