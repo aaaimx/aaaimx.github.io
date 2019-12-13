@@ -1,0 +1,19 @@
+<!-- Declare a JsRender template, in a script block: -->
+<script>
+    $(document).ready(function () {
+        $.getJSON('https://aaaimx-admin.herokuapp.com/api/members/?panel=true&limit=20').then(function (data) {
+            console.log(data);
+            $('.loading').fadeOut(1000);
+            $('.members').fadeIn(1000);
+            members = data.results;
+            members.forEach(function (m) {
+                if (!m.board && m.charge.indexOf('Leader') != -1) {
+                    innerMember(m);
+                } else if (m.board) {
+                    innerBoardMember(m);
+                };
+            });
+        });
+    });
+   // Insert HTML string into DOM
+</script>

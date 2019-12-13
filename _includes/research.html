@@ -1,0 +1,156 @@
+<!-- Begin Blog-->
+<section id="blog" class="blog">
+    <div class="content-wrapper text-left">
+        <div class="col-md-11 col-sm-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+            <h3>Recent publications</h3>
+            <div class="col-md-7">
+                <!-- <div class="btn-group">
+                    <button type="button" class="btn btn-warning">Type</button>
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Theses</a></li>
+                        <li><a href="#">Presentations</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </div> 
+                <div class="btn-group text-center">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="active"><a href="#" >1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>-->
+                <!-- <div class="btn-group">
+                    <button type="button" class="btn btn-success">Category</button>
+                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a v-for="l in lines" :key="l.id" href="#">{{ l.topic }}</a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+            <div class="col-lg-7 col-md-7 col-xs-12 research">
+                <script class="research-template" type="text/x-custom-template">
+                <article class="row post card flex-md-row box-shadow h-md-250">
+                    <strong class="d-inline-block mb-2 text-primary">[[type]]</strong>
+                    <a href="#" title="[[urlTitle]]">
+                        <h5>[[title]]</h5>
+                    </a>
+                    <div class="post-header">
+                        <div class="published col-md-12 col-xs-12 authors">
+                            <!--<span class="caption">2019</span> -->
+                            [[authors]]
+                        </div>
+                        
+                    </div>
+                    <br>
+                    <p class="post-body">[[resume]] <a
+                        href="[[link]]">continue reading</a> </p>
+                    
+                </article>    
+                </script>
+
+                <script class="line-template" type="text/x-custom-template">
+                    <span class="badge badge-dark">[[line]]</span>  
+                </script>
+                <script class="author-template" type="text/x-custom-template">
+                        <span class="publish-date" itemprop="datePublished"><a href="#">
+                              [[surname]] [[name]]. <sup>[[position]]</sup>
+                        </a></span>
+                </script>
+
+
+            </div>
+            {% include social-research.html %}
+        </div>
+    </div>
+</section>
+<!-- End Blog -->
+
+<script>
+
+    function render(attributes, html) {
+        Object.keys(attributes, html).forEach(function (key) {
+            try {
+                html = html.replace('[[' + key + ']]', attributes[key]);
+            } catch (error) {
+                console.log(error);
+            };
+        });
+        return html;
+    }
+
+    $(document).ready(function () {
+        $.getJSON('https://aaaimx-admin.herokuapp.com/api/research/').then(function (data) {
+            console.log(data);
+            research = data.results;
+            research.forEach(function (r) {
+                var $research = $('.research')
+                    , templateHtml = $('.research-template', $research).html()
+                    , html = templateHtml;
+                var authors = [];
+                var authorTmpHtml = `<span class="publish-date" itemprop="datePublished"><a href="#">
+                                [[surname]] [[name]]. <sup>[[position]]</sup>
+                        </a></span>`;
+                var noAuthorTmpHtml = `<span class="publish-date" itemprop="datePublished">
+                                [[surname]] [[name]]. <sup>[[position]]</sup></span>`;
+                for (var a of r.authors) {
+                    var attributes = {
+                        name: a.name.slice(0, 1),
+                        surname: a.surname,
+                        position: a.position
+                    };
+                    if (a.active)
+                        author = authorTmpHtml;
+                    else
+                        author = noAuthorTmpHtml;
+                    Object.keys(attributes, author).forEach(function (key) {
+                        author = author.replace('[[' + key + ']]', attributes[key]);
+                    });
+                    authors.push(author);
+                };
+                if (!authors.length) {
+                    authors = ""
+                };
+                var attributes = {
+                    urlTitle: r.title,
+                    title: r.title,
+                    link: r.link,
+                    resume: r.resume.slice(0, 250) + '...',
+                    type: r.type,
+                    authors: authors
+                };
+                html = render(attributes, html);
+                $research.append(html);
+
+
+            });
+        });
+    });
+</script>

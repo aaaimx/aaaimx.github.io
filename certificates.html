@@ -1,0 +1,48 @@
+---
+layout: default
+title: Certificates
+permalink: /certificates/
+---
+
+{% include top-section.html %}
+
+<section class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card flex-md-row shadow">
+                <img id="imgCert" style="max-width: 100%" src="" />
+                <!-- <div class="mb-1 text-muted">2018</div>
+              <p class="card-text mb-auto">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <span class="badge badge-dark">
+                Internet of things
+              </span> -->
+            </div>
+            <!---->
+        </div>
+        {% include announcement.html %}
+    </div>
+    <!-- /.row -->
+</section>
+
+<script>
+    var urlParams = new URLSearchParams(window.location.search);
+    var config = {
+        method: 'GET',
+        mode: 'cors'
+    };
+    
+    fetch('https://aaaimx-admin.herokuapp.com/api/certificates/' + urlParams.get('id') + '/', config)
+        .then(function (response) {
+            if (response.status == 404) {
+                window.location = '404.html'
+            };
+            return response.json();
+        })
+        .then(function (data) {
+            document.getElementById("imgCert").src = getImgUrl(data.file)
+        });
+
+</script>

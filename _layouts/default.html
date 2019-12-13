@@ -88,7 +88,7 @@ layout: compress
         }
                 });
         var rockstarSpeakers = [
-            {% for speaker in site.data.team %}
+            {% for speaker in site.data.teamPen %}
         {% if speaker.committee %}
         { name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.charge }}", image: "{{ speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
         {% endif %}

@@ -106,7 +106,7 @@ statisticBlock:
  - {count: "50", specialCharacter: "+", info: "Members", detail: "From everywhere"}
  - {count: "4", specialCharacter: "+", info: "Partners", detail: "From everywhere"}
  - {count: "100", specialCharacter: "+", info: "Research", detail: "Productivity work"}
- - {count: "6", specialCharacter: "", info: "Divisions", detail: "Interest areas"}
+ - {count: "7", specialCharacter: "", info: "Divisions", detail: "Interest areas"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"

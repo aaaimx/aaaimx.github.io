@@ -1,0 +1,42 @@
+---
+layout: default
+title: Memberships
+permalink: /memberships/
+---
+
+<section class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <img id="imgMembership" style="max-width: 100%" src="" />
+            </div>
+        </div>
+        {% include announcement.html %}
+    </div>
+    <!-- /.row -->
+</section>
+
+<script>
+    var urlParams = new URLSearchParams(window.location.search);
+    var config = {
+        method: 'GET',
+        mode: 'cors'
+    };
+    fetch('https://aaaimx-admin.herokuapp.com/api/memberships/' + urlParams.get('id') + '/', config)
+        .then(function (response) {
+            if (response.status == 404) {
+                window.location = '404.html';
+            };
+            return response.json();
+        })
+        .then(function (data) {
+            var now = new Date();
+            if (new Date(data.exp) <= now) {
+                document.getElementById("imgMembership").src = '/img/other/expired.jpg';
+                return;
+            }
+            document.getElementById("imgMembership").src = '/img/other/verified.png';
+            return;
+        });
+
+</script>
