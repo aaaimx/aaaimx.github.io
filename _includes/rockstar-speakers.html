@@ -6,8 +6,30 @@
 		<div class="col-lg-10 col-lg-offset-1 rockstar-speakers-list">
 			<h3 id="rockstar-speaker-title">{{ site.rockstarSpeakersTitle }}</h3>
 			<div class="clearfix"></div>
+			<div class="row align-items-center">
+				{% assign animationDelay = 0 %} {% for member in site.data.team %}
+				{% assign colWidth = 12 | divided_by: forloop.length %}
+				{% if member.committee %}
+				<div class="col-md-3 col-xs-6 rockstar-speakers-item animated fadeInUp visible"
+					data-animation="fadeInUp" data-delay="0">
+					<div class="rockstar-speaker">
+						<div class="flow-img img-circle rockstar-speaker-img"
+							style="background-image: url({{member.thumbnailUrl}})">
+						</div>
+						<div class="name">{{member.name}} {{member.surname}}</div>
+						<div class="sub">{{member.charge}}</div>
+					</div>
+				</div>
+				{% endif %}
+				{% assign animationDelay = animationDelay | plus:500 %}
+				{% assign check = forloop.index | modulo:2 %}
+				{% if check == 0 %}
+				<div class="clearfix visible-xs"></div>
+				{% endif %}
+				{% endfor %}
+			</div>
 			<!---->
-			<img class="loading" width="100px" src="/img/other/loader.gif" alt="">
+			<!-- <img class="loading" width="100px" src="/img/other/loader.gif" alt="">
 			<div class="posted-review committee members">
 				<script class="committee-template" type="text/x-custom-template">
                     <div class="col-md-3 col-xs-6 rockstar-speakers-item animated fadeInUp visible" data-animation="fadeInUp"
@@ -21,7 +43,7 @@
                 </div>
             </div>
               </script>
-			</div>
+			</div> -->
 		</div>
 
 		<span class="bordered">

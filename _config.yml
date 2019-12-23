@@ -45,7 +45,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/members/", text: "Members"}
  - {permalink: "/structure/", text: "Structure"}
- - {link: "http://research.aaaimx.org/", text: "Research"}
+ - {permalink: "/research/", text: "Research"}
  - {link: "https://web.facebook.com/pg/aaaimx/events/?ref=page_internal", text: "Events"}
 #- {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/blog/", text: "Blog"}
@@ -109,7 +109,7 @@ statisticBlock:
  - {count: "7", specialCharacter: "", info: "Divisions", detail: "Interest areas"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Board’s recent JCR publications"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
@@ -139,7 +139,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 # Subscribe Block
 subscribeImage: "2.jpeg"
 subscribeTitle: "Intelligence is the best Human talent"
-subscribeAction: "http://research.aaaimx.org"
+subscribeAction: "http://aaaimx.org/research/"
 subscribeInfo: "Contributing to more students having knowledge of Artificial Intelligence and other increasingly popular related fields"
 
 # Footer
@@ -161,7 +161,7 @@ footerBlocks:
   title: "Student Chapter"
   links:
    - {link: "https://www.aaai.org/", text: "Association for Advencement of Artificial Intelligence"}
-   - {link: "http://research.aaaimx.org", text: "Research"}
+   - {link: "/research/", text: "Research"}
    - {permalink: "/cod/", text: "Members Guidelines"}
    - {link: "mailto:community@aaaimx.org", text: "Contact: community@aaaimx.org"}
    - {permalink: "/benefits/", text: "Benefits"}
@@ -171,12 +171,12 @@ footerBlocks:
    - {link: "https://www.aaai.org/Membership/membership-chapters.php", text: "AAAI Student Chapter Program"}
 
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Board’s recent JCR publications"
 blogCommentsEnabled: false
 discusShortName: "devfestua"
 
 # Speakers List Block
-showSessions: true
+showSessions: truelatestNewsTitle
 
 # Team Block
 teamBlockTitle: "About us"

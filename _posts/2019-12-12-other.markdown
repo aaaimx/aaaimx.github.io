@@ -1,0 +1,82 @@
+---
+layout: post
+title:  "Otras publicaciones"
+date:   2019-12-21 09:00:00
+isStaticPost: true
+permalink: /publications/:title
+---
+
+#### Publicaciones relevantes en los últimos 6 años
+
+> Medina, I., Hernández-Gómez, J. J., Miguel, C. T.-S., Couder-Castañeda, C., Orozco-Del-Castillo, M. G., & Grageda-Arellano, J. I. (2019). Artificial vision assisted ground fine pointing system for experimental optical link for CubeSat communications. Journal of Physics: Conference Series, 1221(1). [https://doi.org/10.1088/1742-6596/1221/1/012063](https://doi.org/10.1088/1742-6596/1221/1/012063)
+
+
+
+> Torres-Sanmiguel, C. R., Hernández-Gómez, J. J., Urriolagoitia-Sosa, G., Romero-ángeles, B., & Martínez-Sáez, L. (2019). Design and manufacture of a customised temporomandibular prosthesis. Revista Internacional de Metodos Numericos Para Calculo y Diseno En Ingenieria, 35(1). [https://doi.org/10.23967/j.rimni.2019.02.001](https://doi.org/10.23967/j.rimni.2019.02.001)
+
+
+
+> Trejo-Sánchez, J. A., Vela-Navarro, A., Flores-Lamas, A., López-Martínez, J. L., Bermejo-Sabbagh, C., Cuevas-Cuevas, N. L., & Toral-Cruz, H. (2019). Fast Random Cactus Graph Generation. In M. Torres, J. Klapp, I. Gitler, & A. Tchernykh (Eds.), International Conference on Supercomputing in Mexico (pp. 129–136). Cham: Springer International Publishing.
+
+
+
+> Hernández-Gómez, J. J., Couder-Castañeda, C., Herrera-Díaz, I. E., Flores-Guzmán, N., & Gómez-Cruz, E. (2017). Weakly coupled distributed calculation of Lyapunov exponents for non-linear dynamical systems. Algorithms, 10(4). [https://doi.org/10.3390/a10040137](https://doi.org/10.3390/a10040137)
+
+
+
+> Hernández, J. J., Gómez, E., Grageda, J. I., Couder, C., Solís, A., Hanotel, C. L., & Ledesma, J. I. (2017). Evolving aerodynamic airfoils for wind turbines through a genetic algorithm. Journal of Physics: Conference Series, 792(1). [https://doi.org/10.1088/1742-6596/792/1/012079](https://doi.org/10.1088/1742-6596/792/1/012079)
+
+
+
+
+
+> Ortiz-Alemán, C., Reyes-Olvera, M., Iglesias-Mendoza, A., Orozco-Del-Castillo, M. G., & Hernández-Gómez, J. J. (2017). Estimation of source; path and site effects at MASE array stations: A comprehensive study. Geofisica Internacional, 56(1), 71–85. [https://doi.org/10.19155/geofint.2017.056.1.6](https://doi.org/10.19155/geofint.2017.056.1.6)
+
+
+
+> Trejo-Arellano, J. M., Vazquez-Castillo, J., Longoria-Gandara, O., Gutierrez, C. A., Carrasco-Alvarez, R., & Castillo-Atoche, A. (2017). A novel function segmentation methodology for implementing affordable channel emulators. IEEE MTT-S Latin America Microwave Conference (LAMC). [https://doi.org/10.1109/LAMC.2016.7851264](https://doi.org/10.1109/LAMC.2016.7851264)
+
+
+
+> Hernández-Gómez, J. J., Couder-Casta˜neda, C., Grageda-Arellano, J. I., Ortiz Alemán, J. C., Solís-Santomé, A., & Medina, I. (2016). Remote sensing of gravity: Feasibility of low orbit local gravimetry with nanosatellites. 2016 IEEE 1er Congreso Nacional de Ciencias Geoespaciales (CNCG). [https://doi.org/10.1109/CNCG.2016.7985084](https://doi.org/10.1109/CNCG.2016.7985084)
+
+
+
+> Nava-Flores, M., Ortiz-Aleman, C., Orozco-Del-Castillo, M. G., Urrutia-Fucugauchi, J., Rodriguez-Castellanos, A., Couder-Castañeda, C., & Trujillo-Alcantara, A. (2016). 3D gravity modeling of complex salt features in the southern gulf of Mexico. International Journal of Geophysics, 2016. [https://doi.org/10.1155/2016/1702164](https://doi.org/10.1155/2016/1702164)
+
+
+
+> Ramírez-Pacheco, J., Rizo-Domínguez, L., Trejo-Sánchez, J. A., & Cortez-González, J. (2016). A nonextensive wavelet (q, q’)-entropy for 1/fα signals. Revista Mexicana de Fisica, 62(3), 229–234. Retrieved from [https://www.scopus.com/inward/record.uri?eid=2-s2.0-84962636466&partnerID=40&md5=f223b0a36eece9f6db0b35e0981c55c7](https://www.scopus.com/inward/record.uri?eid=2-s2.0-84962636466&partnerID=40&md5=f223b0a36eece9f6db0b35e0981c55c7)
+
+
+
+> Castro Angulo, A., Carrasco Alvarez, R., Ortegón Aguilar, J., Vázquez Castillo, J., Palma Marrufo, O., & Castillo Atoche, A. (2015). A case study of OpenCL-based parallel programming for low-power remote sensing applications. International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE). [https://doi.org/10.1109/ICEEE.2015.7357959](https://doi.org/10.1109/ICEEE.2015.7357959)
+
+
+
+> Couder-Castañeda, C., Ortiz-Alemán, J. C., Orozco-del-Castillo, M. G., & Nava-Flores, M. (2015). Forward modeling of gravitational fields on hybrid multi-threaded cluster. Geofisica Internacional, 54(1), 31–48. [https://doi.org/10.1016/j.gi.2015.04.002](https://doi.org/10.1016/j.gi.2015.04.002)
+
+
+
+> Ucán-Pech, J. P., Gómez, O. S., Castillo-Atoche, A. A., & Aguilar-Vera, R. A. (2015). Detection of defects with and without support of an intelligent collaborative virtual environment in introductory programming courses. In G. O.S., A. G., R. R.H., A. L., V. E., & G. O.S. (Eds.), XI Jornadas Iberoamericanas de Ingenieria de Software e Ingenieria del Conocimiento, JIISIC 2015 (pp. 65–78). Retrieved from [https://www.scopus.com/inward/record.uri?eid=2-s2.0-84935088664&partnerID=40&md5=a3ae0451aa7db44ddaaefd513ff530d0](https://www.scopus.com/inward/record.uri?eid=2-s2.0-84935088664&partnerID=40&md5=a3ae0451aa7db44ddaaefd513ff530d0)
+
+
+
+> Atoche, A. C., Marrufo, O. P., & Escalante, R. P. (2014). Aggregation of descriptive regularization and fuzzy logic techniques for enhanced remote sensing imaging. In D. A., F. J., F. J., & C. J.M. (Eds.), FCTA 2014 - Proceedings of the International Conference on Fuzzy Computation Theory and Applications (pp. 193–198). Retrieved from [https://www.scopus.com/inward/record.uri?eid=2-s2.0-84908680628&partnerID=40&md5=709588e32186ae5216ae31fde0ccb719](https://www.scopus.com/inward/record.uri?eid=2-s2.0-84908680628&partnerID=40&md5=709588e32186ae5216ae31fde0ccb719)
+
+
+
+> Castillo Atoche, A., Quijano Cetina, R., & Palma Marrufo, O. (2014). An improved RBR image reconstruction architecture based on super-systolic techniques. Journal of Ambient Intelligence and Humanized Computing, 5(5), 655–666. [https://doi.org/10.1007/s12652-013-0202-y](https://doi.org/10.1007/s12652-013-0202-y)
+
+
+
+> Góngora-Martín, C., Castillo-Atoche, A., Estrada-López, J., Vázquez-Castillo, J., Ortegón-Aguilar, J., & Carrasco-Álvarez, R. (2014). Hybrid FPGA/ARM co-design for near real time of remote sensing imagery. In H. E. & B.-C. E. (Eds.), CIARP 2014: Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications (Vol. 8827, pp. 1039–1046). Retrieved from [https://www.scopus.com/inward/record.uri?eid=2-s2.0-84949127086&partnerID=40&md5=037aca78b70850ee24845bd957481fa8](https://www.scopus.com/inward/record.uri?eid=2-s2.0-84949127086&partnerID=40&md5=037aca78b70850ee24845bd957481fa8)
+
+
+
+> Mera-González, L. Y., Delgado-Atencio, J. A., Valdiviezo-Navarro, J. C., & Cunill-Rodríguez, M. (2014). An algorithm for the characterization of digital images of pigmented lesions of human skin. In T. A.G. (Ed.), SPIE Optical Engineering + Applications (Vol. 9217). [https://doi.org/10.1117/12.2062425](https://doi.org/10.1117/12.2062425)
+
+
+
+> Muñoz, P. P., Cetina, R. Q., Bañuelos, M. F., & Atoche, A. C. (2014). Solar photovoltaic emulator system based on a systolic array network. IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences, E97-A(5), 1119–1120. [https://doi.org/10.1587/transfun.E97.A.1119](https://doi.org/10.1587/transfun.E97.A.1119)
+

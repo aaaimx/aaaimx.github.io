@@ -4,6 +4,8 @@
         <div class="col-md-11 col-sm-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
             <h3>Recent publications</h3>
             <div class="col-md-7">
+
+            <img class="loading" width="100px" src="/img/other/loader.gif" alt="">
                 <!-- <div class="btn-group">
                     <button type="button" class="btn btn-warning">Type</button>
                     <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown"
@@ -55,13 +57,14 @@
                     </ul>
                 </div> -->
             </div>
+            <!-- <a href="#" title="[[urlTitle]]">
+                <h5>[[title]]</h5>
+            </a> -->
             <div class="col-lg-7 col-md-7 col-xs-12 research">
                 <script class="research-template" type="text/x-custom-template">
                 <article class="row post card flex-md-row box-shadow h-md-250">
-                    <strong class="d-inline-block mb-2 text-primary">[[type]]</strong>
-                    <a href="#" title="[[urlTitle]]">
-                        <h5>[[title]]</h5>
-                    </a>
+                    <strong class="d-inline-block mb-2 text-[[badge]]">[[type]]</strong>
+                    <h5>[[title]]</h5>
                     <div class="post-header">
                         <div class="published col-md-12 col-xs-12 authors">
                             <!--<span class="caption">2019</span> -->
@@ -70,9 +73,8 @@
                         
                     </div>
                     <br>
-                    <p class="post-body">[[resume]] <a
-                        href="[[link]]">continue reading</a> </p>
-                    
+                    <p class="post-body">[[resume]] </p>
+                    <a class="pull-right" href="[[link]]">continue reading</a> 
                 </article>    
                 </script>
 
@@ -107,14 +109,16 @@
     }
 
     $(document).ready(function () {
-        $.getJSON('https://aaaimx-admin.herokuapp.com/api/research/').then(function (data) {
-            console.log(data);
+        $.getJSON('https://aaaimx-admin.herokuapp.com/api/research/?limit=50').then(function (data) {
+            $('.loading').fadeOut(500);
+            $('.research').fadeIn(1000);
             research = data.results;
             research.forEach(function (r) {
                 var $research = $('.research')
                     , templateHtml = $('.research-template', $research).html()
                     , html = templateHtml;
                 var authors = [];
+                var badges = { Thesis: "primary", Presentation: "info", Article: "success" };
                 var authorTmpHtml = `<span class="publish-date" itemprop="datePublished"><a href="#">
                                 [[surname]] [[name]]. <sup>[[position]]</sup>
                         </a></span>`;
@@ -136,20 +140,24 @@
                     authors.push(author);
                 };
                 if (!authors.length) {
-                    authors = ""
+                    authors = "";
                 };
+
                 var attributes = {
                     urlTitle: r.title,
+                    badge: badges[r.type],
                     title: r.title,
                     link: r.link,
-                    resume: r.resume.slice(0, 250) + '...',
+                    resume: r.resume.slice(0, 250),
                     type: r.type,
                     authors: authors
                 };
-                html = render(attributes, html);
-                $research.append(html);
-
-
+                if (r.resume.length)
+                    attributes.resume += '...';
+                if (r.authors.length) {
+                    html = render(attributes, html);
+                    $research.append(html);
+                }
             });
         });
     });

@@ -5,7 +5,27 @@
     <div class="content-wrapper">
         <div class="col-lg-12">
             <h3>{{ site.judgesTitle }}</h3>
-            <img class="loading" width="100px" src="/img/other/loader.gif" alt="">
+            <div class="row align-items-center">
+                {% assign animationDelay = 0 %} {% for judge in site.data.team %}
+                {% assign colWidth = 12 | divided_by: forloop.length %}
+                {% if judge.board %}
+                <div class="judge col-md-{{ colWidth }} col-lg-4 col-sm-6 animated hiding" data-animation="fadeInDown"
+                    data-delay="{{ animationDelay }}">
+                    <div class="flow-img img-circle judge-img" style="background-image: url({{ judge.thumbnailUrl }})">
+                    </div>
+                    <p class="name">{{ judge.name }} {{ judge.surname }}</p>
+                    <span class="company">{{ judge.adscription }}</span>
+                    <span class="title">{{ judge.charge }}</span>
+                </div>
+                {% endif %}
+                {% assign animationDelay = animationDelay | plus:500 %}
+                {% assign check = forloop.index | modulo:2 %}
+                {% if check == 0 %}
+                <div class="clearfix visible-xs"></div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            <!-- <img class="loading" width="100px" src="/img/other/loader.gif" alt="">
             <div class="row align-items-center board members">
                 <script class="board-template" type="text/x-custom-template">
                 <div class="judge col col-md-6 col-xs-6 col-lg-4" data-animation="fadeInDown" data-delay="1800">
@@ -16,7 +36,7 @@
                         class="title">[[charge]]</span>
                 </div>
             </script>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
