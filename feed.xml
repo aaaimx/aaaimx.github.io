@@ -7,73 +7,214 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>GitHub Campus Experts 🚩</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/1790822/28984617-e789fa78-792c-11e7-9c9f-17c23a70e6cc.png&quot; alt=&quot;lockup&quot; /&gt;&lt;/p&gt;
+        <title>Indexadas en JCR</title>
+        <description>&lt;h4 id=&quot;publicaciones-relevantes-en-los-últimos-6-años&quot;&gt;Publicaciones relevantes en los últimos 6 años&lt;/h4&gt;
 
-&lt;h4 id=&quot;what-is-a-campus-expert&quot;&gt;What is a Campus Expert?&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Castillo Atoche, A., Vázquez Castillo, J., Ortegón-Aguilar, J., Carrasco-Alvarez, R., Sandoval Gío, J., &amp;amp; Colli-Menchi, A. (2015). A high-accuracy photovoltaic emulator system using ARM processors. Solar Energy, 120, 389–398. &lt;a href=&quot;https://doi.org/10.1016/j.solener.2015.05.026&quot;&gt;https://doi.org/10.1016/j.solener.2015.05.026&lt;/a&gt;. JCR: 3.685; Q1&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;People learn better when they can learn with a community of likeminded peers. A Campus Expert is a student trained to build a strong technical community, on campus. As well as training, Campus Experts have access to resources and support from GitHub, such as swag, sponsorship, and the opportunity to attend events like GitHub Universe.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Estrada-Lopez, J. J., Castillo-Atoche, A. A., Vazquez-Castillo, J., &amp;amp;  Sanchez-Sinencio, E. (2018). Smart Soil Parameters Estimation System Using an Autonomous Wireless Sensor Network with Dynamic Power Management Strategy. IEEE Sensors Journal, 18(21), 8913–8923. &lt;a href=&quot;https://doi.org/10.1109/JSEN.2018.2867432&quot;&gt;https://doi.org/10.1109/JSEN.2018.2867432&lt;/a&gt;. JCR: 3.076; Q1&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h4 id=&quot;how-do-i-become-a-campus-expert&quot;&gt;How do I become a Campus Expert?&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Osorio de la Rosa, E., Vázquez Castillo, J., Carmona Campos, M., Barbosa Pool, G. R., Becerra Nuñez, G., Castillo Atoche, A., &amp;amp; Ortegón Aguilar, J. (2019). Plant Microbial Fuel Cells−Based Energy Harvester System for Self-powered IoT Applications. Sensors (Basel, Switzerland), 19(6). &lt;a href=&quot;https://doi.org/10.3390/s19061378&quot;&gt;https://doi.org/10.3390/s19061378&lt;/a&gt;. JCR: 3.031; Q1&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;To become a Campus Expert, you first have to complete the training. To join the training, you need to be a verified student, over the age of 18. To verify as a student, sign up for the &lt;a href=&quot;https://education.github.com/pack&quot;&gt;GitHub Student Developer Pack&lt;/a&gt;. Once you are verified as a student, you can join the &lt;a href=&quot;https://education.github.com/experts&quot;&gt;Campus Expert training&lt;/a&gt; ✨.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Ramírez-Pacheco, J. C., Trejo-Sánchez, J. A., Cortez-González, J., &amp;amp; Palacio, R. R. (2017). Classification of fractal signals using two-parameter non-extensivewavelet entropy. Entropy, 19(5). &lt;a href=&quot;https://doi.org/10.3390/e19050224&quot;&gt;https://doi.org/10.3390/e19050224&lt;/a&gt;. JCR: 2.305; Q2&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h4 id=&quot;what-benefits-do-campus-experts-get-from-github&quot;&gt;What benefits do Campus Experts get from GitHub?&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Rodríguez-Castellanos, A., Martínez-Calzada, V., Rodríguez-Sánchez, J. E., Orozco-del-Castillo, M., &amp;amp; Carbajal-Romero, M. (2014). Induced water pressure profiles due to seismic motions. Applied Ocean Research, 47, 9–16. &lt;a href=&quot;https://doi.org/10.1016/j.apor.2014.03.004&quot;&gt;https://doi.org/10.1016/j.apor.2014.03.004&lt;/a&gt;. JCR: 1.287; Q2&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;When you complete the training and become a Campus Expert, you have access to benefits and extra support from GitHub.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Rodríguez-Cuevas, C., Rocha-Escalante, H., Couder-Castañeda, C., Medina, I., &amp;amp; Hernández-Gómez, J. J. (2019). Hydrodynamic-based numerical assessment of flood risk of Tamuín city, Mexico, by Tampaón River: A forecast considering climate change. Water (Switzerland), 11(9). &lt;a href=&quot;https://doi.org/10.3390/w11091867&quot;&gt;https://doi.org/10.3390/w11091867&lt;/a&gt;. JCR: 2.524; Q2&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Campus Expert benefits depend on the training modules completed. Each training module awards access to a different set of related benefits, described in the README of the training module. As a Campus Expert completes more training modules, they will gain access to more resources to use to help their community. Benefits range from free stickers and cheat sheets for your school, to event/hackathon sponsorships, to travel support to attend GitHub events and conferences.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Sanchez-Lara, R., Trejo-Sanchez, J. A., Lopez-Martinez, J. L., &amp;amp; Alvarez-Chavez, J. A. (2018). Simulation of an inelastic dispersive phenomenon: stimulated Brillouin scattering in a single-mode fiber segment through parallelism. Journal of Supercomputing, 74(7), 3264–3277. &lt;a href=&quot;https://doi.org/10.1007/s11227-018-2379-5&quot;&gt;https://doi.org/10.1007/s11227-018-2379-5&lt;/a&gt;. JCR: 2.157; Q2&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;In addition to material resources and benefits, Campus Experts gain access to regular webinars and guest talks from industry experts, and spaces to collaborate with other Campus Experts and GitHubbers.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Trejo-Arellano, J. M., Vázquez Castillo, J., Longoria-Gandara, O., Carrasco-Alvarez, R., Gutiérrez, C. A., &amp;amp; Castillo Atoche, A. (2018). Adaptive segmentation methodology for hardware function evaluators. Computers and Electrical Engineering, 69, 194–211. &lt;a href=&quot;https://doi.org/10.1016/j.compeleceng.2018.04.024&quot;&gt;https://doi.org/10.1016/j.compeleceng.2018.04.024&lt;/a&gt;. JCR: 2.189; Q2&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h4 id=&quot;how-does-being-a-campus-expert-work-what-are-the-expectations-of-a-campus-expert&quot;&gt;How does being a Campus Expert work? What are the expectations of a Campus Expert?&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Trejo-Sánchez, J. A., &amp;amp; Fernández-Zepeda, J. A. (2014). Distributed algorithm for the maximal 2-packing in geometric outerplanar graphs. Journal of Parallel and Distributed Computing, 74(3), 2193–2202. &lt;a href=&quot;https://doi.org/10.1016/j.jpdc.2013.12.002&quot;&gt;https://doi.org/10.1016/j.jpdc.2013.12.002&lt;/a&gt;. JCR: 1.179; Q2&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;During the introductory part of the training, you analyse your community and define goals for improving it. As a Campus Expert, you are expected to meet these goals, and build the best community for your campus. We at GitHub understand that you are busy students, trying to make your campus a better place. This is why you set your own community goals, and participate in as much of the training as you need to achieve those goals.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Yam-Uicab, R., Lopez-Martinez, J. L., Trejo-Sanchez, J. A., Hidalgo-Silva, H., &amp;amp; Gonzalez-Segura, S. (2017). A fast Hough Transform algorithm for straight lines detection in an image using GPU parallel computing with CUDA-C. Journal of Supercomputing, 73(11), 4823–4842. &lt;a href=&quot;https://doi.org/10.1007/s11227-017-2051-5&quot;&gt;https://doi.org/10.1007/s11227-017-2051-5&lt;/a&gt;. JCR: 1.532; Q2&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;When you become a Campus Expert, you gain access to tools that help you make resource requests, and collaborate with GitHub Staff and other Campus Experts.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Ayala-Ruiz, D., Castillo Atoche, A., Ruiz-Ibarra, E., Osorio De La Rosa, E., &amp;amp; Vázquez Castillo, J. (2019). A self-powered PMFC-based wireless sensor node for smart city applications. Wireless Communications and Mobile Computing, 2019. &lt;a href=&quot;https://doi.org/10.1155/2019/8986302&quot;&gt;https://doi.org/10.1155/2019/8986302&lt;/a&gt;. JCR: 1.396; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h4 id=&quot;do-i-need-to-know-how-to-use-gitgithub&quot;&gt;Do I need to know how to use Git/GitHub?&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Carrasco-Alvarez, R., Carreón-Villal, R., Vázquez Castillo, J., Ortegón Aguilar, J., Longoria-Gandara, O., &amp;amp; Castillo Atoche, A. (2018). A triply selective MIMO channel simulator using GPUs. Wireless Communications and Mobile Computing, 2018. &lt;a href=&quot;https://doi.org/10.1155/2018/3517489&quot;&gt;https://doi.org/10.1155/2018/3517489&lt;/a&gt;. JCR: 1.396; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Campus Experts is about &lt;em&gt;your community&lt;/em&gt;, not becoming a Git master. However, Campus Experts and the training does primarily take place through GitHub, so some Git/GitHub knowledge is helpful. You can learn everything you need to complete the training &lt;a href=&quot;https://education.github.com/students/experts&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Carrasco-Alvarez, R., Vázquez Castillo, J., Castillo Atoche, A., &amp;amp; Ortegón Aguilar, J. (2015). A fading channel simulator implementation based on GPU computing techniques. Mathematical Problems in Engineering, 2015. &lt;a href=&quot;https://doi.org/10.1155/2015/237061&quot;&gt;https://doi.org/10.1155/2015/237061&lt;/a&gt;. JCR: 0.644; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hernández-Gómez, J. J., Medina, I., Torres-San Miguel, C. R., Sol-S-Santomé, A., Couder-Castañeda, C., Ortiz-Alemán, J. C., &amp;amp; Grageda-Arellano, J. I. (2018). Error assessment model for the inverse kinematics problem for stewart parallel mechanisms for accurate aerospace optical linkage. Mathematical Problems in Engineering, 2018. &lt;a href=&quot;https://doi.org/10.1155/2018/9592623&quot;&gt;https://doi.org/10.1155/2018/9592623&lt;/a&gt;. JCR: 1.179; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Orozco-del-Castillo, M. G., Cárdenas-Soto, M., Ortiz-Alemán, C., Couder-Castañeda, C., Urrutia-Fucugauchi, J., &amp;amp; Trujillo-Alcántara, A. (2017). A texture-based region growing algorithm for volume extraction in seismic data. Geophysical Prospecting, 65(1), 97–105. &lt;a href=&quot;https://doi.org/10.1111/1365-2478.12381&quot;&gt;https://doi.org/10.1111/1365-2478.12381&lt;/a&gt;. JCR: 1.744; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Orozco-del-Castillo, M. G., Ortiz-Alemán, C., Urrutia-Fucugauchi, J., Martin, R., Rodriguez-Castellanos, A., &amp;amp; Villaseñor-Rojas, P. E. (2014). A genetic algorithm for filter design to enhance features in seismic images. Geophysical Prospecting, 62(2), 210–222. &lt;a href=&quot;https://doi.org/10.1111/1365-2478.12026&quot;&gt;https://doi.org/10.1111/1365-2478.12026&lt;/a&gt;. JCR: 1.467;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ortiz-Alemán, J. C., Abreu-Torres, J., Orozco-del-Castillo, M. G., &amp;amp; Hernández-Gómez, J. J. (2019). Pattern Recognition Applied to Attenuation of Multiples in Subsalt Imaging. Pure and Applied Geophysics, 176(6), 2411–2424. &lt;a href=&quot;https://doi.org/10.1007/s00024-019-02135-1&quot;&gt;https://doi.org/10.1007/s00024-019-02135-1&lt;/a&gt;. JCR: 1.466; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Pérez-Ramírez, A., Guerrero Juk, J., Sanchez-Lara, R., Trejo-Sánchez, J. A., &amp;amp; De La Cruz-May, L. (2017). Application of mathematical symmetrical group theory in the creation process of digital holograms. Mathematical Problems in Engineering, 2017. &lt;a href=&quot;https://doi.org/10.1155/2017/5612743&quot;&gt;https://doi.org/10.1155/2017/5612743&lt;/a&gt;. JCR: 1.145; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rodríguez-Sánchez, A., Couder-Castañeda, C., Hernández-Gómez, J. J., Medina, I., Peña-Ruiz, S., Sosa-Pedroza, J., &amp;amp; Enciso-Aguilar, M. A. (2018). Analysis of electromagnetic propagation from MHz to THz with a memory-optimised CPML-FDTD algorithm. International Journal of Antennas and Propagation, 2018. &lt;a href=&quot;https://doi.org/10.1155/2018/5710943&quot;&gt;https://doi.org/10.1155/2018/5710943&lt;/a&gt;. JCR: 1.347; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rodríguez-Sánchez, J. E., Orozco-Del-Castillo, M. G., Rodríguez-Castellanos, A., Ávila-Carrera, R., &amp;amp; Valle-Molina, C. (2018). A fuzzy inference system applied to estimate the error in the recovery of the Green’s function by means of seismic noise correlations. Journal of Geophysics and Engineering, 15(5), 2110–2123. &lt;a href=&quot;https://doi.org/10.1088/1742-2140/aac4bf&quot;&gt;https://doi.org/10.1088/1742-2140/aac4bf&lt;/a&gt;. JCR: 1.411; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Torres-Bejarano, F., Couder-Castañeda, C., Ram-Rez-León, H., Hernández-Gómez, J. J., Rodr-Guez-Cuevas, C., Herrera-Díaz, I. E., &amp;amp; Barrios-Piña, H. (2019). Numerical modelling of heavy metal dynamics in a river-lagoon system. Mathematical Problems in Engineering, 2019. &lt;a href=&quot;https://doi.org/10.1155/2019/8485031&quot;&gt;https://doi.org/10.1155/2019/8485031&lt;/a&gt;. JCR: 1.179; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yam-Uicab, R., López-Martínez, J., Llanes-Castro, E., Narvaez-Díaz, L., &amp;amp; Trejo-Sánchez, J. (2018). A Parallel Algorithm for the Counting of Ellipses Present in Conglomerates Using GPU. Mathematical Problems in Engineering, 2018. &lt;a href=&quot;https://doi.org/10.1155/2018/5714638&quot;&gt;https://doi.org/10.1155/2018/5714638&lt;/a&gt;. JCR: 1.179; Q3&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Flores-Lamas, A., Fernández-Zepeda, J. A., &amp;amp; Trejo-Sánchez, J. A. (2018). Algorithm to find a maximum 2-packing set in a cactus. Theoretical Computer Science, 725, 31–51. &lt;a href=&quot;https://doi.org/10.1016/j.tcs.2017.11.030&quot;&gt;https://doi.org/10.1016/j.tcs.2017.11.030&lt;/a&gt;. JCR: 0.718; Q4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hernández-Gómez, J. J., Gómez, R. W., &amp;amp; Couder-Castañeda, C. (2017). Impact of mass gain, tailwind &amp;amp; age on the performance of Usain Bolt from Beijing 2008 to Rio 2016. European Journal of Physics, 38(5). &lt;a href=&quot;https://doi.org/10.1088/1361-6404/aa7ea7&quot;&gt;https://doi.org/10.1088/1361-6404/aa7ea7&lt;/a&gt;. JCR: 0.642; Q4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Marquina, J. E., Marquina, M. L., Marquina, V., &amp;amp; Hernández-Gómez, J. J. (2016). Leonhard Euler and the mechanics of rigid bodies. European Journal of Physics, 38(1). &lt;a href=&quot;https://doi.org/10.1088/0143-0807/38/1/015001&quot;&gt;https://doi.org/10.1088/0143-0807/38/1/015001&lt;/a&gt;. JCR: 0.614; Q4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Medina, I., Couder-Castaneda, C., Hernandez-Gomez, J. J., &amp;amp; Saucedo-Jimenez, D. (2019). On Waveguides Critical Corona Breakdown Thresholds Dependence on the Collision Frequency between Electrons and Air. IEEE Transactions on Plasma Science, 47(3), 1611–1615. &lt;a href=&quot;https://doi.org/10.1109/TPS.2019.2897081&quot;&gt;https://doi.org/10.1109/TPS.2019.2897081&lt;/a&gt;. JCR: 1.325; Q4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Orozco-Del-Castillo, M. G., Ortiz-Alemán, J. C., Couder-Castañeda, C., Hernández-Gómez, J. J., &amp;amp; Solís-Santomé, A. (2017). High solar activity predictions through an artificial neural network. International Journal of Modern Physics C, 28(6). &lt;a href=&quot;https://doi.org/10.1142/S0129183117500759&quot;&gt;https://doi.org/10.1142/S0129183117500759&lt;/a&gt;. JCR: 0.919; Q4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Solís-Santomé, A., Urriolagoitia-Sosa, G., Romero-Ángeles, B., Torres-San Miguel, C. R., Hernández-Gómez, J. J., Medina-Sánchez, I., … Urriolagoitia-Calderón, G. (2019). Conceptual design and finite element method validation of a new type of self-locking hinge for deployable CubeSat solar panels. Advances in Mechanical Engineering, 11(1). &lt;a href=&quot;https://doi.org/10.1177/1687814018823116&quot;&gt;https://doi.org/10.1177/1687814018823116&lt;/a&gt;. JCR: 1.024; Q4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Trejo-Sánchez, J. A., Fernández-Zepeda, J. A., &amp;amp; Ramírez-Pacheco, J. C. (2017). A Self-Stabilizing Algorithm for a Maximal 2-Packing in a Cactus Graph under Any Scheduler. International Journal of Foundations of Computer Science, 28(8), 1021–1045. &lt;a href=&quot;https://doi.org/10.1142/S012905411750037X&quot;&gt;https://doi.org/10.1142/S012905411750037X&lt;/a&gt;. JCR: 0.353; Q4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Valdiviezo-Navarro, J. C., Salazar-Garibay, A., Téllez-Quiñones, A., Orozco-Del-Castillo, M., &amp;amp; López-Caloca, A. A. (2019). Inland water body extraction in complex reliefs from Sentinel-1 satellite data. Journal of Applied Remote Sensing, 13(1). &lt;a href=&quot;https://doi.org/10.1117/1.JRS.13.016524&quot;&gt;https://doi.org/10.1117/1.JRS.13.016524&lt;/a&gt;. JCR: 1.344; Q4&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 03 Aug 2019 04:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/campus-experts</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/campus-experts</guid>
+        <link>http://localhost:4000/blog/jcr</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/jcr</guid>
       </item>
     
       <item>
-        <title>AWS Educate</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;AWS Educate is Amazon’s program to help students learn real-world cloud technology skills before graduating. It provides students and educators with the resources needed to accelerate cloud-related learning.&lt;/p&gt;
+        <title>Otras publicaciones</title>
+        <description>&lt;h4 id=&quot;publicaciones-relevantes-en-los-últimos-6-años&quot;&gt;Publicaciones relevantes en los últimos 6 años&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Medina, I., Hernández-Gómez, J. J., Miguel, C. T.-S., Couder-Castañeda, C., Orozco-Del-Castillo, M. G., &amp;amp; Grageda-Arellano, J. I. (2019). Artificial vision assisted ground fine pointing system for experimental optical link for CubeSat communications. Journal of Physics: Conference Series, 1221(1). &lt;a href=&quot;https://doi.org/10.1088/1742-6596/1221/1/012063&quot;&gt;https://doi.org/10.1088/1742-6596/1221/1/012063&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://d1.awsstatic.com/Digital%20Marketing/House/temp/logo_aws-educate.812809f63186598d26a56d443d829afa390566d1.png&quot; alt=&quot;lockup&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Torres-Sanmiguel, C. R., Hernández-Gómez, J. J., Urriolagoitia-Sosa, G., Romero-ángeles, B., &amp;amp; Martínez-Sáez, L. (2019). Design and manufacture of a customised temporomandibular prosthesis. Revista Internacional de Metodos Numericos Para Calculo y Diseno En Ingenieria, 35(1). &lt;a href=&quot;https://doi.org/10.23967/j.rimni.2019.02.001&quot;&gt;https://doi.org/10.23967/j.rimni.2019.02.001&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h4 id=&quot;teach-tomorrows-cloud-workforce-today&quot;&gt;Teach Tomorrow’s Cloud Workforce Today&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Trejo-Sánchez, J. A., Vela-Navarro, A., Flores-Lamas, A., López-Martínez, J. L., Bermejo-Sabbagh, C., Cuevas-Cuevas, N. L., &amp;amp; Toral-Cruz, H. (2019). Fast Random Cactus Graph Generation. In M. Torres, J. Klapp, I. Gitler, &amp;amp; A. Tchernykh (Eds.), International Conference on Supercomputing in Mexico (pp. 129–136). Cham: Springer International Publishing.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;With the increasing demand for cloud employees, AWS Educate provides an academic gateway for the next generation of IT and cloud professionals. AWS Educate is Amazon’s global initiative to provide students and educators with the resources needed to accelerate cloud-related learning. &lt;a href=&quot;https://aws.amazon.com/education/awseducate/?nc1=h_ls&quot;&gt;Apply now&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Hernández-Gómez, J. J., Couder-Castañeda, C., Herrera-Díaz, I. E., Flores-Guzmán, N., &amp;amp; Gómez-Cruz, E. (2017). Weakly coupled distributed calculation of Lyapunov exponents for non-linear dynamical systems. Algorithms, 10(4). &lt;a href=&quot;https://doi.org/10.3390/a10040137&quot;&gt;https://doi.org/10.3390/a10040137&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hernández, J. J., Gómez, E., Grageda, J. I., Couder, C., Solís, A., Hanotel, C. L., &amp;amp; Ledesma, J. I. (2017). Evolving aerodynamic airfoils for wind turbines through a genetic algorithm. Journal of Physics: Conference Series, 792(1). &lt;a href=&quot;https://doi.org/10.1088/1742-6596/792/1/012079&quot;&gt;https://doi.org/10.1088/1742-6596/792/1/012079&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ortiz-Alemán, C., Reyes-Olvera, M., Iglesias-Mendoza, A., Orozco-Del-Castillo, M. G., &amp;amp; Hernández-Gómez, J. J. (2017). Estimation of source; path and site effects at MASE array stations: A comprehensive study. Geofisica Internacional, 56(1), 71–85. &lt;a href=&quot;https://doi.org/10.19155/geofint.2017.056.1.6&quot;&gt;https://doi.org/10.19155/geofint.2017.056.1.6&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Trejo-Arellano, J. M., Vazquez-Castillo, J., Longoria-Gandara, O., Gutierrez, C. A., Carrasco-Alvarez, R., &amp;amp; Castillo-Atoche, A. (2017). A novel function segmentation methodology for implementing affordable channel emulators. IEEE MTT-S Latin America Microwave Conference (LAMC). &lt;a href=&quot;https://doi.org/10.1109/LAMC.2016.7851264&quot;&gt;https://doi.org/10.1109/LAMC.2016.7851264&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hernández-Gómez, J. J., Couder-Casta˜neda, C., Grageda-Arellano, J. I., Ortiz Alemán, J. C., Solís-Santomé, A., &amp;amp; Medina, I. (2016). Remote sensing of gravity: Feasibility of low orbit local gravimetry with nanosatellites. 2016 IEEE 1er Congreso Nacional de Ciencias Geoespaciales (CNCG). &lt;a href=&quot;https://doi.org/10.1109/CNCG.2016.7985084&quot;&gt;https://doi.org/10.1109/CNCG.2016.7985084&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nava-Flores, M., Ortiz-Aleman, C., Orozco-Del-Castillo, M. G., Urrutia-Fucugauchi, J., Rodriguez-Castellanos, A., Couder-Castañeda, C., &amp;amp; Trujillo-Alcantara, A. (2016). 3D gravity modeling of complex salt features in the southern gulf of Mexico. International Journal of Geophysics, 2016. &lt;a href=&quot;https://doi.org/10.1155/2016/1702164&quot;&gt;https://doi.org/10.1155/2016/1702164&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ramírez-Pacheco, J., Rizo-Domínguez, L., Trejo-Sánchez, J. A., &amp;amp; Cortez-González, J. (2016). A nonextensive wavelet (q, q’)-entropy for 1/fα signals. Revista Mexicana de Fisica, 62(3), 229–234. Retrieved from &lt;a href=&quot;https://www.scopus.com/inward/record.uri?eid=2-s2.0-84962636466&amp;amp;partnerID=40&amp;amp;md5=f223b0a36eece9f6db0b35e0981c55c7&quot;&gt;https://www.scopus.com/inward/record.uri?eid=2-s2.0-84962636466&amp;amp;partnerID=40&amp;amp;md5=f223b0a36eece9f6db0b35e0981c55c7&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Castro Angulo, A., Carrasco Alvarez, R., Ortegón Aguilar, J., Vázquez Castillo, J., Palma Marrufo, O., &amp;amp; Castillo Atoche, A. (2015). A case study of OpenCL-based parallel programming for low-power remote sensing applications. International Conference on Electrical Engineering, Computing Science and Automatic Control (CCE). &lt;a href=&quot;https://doi.org/10.1109/ICEEE.2015.7357959&quot;&gt;https://doi.org/10.1109/ICEEE.2015.7357959&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Couder-Castañeda, C., Ortiz-Alemán, J. C., Orozco-del-Castillo, M. G., &amp;amp; Nava-Flores, M. (2015). Forward modeling of gravitational fields on hybrid multi-threaded cluster. Geofisica Internacional, 54(1), 31–48. &lt;a href=&quot;https://doi.org/10.1016/j.gi.2015.04.002&quot;&gt;https://doi.org/10.1016/j.gi.2015.04.002&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ucán-Pech, J. P., Gómez, O. S., Castillo-Atoche, A. A., &amp;amp; Aguilar-Vera, R. A. (2015). Detection of defects with and without support of an intelligent collaborative virtual environment in introductory programming courses. In G. O.S., A. G., R. R.H., A. L., V. E., &amp;amp; G. O.S. (Eds.), XI Jornadas Iberoamericanas de Ingenieria de Software e Ingenieria del Conocimiento, JIISIC 2015 (pp. 65–78). Retrieved from &lt;a href=&quot;https://www.scopus.com/inward/record.uri?eid=2-s2.0-84935088664&amp;amp;partnerID=40&amp;amp;md5=a3ae0451aa7db44ddaaefd513ff530d0&quot;&gt;https://www.scopus.com/inward/record.uri?eid=2-s2.0-84935088664&amp;amp;partnerID=40&amp;amp;md5=a3ae0451aa7db44ddaaefd513ff530d0&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Atoche, A. C., Marrufo, O. P., &amp;amp; Escalante, R. P. (2014). Aggregation of descriptive regularization and fuzzy logic techniques for enhanced remote sensing imaging. In D. A., F. J., F. J., &amp;amp; C. J.M. (Eds.), FCTA 2014 - Proceedings of the International Conference on Fuzzy Computation Theory and Applications (pp. 193–198). Retrieved from &lt;a href=&quot;https://www.scopus.com/inward/record.uri?eid=2-s2.0-84908680628&amp;amp;partnerID=40&amp;amp;md5=709588e32186ae5216ae31fde0ccb719&quot;&gt;https://www.scopus.com/inward/record.uri?eid=2-s2.0-84908680628&amp;amp;partnerID=40&amp;amp;md5=709588e32186ae5216ae31fde0ccb719&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Castillo Atoche, A., Quijano Cetina, R., &amp;amp; Palma Marrufo, O. (2014). An improved RBR image reconstruction architecture based on super-systolic techniques. Journal of Ambient Intelligence and Humanized Computing, 5(5), 655–666. &lt;a href=&quot;https://doi.org/10.1007/s12652-013-0202-y&quot;&gt;https://doi.org/10.1007/s12652-013-0202-y&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Góngora-Martín, C., Castillo-Atoche, A., Estrada-López, J., Vázquez-Castillo, J., Ortegón-Aguilar, J., &amp;amp; Carrasco-Álvarez, R. (2014). Hybrid FPGA/ARM co-design for near real time of remote sensing imagery. In H. E. &amp;amp; B.-C. E. (Eds.), CIARP 2014: Progress in Pattern Recognition, Image Analysis, Computer Vision, and Applications (Vol. 8827, pp. 1039–1046). Retrieved from &lt;a href=&quot;https://www.scopus.com/inward/record.uri?eid=2-s2.0-84949127086&amp;amp;partnerID=40&amp;amp;md5=037aca78b70850ee24845bd957481fa8&quot;&gt;https://www.scopus.com/inward/record.uri?eid=2-s2.0-84949127086&amp;amp;partnerID=40&amp;amp;md5=037aca78b70850ee24845bd957481fa8&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Mera-González, L. Y., Delgado-Atencio, J. A., Valdiviezo-Navarro, J. C., &amp;amp; Cunill-Rodríguez, M. (2014). An algorithm for the characterization of digital images of pigmented lesions of human skin. In T. A.G. (Ed.), SPIE Optical Engineering + Applications (Vol. 9217). &lt;a href=&quot;https://doi.org/10.1117/12.2062425&quot;&gt;https://doi.org/10.1117/12.2062425&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Muñoz, P. P., Cetina, R. Q., Bañuelos, M. F., &amp;amp; Atoche, A. C. (2014). Solar photovoltaic emulator system based on a systolic array network. IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences, E97-A(5), 1119–1120. &lt;a href=&quot;https://doi.org/10.1587/transfun.E97.A.1119&quot;&gt;https://doi.org/10.1587/transfun.E97.A.1119&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 </description>
         <pubDate>Sat, 03 Aug 2019 04:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/aws-educate</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/aws-educate</guid>
-      </item>
-    
-      <item>
-        <title>Github Student Developer Pack</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;There’s no substitute for hands-on experience. But for most students, real world tools can be cost-prohibitive.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;learn-to-ship-software-like-a-pro&quot;&gt;Learn to ship software like a pro.&lt;/h4&gt;
-&lt;p&gt;That’s why we created the GitHub Student Developer Pack with some of our partners and friends: to give students free access to the best developer tools in one place so they can learn by doing.&lt;/p&gt;
-
-&lt;p&gt;Before you receive access to the offers, we’ll need to verify that you are a student.
-Teachers, researchers, faculty, and staff are not eligible for the Pack, but can get free and discounted access to GitHub.
-Navigate to this link to more details. &lt;a href=&quot;https://education.github.com/pack#offers&quot;&gt;View on GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Aug 2019 03:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/developer-pack</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/developer-pack</guid>
+        <link>http://localhost:4000/blog/other</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/other</guid>
       </item>
     
   </channel>
