@@ -2,14 +2,42 @@
 layout: default
 title: Memberships
 permalink: /memberships/
+image: community.jpg
 ---
+
+{% include top-section.html %}
 
 <section class="container">
     <div class="row">
-        <div class="col-md-8">
-            <div class="card">
-                <img id="imgMembership" style="max-width: 100%" src="" />
-            </div>
+        <div class="col-md-8 ">
+            <!-- Begin Tickets Section -->
+            <section id="tickets" class="tickets">
+                <div class="content-wrapper">
+                    <div class="col-lg-12">
+                        <div id="mem" class="col-md-12 pricing-col pricing-col-featured animated visible"
+                            data-delay="0">
+                            <div class="pricing-ribbon"><b>GINDE</b></div>
+                            <div class="pricing-header">
+                                <p class="title">Membership</p>
+                                <p class="price">
+                                    <img v-if="membership.expired && !membership.member" src="/img/other/expired.jpg" />
+                                    <img v-else style="max-width: 50%; border-radius: 90%;"
+                                        src="/img/other/tenor.gif" />
+                                </p>
+                            </div>
+                            <div class="pricing-content">
+                                <ul>
+                                    <li><b>[[ membership.display_name ]]</b></li>
+                                    <li><b>ID: </b>[[membership.uuid]]</li>
+                                    <li v-if="!membership.member" ><b>Expires:</b> [[ membership.exp ]]</li>
+                                    <li v-else ><b>COLLABORATOR</b></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Tickets Section -->
         </div>
         {% include announcement.html %}
     </div>
@@ -17,26 +45,40 @@ permalink: /memberships/
 </section>
 
 <script>
-    var urlParams = new URLSearchParams(window.location.search);
-    var config = {
-        method: 'GET',
-        mode: 'cors'
-    };
-    fetch('https://aaaimx-admin.herokuapp.com/api/memberships/' + urlParams.get('id') + '/', config)
-        .then(function (response) {
-            if (response.status == 404) {
-                window.location = '404.html';
-            };
-            return response.json();
-        })
-        .then(function (data) {
-            var now = new Date();
-            if (new Date(data.exp) <= now) {
-                document.getElementById("imgMembership").src = '/img/other/expired.jpg';
-                return;
+    var vue = new Vue({
+        el: '#mem',
+        data: {
+            mem: {},
+            loading: true
+        },
+        delimiters: ["[[", "]]"],
+        computed: {
+            membership() {
+                return this.mem;
             }
-            document.getElementById("imgMembership").src = '/img/other/verified.png';
-            return;
-        });
+        },
+        created() {
+            var urlParams = new URLSearchParams(window.location.search);
+            fetch('https://aaaimx-admin.herokuapp.com/api/memberships/' + urlParams.get('id') + '/')
+                .then((response) => {
+                    if (response.status == 404) {
+                        window.location = '404.html';
+                    };
+                    return response.json();
+                })
+                .then((data) => {
+                    this.loading = false;
+                    var now = new Date();
+                    data.exp = new Date(data.exp);
+                    if (data.exp < now)
+                        data.expired = true;
+                    else
+                        data.expired = false;
+                    data.exp = data.exp.toLocaleDateString();
+                    this.mem = data;
+                });
+        }
+    });
+
 
 </script>

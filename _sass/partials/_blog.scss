@@ -8,10 +8,10 @@
 }
 .post {
     max-width: 750px;
-    margin-bottom: 52px;
-    @media (max-width: 767px) {
-        margin-bottom: 26px;
-    }
+    // margin-bottom: 52px;
+    // @media (max-width: 767px) {
+    //     margin-bottom: 26px;
+    // }
     li {
         font-size: 15px;
         line-height: 26px;
@@ -19,7 +19,7 @@
 }
 .post-header {
     height: 20px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 14px;
     .published {
         padding: 0;

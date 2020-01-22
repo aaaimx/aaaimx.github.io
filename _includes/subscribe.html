@@ -1,15 +1,20 @@
 <!-- Begin Subscribe Section -->
-<section id="subscribe" class="subscribe image-section parallax" style="background-image: url({{ site.baseurl }}/img/ia/{{ site.subscribeImage }});">
+<section id="subscribe" class="subscribe image-section parallax"
+    style="background-image: url({{ site.baseurl }}/img/ia/{{ site.subscribeImage }});">
     <div class="overlay solid-overlay"></div>
     <div class="content-wrapper">
         <div class="col-lg-8 col-lg-offset-2 animated hiding" data-animation="fadeInUp" data-delay="0">
             <h4>{{ site.subscribeTitle }}</h4>
             <div id="mc_embed_signup" class="col-lg-8 col-sm-8 col-lg-offset-2 col-sm-offset-2">
-                <form action="{{site.subscribeAction}}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <form action="{{site.subscribeAction}}" method="post" id="mc-embedded-subscribe-form"
+                    name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <h6 class="subscribe-info">{{ site.subscribeInfo }}</h6>
                 </form>
-                <a href="{{ site.subscribeAction }}" class="btn btn-primary waves-effect waves-button waves-light waves-float">Discover</a>
-                
+                <a href="{{ site.subscribeAction }}"
+                    class="btn btn-primary waves-effect waves-button waves-light waves-float">Discover</a>
+                <hr>
+
+                {% include search-cert.html %}
             </div>
         </div>
     </div>

@@ -1,0 +1,124 @@
+---
+layout: default
+title: Member
+permalink: /member/
+---
+<div id="app">
+    <!-- Begin Top Section -->
+    <section id="top-section" class="top-section image-section {% if page.image %}enable-overlay{% endif %}"
+        style="{% if page.image %}background-image: url('{{ site.baseurl }}/img/sections-background/{{ page.image }}');{% elsif page.color %}background: {{ page.color }}{% endif %}">
+        <div class="overlay gradient-overlay"></div>
+
+        {% include navigation.html %}
+        <div class="content-wrapper">
+            <div class="jumbotron text-left">
+                <div>
+                    <h1>[[ member.name ]] [[ member.surname ]]</h1>
+                </div>
+                <p>[[ member.charge ]] &bull; [[ member.adscription ]] </p>
+            </div>
+        </div>
+    </section>
+    <!-- End Top Section -->
+    <!-- Begin Blog-->
+    <section id="blog" class="blog">
+        <div class="content-wrapper text-left">
+            <div class="col-md-11 col-sm-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+
+
+                <div class="col-lg-7 col-md-7 col-xs-12 research">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li role="presentation" :class="current == 'Article' ? 'active' : ''"><a
+                                @click.prevent="current = 'Article'" href="">Articles</a>
+                        </li>
+                        <li role="presentation" :class="current == 'Thesis' ? 'active' : ''"><a
+                                @click.prevent="current = 'Thesis'" href="">Theses</a></li>
+                        <li role="presentation" :class="current == 'Presentation' ? 'active' : ''"><a
+                                @click.prevent="current = 'Presentation'" href="">Presentations</a></li>
+                    </ul>
+                    <br>
+                    <img class="loading" v-show="!research.length" width="100px" src="/img/other/loader.gif" alt="">
+                    <article v-for="r in research" v-show="r.type == current"
+                        class="row post card flex-md-row box-shadow">
+                        <strong class="d-inline-block mb-2 text-primary">[[r.type]]</strong>
+                        <h5>[[r.title]]</h5>
+                        <div class="post-header">
+                            <div class="published col-md-12 col-xs-12 authors">
+                                <span v-for="(author, i) in r.authors" class="publish-date" itemprop="datePublished">
+                                    <a v-if="author.active" :href="'/member/?id=' + author.member">
+                                        [[author.surname]] [[author.name | shortName ]]. <sup>[[author.position]]</sup>
+                                    </a>
+                                    <template v-else>[[author.surname]] [[author.name | shortName ]].
+                                        <sup>[[author.position]]</sup></template>
+                                    <template>[[ ++i === r.authors.length ? '' : ', ']]</template>
+                                </span>
+                            </div>
+                        </div>
+                        <a class="pull-right" v-show="r.link" :href="r.link">continue reading</a>
+                    </article>
+                </div>
+                {% include social-research.html %}
+            </div>
+        </div>
+    </section>
+    <!-- End Blog -->
+</div>
+
+<script>
+    var vue = new Vue({
+        el: '#app',
+        data: {
+            member: {},
+            current: 'Article',
+            research: []
+        },
+        delimiters: ["[[", "]]"],
+        filters: {
+            shortName(name) {
+                return name.split(' ')[0].slice(0, 1);
+            }
+        },
+        created() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var id = urlParams.get('id');
+            fetch('https://aaaimx-admin.herokuapp.com/api/members/' + id + '/')
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    this.member = data;
+                    fetch('https://aaaimx-admin.herokuapp.com/api/partners/'+ data.adscription + '/')
+                        .then((response) => {
+                            return response.json();
+                        })
+                        .then((data) => {
+                            this.member.adscription = data.name;
+                        });
+                });
+            fetch('https://aaaimx-admin.herokuapp.com/api/research/?limit=50')
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    this.research = data.results.filter((el) => {
+                        let encontro = false;
+                        el.authors.forEach(el => {
+                            if (el.member === parseInt(id)) {
+                                encontro = true;
+                            };
+                        });
+                        el.advisors.forEach(el => {
+                            if (el.member === parseInt(id)) {
+                                encontro = true;
+                            };
+                        });
+                        if (encontro) {
+                            return true;
+                        }
+                    });
+                    console.log(data);
+                });
+        }
+    });
+
+</script>

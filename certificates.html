@@ -8,9 +8,9 @@ permalink: /certificates/
 
 <section class="container">
     <div class="row">
-        <div class="col-md-8">
+        <div id="app" class="col-md-8">
             <div class="card flex-md-row shadow">
-                <img id="imgCert" style="max-width: 100%" src="" />
+                <img style="max-width: 100%" :src="img" />
                 <!-- <div class="mb-1 text-muted">2018</div>
               <p class="card-text mb-auto">
                 This is a wider card with supporting text below as a natural
@@ -20,7 +20,7 @@ permalink: /certificates/
                 Internet of things
               </span> -->
             </div>
-            <!---->
+            
         </div>
         {% include announcement.html %}
     </div>
@@ -28,21 +28,36 @@ permalink: /certificates/
 </section>
 
 <script>
-    var urlParams = new URLSearchParams(window.location.search);
+
     var config = {
         method: 'GET',
         mode: 'cors'
     };
-    
-    fetch('https://aaaimx-admin.herokuapp.com/api/certificates/' + urlParams.get('id') + '/', config)
-        .then(function (response) {
-            if (response.status == 404) {
-                window.location = '404.html'
-            };
-            return response.json();
-        })
-        .then(function (data) {
-            document.getElementById("imgCert").src = getImgUrl(data.file)
-        });
+    new Vue({
+        el: '#app',
+        data: {
+            cert: null,
+        },
+        computed: {
+            img() {
+                return this.cert;
+            }
+        },
+        created() {
+            var urlParams = new URLSearchParams(window.location.search);
+            fetch('https://aaaimx-admin.herokuapp.com/api/certificates/' + urlParams.get('id') + '/', config)
+                .then((response) => {
+                    if (response.status == 404) {
+                        window.location = '404.html';
+                    };
+                    return response.json();
+                })
+                .then((data) => {
+                    if (!data.published) window.location = '404.html';
+                    this.cert = getImgUrl(data.file);
+                });
+        }
+    })
+
 
 </script>

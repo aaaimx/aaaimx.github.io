@@ -1,48 +1,69 @@
 <!-- Begin Team List-->
 <section id="team" class="team">
-    <div class="content-wrapper">
-        <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.teamBlockTitle }}</h3>
-            <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>
-        </div>
-        <img id="loading" width="200px" src="/img/other/spinner.jpg" alt="">
-        <div style="display: none;" id="members">
-
-            <div class="col-lg-10 col-lg-offset-1 text-center posted-review committee">
-                <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">
-                    Executive Committee</h4>
-                <script class="committee-template" type="text/x-custom-template">
-            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation visible"
-                style="transition-delay: 0.06204s; transition-duration: 0.2s;">
-                <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-0">
-                    <figure class="waves-effect waves-block waves-light"
-                        style="background-image: url([[thumbnailUrl]])">
-                        <div class="overlay solid-overlay"></div>
-                        <figcaption>
-                            <div class="col-md-8 col-xs-8 text-left">
-                                <h2 class="name">[[name]] <span>[[surname]]</span></h2>
-                                <div class="clearfix"></div> <span class="position">[[charge]]</span>
-                            </div>
-                            <!-- <a href="https://www.facebook.com/estebanemmanuel.britoborges" target="_blank"> <svg
-                                    class="icon icon-facebook" viewBox="0 0 30 32">
-                                    <use xlink:href="/img/sprites/sprites.svg#icon-facebook"></use>
-                                </svg> </a> <a href="https://www.linkedin.com/in/esteban-brito-4034b7177/"
-                                target="_blank"> <svg class="icon icon-linkedin" viewBox="0 0 30 32">
-                                    <use xlink:href="/img/sprites/sprites.svg#icon-linkedin"></use>
-                                </svg> </a> <a href="https://github.com/EstebanBrito" target="_blank"> <svg
-                                    class="icon icon-github" viewBox="0 0 30 32">
-                                    <use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
-                                </svg> </a> -->
-                        </figcaption>
-                    </figure>
+  <div class="content-wrapper">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3>{{ site.teamBlockTitle }}</h3>
+      <p
+        class="text-left animated hiding"
+        data-animation="fadeInUp"
+        data-delay="0"
+      >
+        {{ site.aboutUs }}
+      </p>
+    </div>
+    <img id="loading" width="200px" src="/img/other/spinner.jpg" alt="" />
+    <div style="display: none;" id="members">
+      <div
+        class="col-lg-10 col-lg-offset-1 text-center posted-review committee"
+      >
+        <h4
+          class="text-left animated hiding appear-animation-trigger"
+          data-animation="fadeInUp"
+          data-delay="0"
+        >
+          Executive Committee
+        </h4>
+        <div
+          v-for="m in members"
+          v-show="!m.board"
+          class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation visible"
+          style="transition-delay: 0.06204s; transition-duration: 0.2s;"
+        >
+          <div
+            class="zoe-effect"
+            data-toggle="modal"
+            data-target="#speakerDetail-0"
+          >
+            <figure
+              class="waves-effect waves-block waves-light"
+              :style="'background-image: url(' + getImgUrl(m.thumbnailFile) + ')'"
+            >
+              <div class="overlay solid-overlay"></div>
+              <figcaption>
+                <div class="col-md-8 col-xs-8 text-left">
+                  <h2 class="name">[[m.name]] <span>[[m.surname]]</span></h2>
+                  <div class="clearfix"></div>
+                  <span class="position">[[m.charge]]</span>
                 </div>
-            </div>
-            </script>
-                <!-- {% for teamMember in site.data.team %} {% if teamMember.committee != null %}
+                <!-- <a href="https://www.facebook.com/estebanemmanuel.britoborges" target="_blank"> <svg
+                                        class="icon icon-facebook" viewBox="0 0 30 32">
+                                        <use xlink:href="/img/sprites/sprites.svg#icon-facebook"></use>
+                                    </svg> </a> <a href="https://www.linkedin.com/in/esteban-brito-4034b7177/"
+                                    target="_blank"> <svg class="icon icon-linkedin" viewBox="0 0 30 32">
+                                        <use xlink:href="/img/sprites/sprites.svg#icon-linkedin"></use>
+                                    </svg> </a> <a href="https://github.com/EstebanBrito" target="_blank"> <svg
+                                        class="icon icon-github" viewBox="0 0 30 32">
+                                        <use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
+                                    </svg> </a> -->
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- {% for teamMember in site.data.team %} {% if teamMember.committee != null %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ teamMember.id }}">
                     <figure class="waves-effect waves-block waves-light"
-                        style="background-image: url({{ teamMember.thumbnailUrl }})">
+                        style="background-image: url({{ teamMember.thumbnailFile }})">
                         <div class="overlay solid-overlay"></div>
                         <figcaption>
                             <div class="col-md-8 col-xs-8 text-left">
@@ -64,24 +85,38 @@
                 </div>
             </div>
             {% endif %} {% endfor %} -->
-            </div>
-            <div class="col-lg-10 col-lg-offset-1 text-center board">
-                <h4 class="text-left animated hiding appear-animation-trigger " data-animation="fadeInUp"
-                    data-delay="0">
-                    Board</h4>
-                <script class="board-template" type="text/x-custom-template">
-                    <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation visible"
-                        style="transition-delay: 0.06204s; transition-duration: 0.2s;">
-                        <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-0">
-                            <figure class="waves-effect waves-block waves-light"
-                                style="background-image: url([[thumbnailUrl]])">
-                                <div class="overlay solid-overlay"></div>
-                                <figcaption>
-                                    <div class="col-md-8 col-xs-8 text-left">
-                                        <h2 class="name">[[name]] <span>[[surname]]</span></h2>
-                                        <div class="clearfix"></div> <span class="position">[[charge]]</span>
-                                    </div>
-                                    <!-- <a href="https://www.facebook.com/estebanemmanuel.britoborges" target="_blank"> <svg
+      </div>
+      <div class="col-lg-10 col-lg-offset-1 text-center board">
+        <h4
+          class="text-left animated hiding appear-animation-trigger "
+          data-animation="fadeInUp"
+          data-delay="0"
+        >
+          Board
+        </h4>
+        <div
+          v-for="b in members"
+          v-show="b.board"
+          class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation visible"
+          style="transition-delay: 0.06204s; transition-duration: 0.2s;"
+        >
+          <div
+            class="zoe-effect"
+            data-toggle="modal"
+            data-target="#speakerDetail-0"
+          >
+            <figure
+              class="waves-effect waves-block waves-light"
+              :style="'background-image: url(' + getImgUrl(b.thumbnailFile) + ')'"
+            >
+              <div class="overlay solid-overlay"></div>
+              <figcaption>
+                <div class="col-md-8 col-xs-8 text-left">
+                  <h2 class="name">[[b.name]] <span>[[b.surname]]</span></h2>
+                  <div class="clearfix"></div>
+                  <span class="position">[[b.charge]]</span>
+                </div>
+                <!-- <a href="https://www.facebook.com/estebanemmanuel.britoborges" target="_blank"> <svg
                                             class="icon icon-facebook" viewBox="0 0 30 32">
                                             <use xlink:href="/img/sprites/sprites.svg#icon-facebook"></use>
                                         </svg> </a> <a href="https://www.linkedin.com/in/esteban-brito-4034b7177/"
@@ -91,12 +126,11 @@
                                             class="icon icon-github" viewBox="0 0 30 32">
                                             <use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
                                         </svg> </a> -->
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    </script>
-                <!-- {% for teamMember in site.data.team %} {% if teamMember.board != null %}
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- {% for teamMember in site.data.team %} {% if teamMember.board != null %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ teamMember.id }}">
                     <figure class="waves-effect waves-block waves-light"
@@ -118,28 +152,66 @@
                 </div>
             </div>
             {% endif %} {% endfor %} -->
-            </div>
-        </div>
+      </div>
     </div>
+  </div>
 </section>
 <!-- End Team List -->
 
 <!-- Declare a JsRender template, in a script block: -->
 <script>
-    $(document).ready(function () {
-        $.getJSON('https://aaaimx-admin.herokuapp.com/api/members/?panel=true&limit=20').then(function (data) {
-            console.log(data);
-            $('#loading').fadeOut(500);
-            $('#members').fadeIn(500);
-            members = data.results;
-            members.forEach(function (m) {
-                if (!m.board) {
-                    innerMember(m);
-                } else if (m.board) {
-                    innerBoardMember(m);
-                };
-            });
+  new Vue({
+    el: "#members",
+    delimiters: ["[[", "]]"],
+    data: {
+      members: []
+    },
+    methods: {
+      getImgUrl(url) {
+        var result = "/img/people/default-avatar.jpg";
+        try {
+          var res = url.split("https://drive.google.com/file/d/");
+          res = res[1];
+          res = res.split("/view?usp=drivesdk");
+          result = "https://drive.google.com/uc?id=" + res[0];
+        } catch (error) {
+          console.log(error);
+        }
+        return result;
+      }
+    },
+    created() {
+      fetch("https://aaaimx-admin.herokuapp.com/api/members/?panel=true&limit=30")
+        .then(
+          res => {
+            return res.json();
+          },
+          err => {
+            console.log(err);
+          }
+        )
+        .then(data => {
+          this.members = data.results;
+          console.log(data);
+          $("#loading").fadeOut(500);
+          $("#members").fadeIn(500);
         });
-    });
-   // Insert HTML string into DOM
+    }
+  });
+  // $(document).ready(function () {
+  //     $.getJSON('https://aaaimx-admin.herokuapp.com/api/members/panel/').then(function (data) {
+  //         console.log(data);
+  //         $('#loading').fadeOut(500);
+  //         $('#members').fadeIn(500);
+  //         members = data;
+  //         members.forEach(function (m) {
+  //             if (!m.board) {
+  //                 innerMember(m);
+  //             } else if (m.board) {
+  //                 innerBoardMember(m);
+  //             };
+  //         });
+  //     });
+  // });
+  // Insert HTML string into DOM
 </script>
