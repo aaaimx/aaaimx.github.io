@@ -29,7 +29,7 @@ axios
       if (thumbnailFile) {
         photo = getImgUrl(thumbnailFile)
       }
-      if (committee) {
+      if (committee && charge.indexOf('Leader') !== -1) {
         attributes = {
           surname: surname.split('-')[0],
           name: name.split(' ')[0],
