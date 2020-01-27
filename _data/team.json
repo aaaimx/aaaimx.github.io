@@ -7,13 +7,6 @@
         "charge": "Applied Maths Leader"
     },
     {
-        "surname": "Cordava",
-        "name": "Humberto",
-        "thumbnailUrl": "https://drive.google.com/uc?id=1nyDrKVUR8Ueh4U3B6a_xWQajDHcmyUEg",
-        "committee": true,
-        "charge": "Bioengineering Leader"
-    },
-    {
         "surname": "Orozco-del-Castillo",
         "name": "Mauricio Gabriel",
         "thumbnailUrl": "https://drive.google.com/uc?id=1YXzETJvdQMv4UUfwP6_x1gCRUSN_v3xF",
@@ -56,11 +49,25 @@
         "charge": "Member / Senior Researcher, IPN-CDA, México"
     },
     {
+        "surname": "Castillo-Atoche",
+        "name": "Alejandro Arturo",
+        "thumbnailUrl": "https://drive.google.com/uc?id=1nXFNTly7s4F1vp8WHsowWpgZ848sRiAN",
+        "board": true,
+        "charge": "Member / Senior Researcher, UADY/TecNM-ITM, México"
+    },
+    {
         "surname": "Mena",
         "name": "Paul",
         "thumbnailUrl": "https://drive.google.com/uc?id=1rH8pja_Mpoma7aD5ku93sn2spvkGlsvl",
         "committee": true,
         "charge": "Operations Leader / Treasure"
+    },
+    {
+        "surname": "Novelo",
+        "name": "Raul",
+        "thumbnailUrl": "https://drive.google.com/uc?id=1YdfbmIhTGpCCkhMaDrkEP777V7_fAOiG",
+        "committee": true,
+        "charge": "President / Software Leader"
     },
     {
         "surname": "Sarabia",
@@ -77,24 +84,25 @@
         "charge": "Secretary / CIMAT Researcher"
     },
     {
-        "surname": "Rosales",
-        "name": "Katia",
-        "thumbnailUrl": "https://drive.google.com/uc?id=1Ldo4mVOpFIEnVsTZjiHfMESIbmxBG6bL",
+        "surname": "Crespo",
+        "name": "Didier",
+        "thumbnailUrl": "https://drive.google.com/uc?id=1oIQ8sCcz4nOP9FxwxBGEqTNLu9_8TeFc",
         "committee": true,
-        "charge": "Social Impact Co-Leader"
+        "charge": "Social Impact Leader"
     },
     {
-        "surname": "Ramayo",
-        "name": "Viridiana",
-        "thumbnailUrl": "https://drive.google.com/uc?id=1KUtKN1hqzrRh5KhQqs5FXkpvN9-Bq382",
+        "surname": "Cordova",
+        "name": "Humberto",
+        "thumbnailUrl": "https://drive.google.com/uc?id=1nyDrKVUR8Ueh4U3B6a_xWQajDHcmyUEg",
         "committee": true,
-        "charge": "Social Impact Co-Leader"
+        "charge": "Vice-president / Bioengineering Leader"
     },
     {
-        "surname": "Novelo",
-        "name": "Raul",
-        "thumbnailUrl": "https://drive.google.com/uc?id=1YdfbmIhTGpCCkhMaDrkEP777V7_fAOiG",
-        "committee": true,
-        "charge": "Software Leader"
-    }
+        "id": 5,
+        "name": "Adolfo",
+        "surname": "Álvarez",
+        "charge": "Web Master",
+        "thumbnailUrl": "https://drive.google.com/uc?id=1AHQdJOzqo02wYXp58ovb9B0pnAazoGn4",
+        "committee": true
+      }
 ]

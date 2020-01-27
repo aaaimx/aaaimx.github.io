@@ -1,126 +1,188 @@
 [
-  {
-    "group": "Research Centers",
-    "elements": [
-      {
-        "alias": "CentroGeo",
-        "group": "partner",
-        "name": "Comisión Nacional de Ciencia y Tecnología / Centro de Investigación en Ciencias de Información Geoespacial Subsede Yucatán ",
-        "site": "http://mid.geoint.mx/",
-        "logoName": "centrogeo.png"
-      },
-      {
-        "alias": "CIMAT",
-        "group": "partner",
-        "name": "Centro de Investigación en Matemáticas, A. C. / Unidad Mérida",
-        "site": "https://www.cimat.mx/es/unidad-merida",
-        "logoName": "cimat.png"
-      },
-      {
-        "alias": "IPN",
-        "group": "partner",
-        "name": "Instituto Politécnico Nacional / Centro de Desarrollo Aeroespacial",
-        "site": "https://www.ipn.mx/cda/",
-        "logoName": "pleca-ipn.png"
-      },
-      {
-        "alias": "UCM",
-        "group": "partner",
-        "name": "Universidad Complutense de Madrid / Departamento de Ingeniería de Software e Inteligencia Artificial",
-        "site": "https://www.ucm.es/disia",
-        "logoName": "ucm.png"
-      }
-    ]
-  },
-  {
-    "group": "Partners",
-    "elements": [
-      {
-        "alias": "TecNM",
-        "group": "partner",
-        "name": "Tecnológico Nacional de México",
-        "site": "https://www.tecnm.mx/",
-        "logoName": "tecnm.png"
-      },
-      {
-        "uuid": "a710be01-9f38-49d0-bf77-9f37df3e3081",
-        "name": "Dirección de Ingeniería Electrica y Electrónica",
-        "alias": "DIEE",
-        "site": "",
-        "logoName": "diee.jpg",
-        "logoFile": "https://drive.google.com/file/d/1WYGwr-LdaZlQ1nWXZ39HvXaVeV7Z7s0S/view?usp=drivesdk",
-        "type": "Partner"
-      },
-      {
-        "alias": "ITM",
-        "group": "partner",
-        "name": "Tecnológico Nacional de México / I.T. Mérida",
-        "site": "http://www.itmerida.mx/",
-        "logoName": "tec.png"
-      },
-      {
-        "alias": "AAAI",
-        "group": "partner",
-        "name": "Association for Advancement of Artificial Intelligence",
-        "site": "https://www.aaai.org/",
-        "logoName": "aaai.png"
-      },
-      {
-        "uuid": "da1baed2-642c-4b52-826a-949deb5eca3d",
-        "name": "Departamento de Sistemas y Computación",
-        "alias": "DISC",
-        "site": "http://www.itmerida.edu.mx/",
-        "logoName": "disc.jpg",
-        "logoFile": "https://drive.google.com/file/d/1ONRBxbgQEspAm8rKyBVqaNHTEcEwetUg/view?usp=drivesdk",
-        "type": "Partner"
-      }
-    ]
-  },
-  {
-    "group": "Sponsors",
-    "elements": [
-      {
-        "alias": "Jarkol",
-        "name": "Jarkol Technologies SA de CV",
-        "site": "https://www.jarkol.com/",
-        "logoName": "jarkol-logo.png"
-      },
-      {
-        "alias": "Indaico",
-        "name": "Indaico",
-        "site": "https://web.facebook.com/indaico/",
-        "logoName": "indaico.png"
-      },
-      {
-        "alias": "GETEC",
-        "name": "GETEC - Generación Tecnológica ITM",
-        "site": "https://web.facebook.com/GETECITM/",
-        "logoName": "getec.png"
-      },
-      {
-        "alias": "Makerbot MID",
-        "name": "Makerbot MID",
-        "site": "https://web.facebook.com/MakerbotMID/",
-        "logoName": "MakerBot.svg"
-      },
-      {
-        "alias": "ECE Electronics MID",
-        "name": "ECE Electronics MID",
-        "site": "https://web.facebook.com/ECEelectronics/",
-        "logoName": "ece-elect.jpg"
-      },
-      {
-        "alias": "Thido",
-        "name": "Thido",
-        "site": "http://www.electronicathido.com/index.php",
-        "logoName": "thido.png"
-      },
-      {
-        "alias": "ADC",
-        "name": "ADC - Ascodecodigo",
-        "site": "http://www.ascodecodigo.com/",
-        "logoName": "adc.png"
-      }
-    ]
-  }
+    {
+        "group": "Research Centers",
+        "elements": [
+            {
+                "uuid": "aea6bcca-5c27-406e-83ee-8684bdaebf7b",
+                "name": "Universidad Complutense de Madrid",
+                "alias": "UCM",
+                "site": "https://www.ucm.es/disia",
+                "logoName": "https://drive.google.com/uc?id=1KxlXkfzOkA8ld4-BR_53ImenooI0UGSf",
+                "logoFile": "https://drive.google.com/file/d/1KxlXkfzOkA8ld4-BR_53ImenooI0UGSf/view?usp=drivesdk",
+                "type": "Research Center"
+            },
+            {
+                "uuid": "9036b749-5c6d-4f47-aaba-fbd810010f11",
+                "name": "Litoteca Nacional de Hidrocarburos",
+                "alias": "LNH",
+                "site": "https://www.gob.mx/cnh/videos/litoteca-nacional-de-la-industria-de-hidrocarburos-217890",
+                "logoName": "https://drive.google.com/uc?id=1yPHYrcZTVRNwUJYv7X9-v38d248L8fnA",
+                "logoFile": "https://drive.google.com/file/d/1yPHYrcZTVRNwUJYv7X9-v38d248L8fnA/view?usp=drivesdk",
+                "type": "Research Center"
+            },
+            {
+                "uuid": "52f2a630-893c-4f69-b243-d5eaa75d27c9",
+                "name": "Instituto Politécnico Nacional / Centro de Desarrollo Aeroespacial",
+                "alias": "IPN",
+                "site": "https://www.ipn.mx/cda/",
+                "logoName": "https://drive.google.com/uc?id=1dq7mdLr-7Kh-dZ6L5QDq3gNoTArxans6",
+                "logoFile": "https://drive.google.com/file/d/1dq7mdLr-7Kh-dZ6L5QDq3gNoTArxans6/view?usp=drivesdk",
+                "type": "Research Center"
+            },
+            {
+                "uuid": "3b8817e5-1df2-44ab-a1db-1b255b3a8fb4",
+                "name": "Comisión Nacional de Ciencia y Tecnología / Centro de Investigación en Ciencias de Información Geoespacial Subsede Yucatán",
+                "alias": "CentroGEO",
+                "site": "http://mid.geoint.mx/",
+                "logoName": "centrogeo.png",
+                "logoFile": null,
+                "type": "Research Center"
+            },
+            {
+                "uuid": "ad9ad059-d6ea-4015-b3ab-0cb949e87e92",
+                "name": "Centro de Investigación en Matemáticas / Unidad Mérida",
+                "alias": "CIMAT",
+                "site": "https://www.cimat.mx/es/unidad-merida",
+                "logoName": "https://drive.google.com/uc?id=1J-h14NyLzzcieUmjq3XanwFsb29RPjd-",
+                "logoFile": "https://drive.google.com/file/d/1J-h14NyLzzcieUmjq3XanwFsb29RPjd-/view?usp=drivesdk",
+                "type": "Research Center"
+            }
+        ]
+    },
+    {
+        "group": "Partners",
+        "elements": [
+            {
+                "uuid": "20769776-fe79-4f39-a077-979a48057e1d",
+                "name": "WolfCode programming Squad",
+                "alias": "WolfCode",
+                "site": "https://web.facebook.com/WolfCodeProgrammingSquad/",
+                "logoName": "https://drive.google.com/uc?id=1uR-lPWalWfBKKLEwkN-7QEzHtSWDelWx",
+                "logoFile": "https://drive.google.com/file/d/1uR-lPWalWfBKKLEwkN-7QEzHtSWDelWx/view?usp=drivesdk",
+                "type": "Partner"
+            },
+            {
+                "uuid": "8862a10a-9e86-43db-b513-d6101cca2e33",
+                "name": "Tecnológico Nacional de México / I.T. Mérida",
+                "alias": "ITM",
+                "site": "http://www.itmerida.mx/",
+                "logoName": "https://drive.google.com/uc?id=15JT-It5SuokiS8P74tqPPLTLc-OkzjFg",
+                "logoFile": "https://drive.google.com/file/d/15JT-It5SuokiS8P74tqPPLTLc-OkzjFg/view?usp=drivesdk",
+                "type": "Partner"
+            },
+            {
+                "uuid": "6d6dd29b-ec9b-4d80-a57a-0c1030bee5b8",
+                "name": "Tecnológico Nacional de México",
+                "alias": "TecNM",
+                "site": "https://www.tecnm.mx/",
+                "logoName": "https://drive.google.com/uc?id=10iTlKHf1qbp9lAVgHdVFTarAVAV1v65f",
+                "logoFile": "https://drive.google.com/file/d/10iTlKHf1qbp9lAVgHdVFTarAVAV1v65f/view?usp=drivesdk",
+                "type": "Partner"
+            },
+            {
+                "uuid": "a710be01-9f38-49d0-bf77-9f37df3e3081",
+                "name": "Dirección de Ingeniería Electrica y Electrónica",
+                "alias": "DIEE",
+                "site": "https://diee.net/",
+                "logoName": "https://drive.google.com/uc?id=1WYGwr-LdaZlQ1nWXZ39HvXaVeV7Z7s0S",
+                "logoFile": "https://drive.google.com/file/d/1WYGwr-LdaZlQ1nWXZ39HvXaVeV7Z7s0S/view?usp=drivesdk",
+                "type": "Partner"
+            },
+            {
+                "uuid": "da1baed2-642c-4b52-826a-949deb5eca3d",
+                "name": "Departamento de Sistemas y Computación",
+                "alias": "DISC",
+                "site": "http://www.itmerida.edu.mx/",
+                "logoName": "https://drive.google.com/uc?id=1ONRBxbgQEspAm8rKyBVqaNHTEcEwetUg",
+                "logoFile": "https://drive.google.com/file/d/1ONRBxbgQEspAm8rKyBVqaNHTEcEwetUg/view?usp=drivesdk",
+                "type": "Partner"
+            },
+            {
+                "uuid": "dcb79a6c-276e-448c-8712-e28cdc57887e",
+                "name": "CEISC - Club de Electrónica ISC",
+                "alias": "CEISC",
+                "site": "https://web.facebook.com/DivRobotica/",
+                "logoName": "https://drive.google.com/uc?id=1W1FUAXHrR1paXgpdHBcrRtHdySe_dXt5",
+                "logoFile": "https://drive.google.com/file/d/1W1FUAXHrR1paXgpdHBcrRtHdySe_dXt5/view?usp=drivesdk",
+                "type": "Partner"
+            },
+            {
+                "uuid": "8e71926e-df77-4ee1-9a71-b9e04aecdd3c",
+                "name": "Association for Advancement of Artificial Intelligence",
+                "alias": "AAAI",
+                "site": "https://www.aaai.org/",
+                "logoName": "https://drive.google.com/uc?id=104hjLRXxZWtN8NbS18ar8Ww897yUX4Br",
+                "logoFile": "https://drive.google.com/file/d/104hjLRXxZWtN8NbS18ar8Ww897yUX4Br/view?usp=drivesdk",
+                "type": "Partner"
+            }
+        ]
+    },
+    {
+        "group": "Sponsors",
+        "elements": [
+            {
+                "uuid": "804e60ff-0454-4a81-a620-2d8e4f8f3db0",
+                "name": "Makerbot MID",
+                "alias": "Makerbot",
+                "site": "https://web.facebook.com/MakerbotMID/",
+                "logoName": "MakerBot.svg",
+                "logoFile": null,
+                "type": "Sponsor"
+            },
+            {
+                "uuid": "b1d12525-a18c-429d-ac14-eb52647eae3b",
+                "name": "Jarkol Technologies",
+                "alias": "Jarkol",
+                "site": "https://www.jarkol.com/",
+                "logoName": "https://drive.google.com/uc?id=1-sZoeRmgAXSeAB4iokFpx6vxEIwHQWQv",
+                "logoFile": "https://drive.google.com/file/d/1-sZoeRmgAXSeAB4iokFpx6vxEIwHQWQv/view?usp=drivesdk",
+                "type": "Sponsor"
+            },
+            {
+                "uuid": "3ed72822-985c-4915-a3ed-c784023ed212",
+                "name": "Indaico Servicio y Reparación",
+                "alias": "Indaico",
+                "site": "https://web.facebook.com/indaico/",
+                "logoName": "https://drive.google.com/uc?id=1HUk60f8TmDJieK4YgFCrl_ZEEV466h64",
+                "logoFile": "https://drive.google.com/file/d/1HUk60f8TmDJieK4YgFCrl_ZEEV466h64/view?usp=drivesdk",
+                "type": "Sponsor"
+            },
+            {
+                "uuid": "91e40237-c8c1-4f38-831f-7f064e79a0ef",
+                "name": "Generación Estudiantil Tecnológica  ITM",
+                "alias": "GETEC",
+                "site": "https://web.facebook.com/GETECITM/",
+                "logoName": "https://drive.google.com/uc?id=1WjB3u35KZw0AbDahKqzreVY8BvHCvX1k",
+                "logoFile": "https://drive.google.com/file/d/1WjB3u35KZw0AbDahKqzreVY8BvHCvX1k/view?usp=drivesdk",
+                "type": "Sponsor"
+            },
+            {
+                "uuid": "138fffdc-0e81-4b3b-af96-fb8862ae2430",
+                "name": "Electrónica THIDO",
+                "alias": "THIDO",
+                "site": "http://www.electronicathido.com/index.php",
+                "logoName": "https://drive.google.com/uc?id=1OQ2IM_BgDWz9vzqqmjR0FIuwvXrFIDN4",
+                "logoFile": "https://drive.google.com/file/d/1OQ2IM_BgDWz9vzqqmjR0FIuwvXrFIDN4/view?usp=drivesdk",
+                "type": "Sponsor"
+            },
+            {
+                "uuid": "7c34caf7-c295-44ff-bbc8-c1084724a7ab",
+                "name": "ECE Electronics MID",
+                "alias": "ECE Electronics",
+                "site": "https://web.facebook.com/ECEelectronics/",
+                "logoName": "https://drive.google.com/uc?id=1ql9WlECYuThvkQNU3RmUOFB5MeRD5jHf",
+                "logoFile": "https://drive.google.com/file/d/1ql9WlECYuThvkQNU3RmUOFB5MeRD5jHf/view?usp=drivesdk",
+                "type": "Sponsor"
+            },
+            {
+                "uuid": "e998a8f5-12f1-45bd-98e0-e8b830bd16a4",
+                "name": "Ascodecodigo",
+                "alias": "ADC",
+                "site": "http://www.ascodecodigo.com/",
+                "logoName": "https://drive.google.com/uc?id=1y3stgcE-e4onm0-RUdm0WCV8tL7jbbTZ",
+                "logoFile": "https://drive.google.com/file/d/1y3stgcE-e4onm0-RUdm0WCV8tL7jbbTZ/view?usp=drivesdk",
+                "type": "Sponsor"
+            }
+        ]
+    }
 ]

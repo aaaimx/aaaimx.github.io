@@ -9,7 +9,7 @@
                 {% for element in partner.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
                     <a href="{{ element.site }}" target="_blank">
-                        <img src="{{ site.baseurl }}/img/partners/{{ element.logoName }}" title="{{ element.name }}" alt="{{ element.alias }}">
+                        <img src="{% if element.logoFile %}{{ element.logoName }}{% else %}/img/partners/{{ element.logoName }}{% endif %}" title="{{ element.name }}" alt="{{ element.alias }}">
                     </a>
                 </li>
                 {% endfor %}

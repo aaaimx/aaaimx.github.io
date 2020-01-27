@@ -13,8 +13,8 @@ title: "AAAIMX | Student Chapter"
 email: "contact@aaaimx.org"
 description: "We are a group of students and researchers from the ITM along with researchers from the Center for Mathematical Research (CIMAT) and CentroGeo"
 baseurl: ""
-url: "http://aaaimx.org"
-domain: "http://www.aaaimx.org"
+url: "https://www.aaaimx.org"
+domain: "https://www.aaaimx.org"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "raulnovelo.github.io"
@@ -26,7 +26,7 @@ organizerAlternateName: "Google Developer Group Lviv"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
 organizerEmail: "lviv@gdg.org.ua"
 organizerLogo: "/img/seo/aaaimx-black.jpeg"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: ""
 
 # Head
 metaKeywords: "Artificial, Intelligence, aaaimx, AAAI, ITM, MIT, Student Chapter, Technology"
@@ -51,9 +51,9 @@ navigationLinks:
 # - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/contact/", text: "Contact"}
 bottomNavigationLinks:
- - {link: "/", text: "BECOME A MEMBER"}
+ - {permalink: "/join/", text: "BECOME A MEMBER"}
 rightNavigationButtons:
- - {link: "/", text: "BECOME A MEMBER"}
+ - {permalink: "/join/", text: "BECOME A MEMBER"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -62,33 +62,33 @@ eventDate: "Technological Institute of Mérida"
 typeoutTextValues: '"", "Yucatán", "México", "ITM"'
 typeoutFallback: "Yucatán, México"
 heroButtons:
- - {link: "/", text: "BECOME A MEMBER"}
+  - {permalink: "/join/", text: "BECOME A MEMBER"}
 
 # Tickets Block
 ticketsTitle: "Membership"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsInfo: "Memberships grant access to all conferences, wrokshops, meetups, & coffee brakes. Preference in limited availability events."
 ticketsOffers:
+#  -
+#   name: "AAAIMX T-Shirt"
+#   price: "$150"
+#   priceCurrency: ""
+#   ticketsNumber: "150"
+#   ribbon: "Basic"
+#   buyButtonLink: ""
+#   buyButtonText: "Buy Now"
+#   ticketContentList: ["Includes: ", "1 T-Shirt", "Preferent access to events"]
+#   validFrom: "2014-08-25T10:00"
+#   validThrough: "2014-09-30T23:59"
  -
-  name: "AAAIMX T-Shirt"
-  price: "$100"
-  priceCurrency: ""
-  ticketsNumber: "150"
-  ribbon: "Basic"
-  buyButtonLink: ""
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Includes: ", "1 T-Shirt", "Preferent access to events"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
- -
-  name: "AAAIMX Kit"
-  price: "$350"
+  name: "AAAIMX Membership"
+  price: "$250"
   priceCurrency: ""
   ticketsNumber: "100"
   ribbon: "Ginda"
   featured: true
   buyButtonLink: ""
   buyButtonText: "Buy Now"
-  ticketContentList: ["Includes: ", "1 T-Shirt","1 Mousepad", "10 Stickers",  "Preferent access to events"]
+  ticketContentList: ["Includes: ", "AAAIMX T-Shirt", "Discounts (Courses & Services)", "Preferent access to all conferences, wrokshops, meetups, coffee brakes & limited availability events."]
   validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-23T23:59"
   disabled: false
@@ -130,7 +130,6 @@ venueFeatures: ["AAAI Student Chapter México Presentation Ceremony", "Instituto
 tweetsFeedImage: "patria.jpg"
 tweetsFeedTitle: "Do you have a particular challenge you are currently dealing with?"
 twitterHashTag: "aaaimx"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
 partnersTitle: "Partners & Sponsors"
@@ -139,7 +138,7 @@ partnersC4sponsorsButton: "Become a sponsor"
 # Subscribe Block
 subscribeImage: "2.jpeg"
 subscribeTitle: "Intelligence is the best Human talent"
-subscribeAction: "http://aaaimx.org/research/"
+subscribeAction: "https://aaaimx.org/research/"
 subscribeInfo: "Contributing to more students having knowledge of Artificial Intelligence and other increasingly popular related fields"
 
 # Footer
@@ -198,9 +197,9 @@ logisticsMapAutoDirections: false
 directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Get around Lviv"
 directionDetailsCards:
- - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+#  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+#  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+#  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
 directionDetailsWideCards:
  -
   title: "Questions?"
@@ -245,7 +244,7 @@ prizes:
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
 hackathonLocationName: "Communa"
-hackathonLocationLink: "http://communa.net.ua/"
+hackathonLocationLink: ""
 hackathonStreetAddress: "1 Halytska St"
 hackathonAddressLocality: "Lviv"
 hackathonAddressLocalityRegion: "Lvivska"

@@ -26,7 +26,7 @@
 							<p class="ticket-sold-out">{{ ticketsOffer.soldOutText }}</p>
 							{% elsif ticketsOffer.disabled != true %}
 							<span class="bordered dark-border button">
-								<a href="{{ ticketsOffer.buyButtonLink }}" class="waves-effect waves-button" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
+								<a href="#" data-toggle="modal" data-target="#basicExampleModal" class="waves-effect waves-button" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
 							</span>
 							{% else %}
 		           			{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
