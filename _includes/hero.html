@@ -10,8 +10,7 @@
                         class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ heroText[1] }}</h1>
                 <p>{{ site.eventDate }}</p>
                 {% for button in site.heroButtons %}
-                <a onclick="showPopUpMmember(event)"
-                    href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}"
+                <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}"
                     class="btn waves-effect waves-button waves-light waves-float" style="background-color: #800040"
                     {% if button.link != null %}target="_blank" {% endif %}>{{ button.text }}</a>
                 {% endfor %}

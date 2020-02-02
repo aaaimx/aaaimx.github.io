@@ -81,14 +81,14 @@ ticketsOffers:
 #   validThrough: "2014-09-30T23:59"
  -
   name: "AAAIMX Membership"
-  price: "$250"
+  price: "$180 MXN"
   priceCurrency: ""
   ticketsNumber: "100"
   ribbon: "Ginda"
   featured: true
   buyButtonLink: ""
   buyButtonText: "Buy Now"
-  ticketContentList: ["Includes: ", "AAAIMX T-Shirt", "Discounts (Courses & Services)", "Preferent access to all conferences, wrokshops, meetups, coffee brakes & limited availability events."]
+  ticketContentList: ["Includes: ","Digital Membership ($50.00)", "AAAIMX T-Shirt ($160.00)", "Discounts (Courses & Services)", "Preferent access to all conferences, workshops, meetups, coffee brakes & limited availability events."]
   validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-23T23:59"
   disabled: false
