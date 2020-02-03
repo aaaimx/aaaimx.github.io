@@ -1,0 +1,43 @@
+<!-- Venue Section -->
+<section id="venue">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>Recent events</h3>
+            <div class="row venue-row">
+                <div class="col-md-8 col-sm-8 venue-col">
+                    <div class="venue-elem-wrapper">
+                        <div class="venue-elem image-section venue-big-elem venue-img animated hiding"
+                            data-animation="fadeIn" data-delay="0"
+                            style="background-image: url(/img/venue/committe.jpeg)"></div>
+                    </div>
+                </div>
+                {% for photo in site.venueGalery %}
+                <div class="col-md-4 col-sm-4 venue-col venue-small-col">
+                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding"
+                            data-animation="fadeIn" data-delay="150"
+                            style="background-image: url(/img/events/{{ photo }})">
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                <!-- <div class="col-md-4 col-sm-4 venue-col venue-small-col">
+                    <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
+                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding"
+                            data-animation="fadeIn" data-delay="150"
+                            style="background-image: url(/img/events/{{ site.venueSmallImage1 }})">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8 venue-col">
+                    <div class="venue-elem-wrapper">
+                        <div class="venue-elem image-section venue-big-elem venue-img animated hiding"
+                            data-animation="fadeIn" data-delay="0"
+                            style="background-image: url(/img/events/{{ site.venueBigImage }})"></div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Venue Section -->

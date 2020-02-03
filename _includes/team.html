@@ -11,7 +11,7 @@
         {{ site.aboutUs }}
       </p>
     </div>
-    <img id="loading" width="200px" src="/img/other/spinner.jpg" alt="" />
+    <img id="loading" width="200px" src="/img/other/loader.gif" alt="" />
     <div style="display: none;" id="members">
       <div
         class="col-lg-10 col-lg-offset-1 text-center posted-review committee"
@@ -25,8 +25,8 @@
         </h4>
         <div
           v-for="m in members"
-          v-show="!m.board"
-          class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation visible"
+          v-for="!m.board"
+          class="effect-wrapper col-md-3 col-sm-4 col-xs-12 cols-centered appear-animation visible"
           style="transition-delay: 0.06204s; transition-duration: 0.2s;"
         >
           <div
@@ -97,7 +97,7 @@
         <div
           v-for="b in members"
           v-show="b.board"
-          class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation visible"
+          class="effect-wrapper col-md-3 col-sm-4 col-xs-6 cols-centered appear-animation visible"
           style="transition-delay: 0.06204s; transition-duration: 0.2s;"
         >
           <div

@@ -60,7 +60,7 @@
         "name": "Paul",
         "thumbnailUrl": "https://drive.google.com/uc?id=1rH8pja_Mpoma7aD5ku93sn2spvkGlsvl",
         "committee": true,
-        "charge": "Operations Leader / Treasure"
+        "charge": "Operations Leader / Advisor"
     },
     {
         "surname": "Novelo",
@@ -101,7 +101,7 @@
         "id": 5,
         "name": "Adolfo",
         "surname": "Álvarez",
-        "charge": "Web Master",
+        "charge": "Advisor",
         "thumbnailUrl": "https://drive.google.com/uc?id=1AHQdJOzqo02wYXp58ovb9B0pnAazoGn4",
         "committee": true
     }

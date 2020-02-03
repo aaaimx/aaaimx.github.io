@@ -47,13 +47,13 @@ navigationLinks:
  - {permalink: "/structure/", text: "Structure"}
  - {permalink: "/research/", text: "Research"}
  - {link: "https://web.facebook.com/pg/aaaimx/events/?ref=page_internal", text: "Events"}
-#- {permalink: "/logistics/", text: "Logistics"}
+ - {permalink: "/galery/", text: "Galery"}
 # - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/contact/", text: "Contact"}
 bottomNavigationLinks:
- - {permalink: "/join/", text: "BECOME A MEMBER"}
+ - {permalink: "/become-a-member/", text: "BECOME A MEMBER"}
 rightNavigationButtons:
- - {permalink: "/join/", text: "BECOME A MEMBER"}
+ - {permalink: "/become-a-member/", text: "BECOME A MEMBER"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -62,11 +62,11 @@ eventDate: "Technological Institute of Mérida"
 typeoutTextValues: '"", "Yucatán", "México", "ITM"'
 typeoutFallback: "Yucatán, México"
 heroButtons:
-  - {permalink: "/join/", text: "BECOME A MEMBER"}
+  - {permalink: "/become-a-member/", text: "BECOME A MEMBER"}
 
 # Tickets Block
 ticketsTitle: "Membership"
-ticketsInfo: "Memberships grant access to all conferences, wrokshops, meetups, & coffee brakes. Preference in limited availability events."
+ticketsInfo: "Memberships grant access to all conferences, workshops, meetups, & coffee brakes. Preference in limited availability events."
 ticketsOffers:
 #  -
 #   name: "AAAIMX T-Shirt"
@@ -80,14 +80,15 @@ ticketsOffers:
 #   validFrom: "2014-08-25T10:00"
 #   validThrough: "2014-09-30T23:59"
  -
-  name: "AAAIMX Membership"
+  name: "AAAIMX Membership *"
   price: "$180 MXN"
   priceCurrency: ""
   ticketsNumber: "100"
   ribbon: "Ginda"
   featured: true
+  additionalInfo: 'Includes digital Membership, discounts & T-Shirt'
   buyButtonLink: ""
-  buyButtonText: "Buy Now"
+  buyButtonText: "Join Now"
   ticketContentList: ["Includes: ","Digital Membership ($50.00)", "AAAIMX T-Shirt ($160.00)", "Discounts (Courses & Services)", "Preferent access to all conferences, workshops, meetups, coffee brakes & limited availability events."]
   validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-23T23:59"
@@ -118,13 +119,14 @@ rockstarSpeakersTitle: "Executive Committee"
 rockstarSpeakersButtonText: "See all members"
 
 # Venue Block
-venueBlockTitle: "Computer Systems Engineering"
+venueBlockTitle: "AAAI Student Chapter México Presentation Ceremony"
 venueBigImage: "presentation-02.jpeg"
 venueSmallImage1: "presentation-01.jpeg"
-venueSmallImage2: "campus-noche.jpg"
+venueSmallImage2: "auditorium.jpeg"
 venueSmallImage3: "presentation-04.jpg"
 venueTitle: "Department of Systems and Computing"
-venueFeatures: ["AAAI Student Chapter México Presentation Ceremony", "Instituto Tecnológico de Mérida"]
+venueFeatures: ["Computer Systems Engineering", "Instituto Tecnológico de Mérida"]
+venueGalery: ["sisi-01.jpeg", "sisi-02.jpeg", "sisi-03.jpeg", "sisi-04.jpeg", "sisi-05.jpeg", "sisi-06.jpeg", "sisi-07.jpeg", "sisi-08.jpeg", "sisi-09.jpeg"]
 
 # Tweets Feed Block
 tweetsFeedImage: "patria.jpg"
