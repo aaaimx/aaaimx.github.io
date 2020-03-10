@@ -2,9 +2,15 @@
 <section id="tickets" class="tickets-2">
 	<div class="content-wrapper">
 		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
-			<h3>{{ site.ticketsTitle }}</h3>
+			<h4>{{ site.ticketsTitle }} Form</h4>
+			
+			<span class="tickets-info">* {{ site.ticketsInfo }}</span> For more info visit
+			<a href="/benefits">AAAIMX Benefits</a>
 			<div class="tickets-table row animated hiding" data-animation="fadeInDown" data-delay="0">
-				{% assign animationDelay = 0 %}
+				<iframe
+				src="https://docs.google.com/forms/d/e/1FAIpQLSdfZrhZ-rz5Fct5fBAj2MlyvOoNn5m93-L4DqT8AOhX0O9gfw/viewform?embedded=true"
+				width="640" height="4000" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+				<!-- {% assign animationDelay = 0 %}
 				{% for ticketsOffer in site.ticketsOffers %}
 				<div class="tickets-row animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
 					<div class="row">
@@ -22,7 +28,7 @@
 							<p class="ticket-sold-out">{{ ticketsOffer.soldOutText }}</p>
 							{% elsif ticketsOffer.disabled != true %}
 							<span class="bordered dark-border button">
-								<a href="#" data-toggle="modal" data-target="#basicExampleModal"
+								<a href="/contact"
 									class="waves-effect waves-button"
 									target="_blank">{{ ticketsOffer.buyButtonText }}</a>
 							</span>
@@ -35,10 +41,8 @@
 					</div>
 				</div>
 				{% assign animationDelay = animationDelay | plus:250 %}
-				{% endfor %}
-			</div>
-			<span class="tickets-info">* {{ site.ticketsInfo }}</span> For more info visit
-			<a href="/benefits">AAAIMX Benefits</a>
+				{% endfor %} -->
+			</div> 
 		</div>
 	</div>
 </section>

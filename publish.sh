@@ -8,6 +8,8 @@ do
         then
             mkdir "${FILE%%.*}"
             mv $FILE "${FILE%%.*}"/index.html
+            echo $FILE
     fi
 done
+cd ../../
 npm run publish

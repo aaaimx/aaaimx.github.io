@@ -47,7 +47,7 @@ navigationLinks:
  - {permalink: "/structure/", text: "Structure"}
  - {permalink: "/research/", text: "Research"}
  - {link: "https://web.facebook.com/pg/aaaimx/events/?ref=page_internal", text: "Events"}
- - {permalink: "/galery/", text: "Galery"}
+#  - {permalink: "/galery/", text: "Galery"}
 # - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/contact/", text: "Contact"}
 bottomNavigationLinks:

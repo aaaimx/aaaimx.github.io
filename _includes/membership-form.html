@@ -1,52 +1,169 @@
-<div class="panel panel-default">
-    <div class="panel-body">
-        <div class="row">
-            <div class="col-md-6 mb-3">
-                <div class="form-group">
-                    <label for="firstName">NAME</label>
+<div id="form">
+    <div v-if="!sent" class="panel panel-default">
+        <form action="" @submit.prevent="onSubmit()" method="post">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="firstName">NAME</label>
 
-                    <input type="text" id="firstName" class="form-control" placeholder="Required" required>
+                            <input type="text" id="firstName" class="form-control" v-model="form.name"
+                                placeholder="Name(s) is required" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="lastName">LASTNAME</label>
+
+                            <input type="text" id="lastName" class="form-control" v-model="form.lastname"
+                                placeholder="Lastname is required" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" class="form-control" v-model="form.email"
+                                placeholder="Valid Email">
+                            <span>We contact you by email, as soon as posible</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="phone">PHONE</label>
+                            <input type="number" id="phone" class="form-control" v-model="form.phone"
+                                placeholder="Valid Phone Number" required>
+                            <span>We contact you by phone, as soon as posible</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                            <label for="adscription">ADSCRIPTION</label>
+                            <input type="text" id="adscription" class="form-control" v-model="form.adscription"
+                                list="institutes" placeholder="Select Institute" required>
+                            <span>If your institute not in list, please specify institute name</span>
+                            <datalist id="institutes">
+                                <option value="Instituto Tecnológico de Mérida (ITM)">
+                                <option value="Universidad Modelo">
+                                <option value="Universidad Autónoma de Yucatán (UADY)">
+                                <option value="Universidad Politécnica de Yucatán (UPY)">
+                                <option value="Universidad Tecnológica Metropolitana (UTM)">
+                            </datalist>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="career">CAREER</label>
+                            <input type="text" id="career" class="form-control" v-model="form.career"
+                                placeholder="i.e.: Ing. Software" required>
+                            <span>Please specify career</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="grade">GRADE / CHARGE</label>
+                            <input type="text" id="grade" class="form-control" v-model="form.grade"
+                                placeholder="4to semestre/Graduated/Teacher/Researcher" required>
+                            <span>Please specify grade or charge</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="divisions">DIVISIONS INTEREST</label>
+                            <div class="checkbox">
+                                <label><input type="checkbox" v-model="form.divisions" id="ML" value="ML">Machine
+                                    Learning</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" v-model="form.divisions" id="Robotics"
+                                        value="Robotics">Robotics</label>
+                            </div>
+                            <div class="checkbox disabled">
+                                <label><input type="checkbox" v-model="form.divisions" id="Software"
+                                        value="Software">Software</label>
+                            </div>
+                            <div class="checkbox disabled">
+                                <label><input type="checkbox" v-model="form.divisions" id="Maths" value="Maths">Applied
+                                    Maths</label>
+                            </div>
+                            <div class="checkbox disabled">
+                                <label><input type="checkbox" v-model="form.divisions" id="Operations"
+                                        value="Operations">Operations</label>
+                            </div>
+                            <div class="checkbox disabled">
+                                <label><input type="checkbox" v-model="form.divisions" id="IS" value="IS">Social
+                                    Impact</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <div class="form-group">
+                            <label for="collaboration">COLLABORATION TYPE</label>
+                            <div class="radio">
+                                <label><input name="collaboration" type="radio" required v-model="form.type"
+                                        value="membership">Adquire a membership</label>
+                            </div>
+                            <div class="radio">
+                                <label><input name="collaboration" type="radio" required v-model="form.type"
+                                        value="collaborator">Active collaboration</label>
+                            </div>
+                            <div class="radio disabled">
+                                <label><input name="collaboration" type="radio" required v-model="form.type"
+                                        value="not-sure">Not sure</label>
+                            </div>
+                            <span>Active collaborators obtain the benefits of membership without paying, but they help
+                                in
+                                our activities (staff, facilitator, teacher, events, designer, maintenence,
+                                etc...)</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                            <label for="description">TELL US ABOUT YOU</label>
+                            <textarea id="description" class="form-control" v-model="form.description"
+                                placeholder="Describe your skills, hobbies or interests to join this community"
+                                required></textarea>
+                            <span>Description can be in Spanish, do not worry about</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <button type="submit" class="btn btn-warning btn-lg btn-block">Process
+                            register</button>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-3">
-                <div class="form-group">
-                    <label for="lastName">LASTNAME</label>
-
-                    <input type="text" id="lastName" class="form-control" placeholder="Lastname is required" required>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 mb-3">
-                <div class="form-group">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" class="form-control" placeholder="Valid Email">
-                </div>
-            </div>
-
-            <div class="col-md-12 mb-3">
-                <div class="form-group">
-                    <label for="phone">PHONE</label>
-                    <input type="number" id="phone" class="form-control" placeholder="Valid Phone Number" required>
-                </div>
-            </div>
-            <div class="col-md-12 mb-3">
-                <div class="form-group">
-                    <label for="adscription">ADSCRIPTION</label>
-                    <input type="text" id="adscription" class="form-control" list="adscriptions" placeholder="Enter institute" required>
-                </div>
-            </div>
-        </div>
-
-
+        </form>
     </div>
-    <!-- <div class="panel-footer">
-        <div class="row">
-            <div class="col-xs-12">
-                <button class="btn btn-warning btn-lg btn-block">Process
-                    register</button>
-            </div>
-        </div>
-    </div> -->
+
+    <div v-else class="alert alert-success" role="alert">
+        <strong>Well done!</strong> We contact you as soon as posible to complete register process.
+    </div>
 </div>
+<script>
+    new Vue({
+        el: "#form",
+        data: {
+            form: {
+                divisions: []
+            },
+            sent: false
+        },
+        methods: {
+            onSubmit() {
+                console.log(this.form);
+                this.form = {};
+                this.sent = true;
+            }
+        }
+    })
+</script>

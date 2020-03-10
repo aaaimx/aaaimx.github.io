@@ -50,6 +50,65 @@
         ]
     },
     {
+        "group": "Divisions",
+        "elements": [
+            {
+                "uuid": "60466fa6-aae9-4784-87f2-53ea6725af39",
+                "name": "AAAIMX Machine Learning Division",
+                "alias": "ML",
+                "site": "",
+                "logoName": "https://drive.google.com/uc?id=1QoFL4fHgDPEdKid5HscPqy3_VioSm5ag",
+                "logoFile": "https://drive.google.com/file/d/1QoFL4fHgDPEdKid5HscPqy3_VioSm5ag/view?usp=drivesdk",
+                "type": "Division"
+            },
+            {
+                "uuid": "cf4b4e5a-a803-4466-a6b2-90466bc232fd",
+                "name": "AAAIMX Robotics Division",
+                "alias": "Robotics",
+                "site": "https://web.facebook.com/DivRobotica/",
+                "logoName": "https://drive.google.com/uc?id=1DSXJLtFT2DA6foXhAAIQ6LbVmwl8jiSA",
+                "logoFile": "https://drive.google.com/file/d/1DSXJLtFT2DA6foXhAAIQ6LbVmwl8jiSA/view?usp=drivesdk",
+                "type": "Division"
+            },
+            {
+                "uuid": "b549f397-244b-4124-baa0-dd4e49974953",
+                "name": "AAAIMX Bioengineering Division",
+                "alias": "Bioengineering",
+                "site": "https://web.facebook.com/AAAI-Bioingenier%C3%ADa-mx-110319147115694/",
+                "logoName": "https://drive.google.com/uc?id=1Y8jyRiKb-GEIrL8H19-OHi9D4ykZNABt",
+                "logoFile": "https://drive.google.com/file/d/1Y8jyRiKb-GEIrL8H19-OHi9D4ykZNABt/view?usp=drivesdk",
+                "type": "Division"
+            },
+            {
+                "uuid": "ca93b056-b140-494e-8e7e-c3f808d1ac86",
+                "name": "AAAIMX Applied Maths & Symbolic AI Division",
+                "alias": "Applied Maths",
+                "site": "",
+                "logoName": "https://drive.google.com/uc?id=1zKFKwbsnk6RYK0WbESFlfIcUZPw7_cRU",
+                "logoFile": "https://drive.google.com/file/d/1zKFKwbsnk6RYK0WbESFlfIcUZPw7_cRU/view?usp=drivesdk",
+                "type": "Division"
+            },
+            {
+                "uuid": "405d8b93-48f5-4a45-b7e5-bbe558e058a8",
+                "name": "AAAIMX Software Division",
+                "alias": "Software",
+                "site": "",
+                "logoName": "https://drive.google.com/uc?id=1REoe0nqQ_wV7mvc-YVbcry-ue6ZTtoAC",
+                "logoFile": "https://drive.google.com/file/d/1REoe0nqQ_wV7mvc-YVbcry-ue6ZTtoAC/view?usp=drivesdk",
+                "type": "Division"
+            },
+            {
+                "uuid": "ca618a87-01d5-42f3-9643-9adfa9119ad2",
+                "name": "AAAIMX Social Impact Division",
+                "alias": "DIS",
+                "site": "https://web.facebook.com/Divisi%C3%B3n-IS-AAAI-Student-Chapter-M%C3%A9xico-100466724697875/",
+                "logoName": "https://drive.google.com/uc?id=1mZufxZzccCj3p9WV_2sAUDgn-y0VCty6",
+                "logoFile": "https://drive.google.com/file/d/1mZufxZzccCj3p9WV_2sAUDgn-y0VCty6/view?usp=drivesdk",
+                "type": "Division"
+            }
+        ]
+    },
+    {
         "group": "Partners",
         "elements": [
             {
@@ -139,21 +198,30 @@
                 "type": "Sponsor"
             },
             {
-                "uuid": "3ed72822-985c-4915-a3ed-c784023ed212",
-                "name": "Indaico Servicio y Reparación",
-                "alias": "Indaico",
-                "site": "https://web.facebook.com/indaico/",
-                "logoName": "https://drive.google.com/uc?id=1HUk60f8TmDJieK4YgFCrl_ZEEV466h64",
-                "logoFile": "https://drive.google.com/file/d/1HUk60f8TmDJieK4YgFCrl_ZEEV466h64/view?usp=drivesdk",
-                "type": "Sponsor"
-            },
-            {
                 "uuid": "91e40237-c8c1-4f38-831f-7f064e79a0ef",
                 "name": "Generación Estudiantil Tecnológica  ITM",
                 "alias": "GETEC",
                 "site": "https://web.facebook.com/GETECITM/",
                 "logoName": "https://drive.google.com/uc?id=1WjB3u35KZw0AbDahKqzreVY8BvHCvX1k",
                 "logoFile": "https://drive.google.com/file/d/1WjB3u35KZw0AbDahKqzreVY8BvHCvX1k/view?usp=drivesdk",
+                "type": "Sponsor"
+            },
+            {
+                "uuid": "47415410-5d9a-4632-b0f5-218d2f68dfdd",
+                "name": "Jalisco Talent Land",
+                "alias": "Jalisco Talent Land",
+                "site": "https://www.talent-land.mx/",
+                "logoName": "https://drive.google.com/uc?id=1-DHP2q83T7lBdUaAGt4WjLrOI3bmf43p",
+                "logoFile": "https://drive.google.com/file/d/1-DHP2q83T7lBdUaAGt4WjLrOI3bmf43p/view?usp=drivesdk",
+                "type": "Sponsor"
+            },
+            {
+                "uuid": "3ed72822-985c-4915-a3ed-c784023ed212",
+                "name": "Indaico Servicio y Reparación",
+                "alias": "Indaico",
+                "site": "https://web.facebook.com/indaico/",
+                "logoName": "https://drive.google.com/uc?id=1HUk60f8TmDJieK4YgFCrl_ZEEV466h64",
+                "logoFile": "https://drive.google.com/file/d/1HUk60f8TmDJieK4YgFCrl_ZEEV466h64/view?usp=drivesdk",
                 "type": "Sponsor"
             },
             {
