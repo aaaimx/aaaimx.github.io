@@ -45,7 +45,7 @@ and run next command from root folder:
 
 To start Jekyll run:
 ```bash
-    jekyll serve -w
+    bundle jekyll serve -w
 ```
 Site will be available at http://127.0.0.1:4000/zeppelin/ or http://localhost:4000/zeppelin/ (on Windows)
 

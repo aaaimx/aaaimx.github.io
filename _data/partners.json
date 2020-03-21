@@ -52,6 +52,7 @@
     {
         "group": "Divisions",
         "elements": [
+
             {
                 "uuid": "60466fa6-aae9-4784-87f2-53ea6725af39",
                 "name": "AAAIMX Machine Learning Division",
@@ -71,24 +72,6 @@
                 "type": "Division"
             },
             {
-                "uuid": "b549f397-244b-4124-baa0-dd4e49974953",
-                "name": "AAAIMX Bioengineering Division",
-                "alias": "Bioengineering",
-                "site": "https://web.facebook.com/AAAI-Bioingenier%C3%ADa-mx-110319147115694/",
-                "logoName": "https://drive.google.com/uc?id=1Y8jyRiKb-GEIrL8H19-OHi9D4ykZNABt",
-                "logoFile": "https://drive.google.com/file/d/1Y8jyRiKb-GEIrL8H19-OHi9D4ykZNABt/view?usp=drivesdk",
-                "type": "Division"
-            },
-            {
-                "uuid": "ca93b056-b140-494e-8e7e-c3f808d1ac86",
-                "name": "AAAIMX Applied Maths & Symbolic AI Division",
-                "alias": "Applied Maths",
-                "site": "",
-                "logoName": "https://drive.google.com/uc?id=1zKFKwbsnk6RYK0WbESFlfIcUZPw7_cRU",
-                "logoFile": "https://drive.google.com/file/d/1zKFKwbsnk6RYK0WbESFlfIcUZPw7_cRU/view?usp=drivesdk",
-                "type": "Division"
-            },
-            {
                 "uuid": "405d8b93-48f5-4a45-b7e5-bbe558e058a8",
                 "name": "AAAIMX Software Division",
                 "alias": "Software",
@@ -98,12 +81,39 @@
                 "type": "Division"
             },
             {
+                "uuid": "ca93b056-b140-494e-8e7e-c3f808d1ac86",
+                "name": "AAAIMX Applied Maths & Symbolic AI Division",
+                "alias": "Applied Maths",
+                "site": "",
+                "logoName": "https://drive.google.com/uc?id=1360SzViIRuIcNuqVYTi7yGlDUIcmwfR1",
+                "logoFile": "https://drive.google.com/file/d/1360SzViIRuIcNuqVYTi7yGlDUIcmwfR1/view?usp=drivesdk",
+                "type": "Division"
+            },
+            {
+                "uuid": "b549f397-244b-4124-baa0-dd4e49974953",
+                "name": "AAAIMX Bioengineering Division",
+                "alias": "Bioengineering",
+                "site": "https://web.facebook.com/AAAI-Bioingenier%C3%ADa-mx-110319147115694/",
+                "logoName": "https://drive.google.com/uc?id=1Y8jyRiKb-GEIrL8H19-OHi9D4ykZNABt",
+                "logoFile": "https://drive.google.com/file/d/1Y8jyRiKb-GEIrL8H19-OHi9D4ykZNABt/view?usp=drivesdk",
+                "type": "Division"
+            },
+            {
                 "uuid": "ca618a87-01d5-42f3-9643-9adfa9119ad2",
                 "name": "AAAIMX Social Impact Division",
                 "alias": "DIS",
                 "site": "https://web.facebook.com/Divisi%C3%B3n-IS-AAAI-Student-Chapter-M%C3%A9xico-100466724697875/",
                 "logoName": "https://drive.google.com/uc?id=1mZufxZzccCj3p9WV_2sAUDgn-y0VCty6",
                 "logoFile": "https://drive.google.com/file/d/1mZufxZzccCj3p9WV_2sAUDgn-y0VCty6/view?usp=drivesdk",
+                "type": "Division"
+            },
+            {
+                "uuid": "2eaa2dbe-4122-4555-832d-7a6176160b41",
+                "name": "AAAIMX Operations Division",
+                "alias": "Operations",
+                "site": "",
+                "logoName": "https://drive.google.com/uc?id=1iyZvarZFLz06Xhrf4_ZOH6qeOpXbusFQ",
+                "logoFile": "https://drive.google.com/file/d/1iyZvarZFLz06Xhrf4_ZOH6qeOpXbusFQ/view?usp=drivesdk",
                 "type": "Division"
             }
         ]
@@ -211,7 +221,7 @@
                 "name": "Jalisco Talent Land",
                 "alias": "Jalisco Talent Land",
                 "site": "https://www.talent-land.mx/",
-                "logoName": "https://drive.google.com/uc?id=1-DHP2q83T7lBdUaAGt4WjLrOI3bmf43p",
+                "logoName": "https://drive.google.com/uc?id=1fjU4yBflZigudLDSyNGgF0t2-kNSfUo7",
                 "logoFile": "https://drive.google.com/file/d/1-DHP2q83T7lBdUaAGt4WjLrOI3bmf43p/view?usp=drivesdk",
                 "type": "Sponsor"
             },

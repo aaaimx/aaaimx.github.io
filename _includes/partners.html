@@ -8,7 +8,7 @@
             <ul class="list-inline">
                 {% for element in partner.elements %}
                 <li>
-                    <a href="{{ element.site }}" target="_blank">
+                    <a {% if element.site != ""  %}href="{{ element.site }}" target="_blank"{% endif %} >
                         <img src="{% if element.logoFile %}{{ element.logoName }}{% else %}/img/partners/{{ element.logoName }}{% endif %}" title="{{ element.name }}" alt="{{ element.alias }}">
                     </a>
                 </li>

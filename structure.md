@@ -5,4 +5,4 @@ permalink: /structure/
 isStaticPost: true
 ---
 
-![Structure](https://github.com/RaulNovelo/zeppelin/blob/master/img/other/structure.jpeg?raw=true)
+![Structure](/img/other/structure.jpeg?raw=true)
