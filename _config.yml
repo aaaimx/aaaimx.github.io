@@ -6,7 +6,7 @@ safe: false
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', '*.sh', 'publish.js', 'package.json', 'package-lock.json', 'node_modules/', 'CNAME']
+exclude: ['/automation/', '*.sh', 'publish.js', 'get*', 'test.py', 'package.json', 'package-lock.json', 'node_modules/', 'CNAME']
 
 # Site Settings
 title: "AAAIMX | Student Chapter"
