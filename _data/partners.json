@@ -7,8 +7,7 @@
                 "name": "Universidad Complutense de Madrid",
                 "alias": "UCM",
                 "site": "https://www.ucm.es/disia",
-                "logoName": "https://drive.google.com/uc?id=1KxlXkfzOkA8ld4-BR_53ImenooI0UGSf",
-                "logoFile": "https://drive.google.com/file/d/1KxlXkfzOkA8ld4-BR_53ImenooI0UGSf/view?usp=drivesdk",
+                "logoName": "ucm.png",
                 "type": "Research Center"
             },
             {
@@ -16,8 +15,7 @@
                 "name": "Litoteca Nacional de Hidrocarburos",
                 "alias": "LNH",
                 "site": "https://www.gob.mx/cnh/videos/litoteca-nacional-de-la-industria-de-hidrocarburos-217890",
-                "logoName": "https://drive.google.com/uc?id=1yPHYrcZTVRNwUJYv7X9-v38d248L8fnA",
-                "logoFile": "https://drive.google.com/file/d/1yPHYrcZTVRNwUJYv7X9-v38d248L8fnA/view?usp=drivesdk",
+                "logoName": "CNH.png",
                 "type": "Research Center"
             },
             {
@@ -25,8 +23,7 @@
                 "name": "Instituto Politécnico Nacional / Centro de Desarrollo Aeroespacial",
                 "alias": "IPN",
                 "site": "https://www.ipn.mx/cda/",
-                "logoName": "https://drive.google.com/uc?id=1dq7mdLr-7Kh-dZ6L5QDq3gNoTArxans6",
-                "logoFile": "https://drive.google.com/file/d/1dq7mdLr-7Kh-dZ6L5QDq3gNoTArxans6/view?usp=drivesdk",
+                "logoName": "pleca-ipn.png",
                 "type": "Research Center"
             },
             {
@@ -43,8 +40,7 @@
                 "name": "Centro de Investigación en Matemáticas / Unidad Mérida",
                 "alias": "CIMAT",
                 "site": "https://www.cimat.mx/es/unidad-merida",
-                "logoName": "https://drive.google.com/uc?id=1J-h14NyLzzcieUmjq3XanwFsb29RPjd-",
-                "logoFile": "https://drive.google.com/file/d/1J-h14NyLzzcieUmjq3XanwFsb29RPjd-/view?usp=drivesdk",
+                "logoName": "cimat.png",
                 "type": "Research Center"
             }
         ]
@@ -58,8 +54,7 @@
                 "name": "AAAIMX Machine Learning Division",
                 "alias": "ML",
                 "site": "",
-                "logoName": "https://drive.google.com/uc?id=1QoFL4fHgDPEdKid5HscPqy3_VioSm5ag",
-                "logoFile": "https://drive.google.com/file/d/1QoFL4fHgDPEdKid5HscPqy3_VioSm5ag/view?usp=drivesdk",
+                "logoName": "divisions/diml.png",
                 "type": "Division"
             },
             {
@@ -67,17 +62,15 @@
                 "name": "AAAIMX Robotics Division",
                 "alias": "Robotics",
                 "site": "https://web.facebook.com/DivRobotica/",
-                "logoName": "https://drive.google.com/uc?id=1DSXJLtFT2DA6foXhAAIQ6LbVmwl8jiSA",
-                "logoFile": "https://drive.google.com/file/d/1DSXJLtFT2DA6foXhAAIQ6LbVmwl8jiSA/view?usp=drivesdk",
+                "logoName": "divisions/dirobot.png",
                 "type": "Division"
             },
             {
                 "uuid": "405d8b93-48f5-4a45-b7e5-bbe558e058a8",
                 "name": "AAAIMX Software Division",
                 "alias": "Software",
-                "site": "",
-                "logoName": "https://drive.google.com/uc?id=1REoe0nqQ_wV7mvc-YVbcry-ue6ZTtoAC",
-                "logoFile": "https://drive.google.com/file/d/1REoe0nqQ_wV7mvc-YVbcry-ue6ZTtoAC/view?usp=drivesdk",
+                "site": "/software",
+                "logoName": "divisions/disoftw.png",
                 "type": "Division"
             },
             {
@@ -85,8 +78,7 @@
                 "name": "AAAIMX Applied Maths & Symbolic AI Division",
                 "alias": "Applied Maths",
                 "site": "",
-                "logoName": "https://drive.google.com/uc?id=1360SzViIRuIcNuqVYTi7yGlDUIcmwfR1",
-                "logoFile": "https://drive.google.com/file/d/1360SzViIRuIcNuqVYTi7yGlDUIcmwfR1/view?usp=drivesdk",
+                "logoName": "divisions/dimaths.png",
                 "type": "Division"
             },
             {
@@ -94,8 +86,7 @@
                 "name": "AAAIMX Bioengineering Division",
                 "alias": "Bioengineering",
                 "site": "https://web.facebook.com/AAAI-Bioingenier%C3%ADa-mx-110319147115694/",
-                "logoName": "https://drive.google.com/uc?id=1Y8jyRiKb-GEIrL8H19-OHi9D4ykZNABt",
-                "logoFile": "https://drive.google.com/file/d/1Y8jyRiKb-GEIrL8H19-OHi9D4ykZNABt/view?usp=drivesdk",
+                "logoName": "divisions/dibio.png",
                 "type": "Division"
             },
             {
@@ -103,8 +94,7 @@
                 "name": "AAAIMX Social Impact Division",
                 "alias": "DIS",
                 "site": "https://web.facebook.com/Divisi%C3%B3n-IS-AAAI-Student-Chapter-M%C3%A9xico-100466724697875/",
-                "logoName": "https://drive.google.com/uc?id=1mZufxZzccCj3p9WV_2sAUDgn-y0VCty6",
-                "logoFile": "https://drive.google.com/file/d/1mZufxZzccCj3p9WV_2sAUDgn-y0VCty6/view?usp=drivesdk",
+                "logoName": "divisions/dis.png",
                 "type": "Division"
             },
             {
@@ -112,8 +102,7 @@
                 "name": "AAAIMX Operations Division",
                 "alias": "Operations",
                 "site": "",
-                "logoName": "https://drive.google.com/uc?id=1iyZvarZFLz06Xhrf4_ZOH6qeOpXbusFQ",
-                "logoFile": "https://drive.google.com/file/d/1iyZvarZFLz06Xhrf4_ZOH6qeOpXbusFQ/view?usp=drivesdk",
+                "logoName": "divisions/diope.png",
                 "type": "Division"
             }
         ]
@@ -126,8 +115,7 @@
                 "name": "WolfCode programming Squad",
                 "alias": "WolfCode",
                 "site": "https://web.facebook.com/WolfCodeProgrammingSquad/",
-                "logoName": "https://drive.google.com/uc?id=1uR-lPWalWfBKKLEwkN-7QEzHtSWDelWx",
-                "logoFile": "https://drive.google.com/file/d/1uR-lPWalWfBKKLEwkN-7QEzHtSWDelWx/view?usp=drivesdk",
+                "logoName": "wolfcode.jpg",
                 "type": "Partner"
             },
             {
@@ -135,8 +123,7 @@
                 "name": "Tecnológico Nacional de México / I.T. Mérida",
                 "alias": "ITM",
                 "site": "http://www.itmerida.mx/",
-                "logoName": "https://drive.google.com/uc?id=15JT-It5SuokiS8P74tqPPLTLc-OkzjFg",
-                "logoFile": "https://drive.google.com/file/d/15JT-It5SuokiS8P74tqPPLTLc-OkzjFg/view?usp=drivesdk",
+                "logoName": "tec.png",
                 "type": "Partner"
             },
             {
@@ -144,8 +131,7 @@
                 "name": "Tecnológico Nacional de México",
                 "alias": "TecNM",
                 "site": "https://www.tecnm.mx/",
-                "logoName": "https://drive.google.com/uc?id=10iTlKHf1qbp9lAVgHdVFTarAVAV1v65f",
-                "logoFile": "https://drive.google.com/file/d/10iTlKHf1qbp9lAVgHdVFTarAVAV1v65f/view?usp=drivesdk",
+                "logoName": "tecnm.png",
                 "type": "Partner"
             },
             {
@@ -153,8 +139,7 @@
                 "name": "Dirección de Ingeniería Electrica y Electrónica",
                 "alias": "DIEE",
                 "site": "https://diee.net/",
-                "logoName": "https://drive.google.com/uc?id=1WYGwr-LdaZlQ1nWXZ39HvXaVeV7Z7s0S",
-                "logoFile": "https://drive.google.com/file/d/1WYGwr-LdaZlQ1nWXZ39HvXaVeV7Z7s0S/view?usp=drivesdk",
+                "logoName": "diee.jpg",
                 "type": "Partner"
             },
             {
@@ -162,8 +147,7 @@
                 "name": "Departamento de Sistemas y Computación",
                 "alias": "DISC",
                 "site": "http://www.itmerida.edu.mx/",
-                "logoName": "https://drive.google.com/uc?id=1ONRBxbgQEspAm8rKyBVqaNHTEcEwetUg",
-                "logoFile": "https://drive.google.com/file/d/1ONRBxbgQEspAm8rKyBVqaNHTEcEwetUg/view?usp=drivesdk",
+                "logoName": "disc.jpg",
                 "type": "Partner"
             },
             {
@@ -171,8 +155,7 @@
                 "name": "CEISC - Club de Electrónica ISC",
                 "alias": "CEISC",
                 "site": "https://web.facebook.com/DivRobotica/",
-                "logoName": "https://drive.google.com/uc?id=1W1FUAXHrR1paXgpdHBcrRtHdySe_dXt5",
-                "logoFile": "https://drive.google.com/file/d/1W1FUAXHrR1paXgpdHBcrRtHdySe_dXt5/view?usp=drivesdk",
+                "logoName": "ceisc.jpg",
                 "type": "Partner"
             },
             {
@@ -180,8 +163,7 @@
                 "name": "Association for Advancement of Artificial Intelligence",
                 "alias": "AAAI",
                 "site": "https://www.aaai.org/",
-                "logoName": "https://drive.google.com/uc?id=104hjLRXxZWtN8NbS18ar8Ww897yUX4Br",
-                "logoFile": "https://drive.google.com/file/d/104hjLRXxZWtN8NbS18ar8Ww897yUX4Br/view?usp=drivesdk",
+                "logoName": "aaai.png",
                 "type": "Partner"
             }
         ]
@@ -199,12 +181,11 @@
                 "type": "Sponsor"
             },
             {
-                "uuid": "b1d12525-a18c-429d-ac14-eb52647eae3b",
-                "name": "Jarkol Technologies",
-                "alias": "Jarkol",
-                "site": "https://www.jarkol.com/",
-                "logoName": "https://drive.google.com/uc?id=1-sZoeRmgAXSeAB4iokFpx6vxEIwHQWQv",
-                "logoFile": "https://drive.google.com/file/d/1-sZoeRmgAXSeAB4iokFpx6vxEIwHQWQv/view?usp=drivesdk",
+                "uuid": "3ed72822-985c-4915-a3ed-c784023ed212",
+                "name": "Indaico Servicio y Reparación",
+                "alias": "Indaico",
+                "site": "https://web.facebook.com/indaico/",
+                "logoName": "indaico.png",
                 "type": "Sponsor"
             },
             {
@@ -212,8 +193,7 @@
                 "name": "Generación Estudiantil Tecnológica  ITM",
                 "alias": "GETEC",
                 "site": "https://web.facebook.com/GETECITM/",
-                "logoName": "https://drive.google.com/uc?id=1WjB3u35KZw0AbDahKqzreVY8BvHCvX1k",
-                "logoFile": "https://drive.google.com/file/d/1WjB3u35KZw0AbDahKqzreVY8BvHCvX1k/view?usp=drivesdk",
+                "logoName": "getec.png",
                 "type": "Sponsor"
             },
             {
@@ -221,26 +201,7 @@
                 "name": "Jalisco Talent Land",
                 "alias": "Jalisco Talent Land",
                 "site": "https://www.talent-land.mx/",
-                "logoName": "https://drive.google.com/uc?id=1fjU4yBflZigudLDSyNGgF0t2-kNSfUo7",
-                "logoFile": "https://drive.google.com/file/d/1-DHP2q83T7lBdUaAGt4WjLrOI3bmf43p/view?usp=drivesdk",
-                "type": "Sponsor"
-            },
-            {
-                "uuid": "3ed72822-985c-4915-a3ed-c784023ed212",
-                "name": "Indaico Servicio y Reparación",
-                "alias": "Indaico",
-                "site": "https://web.facebook.com/indaico/",
-                "logoName": "https://drive.google.com/uc?id=1HUk60f8TmDJieK4YgFCrl_ZEEV466h64",
-                "logoFile": "https://drive.google.com/file/d/1HUk60f8TmDJieK4YgFCrl_ZEEV466h64/view?usp=drivesdk",
-                "type": "Sponsor"
-            },
-            {
-                "uuid": "138fffdc-0e81-4b3b-af96-fb8862ae2430",
-                "name": "Electrónica THIDO",
-                "alias": "THIDO",
-                "site": "http://www.electronicathido.com/index.php",
-                "logoName": "https://drive.google.com/uc?id=1OQ2IM_BgDWz9vzqqmjR0FIuwvXrFIDN4",
-                "logoFile": "https://drive.google.com/file/d/1OQ2IM_BgDWz9vzqqmjR0FIuwvXrFIDN4/view?usp=drivesdk",
+                "logoName": "jtl.png",
                 "type": "Sponsor"
             },
             {
@@ -248,17 +209,23 @@
                 "name": "ECE Electronics MID",
                 "alias": "ECE Electronics",
                 "site": "https://web.facebook.com/ECEelectronics/",
-                "logoName": "https://drive.google.com/uc?id=1ql9WlECYuThvkQNU3RmUOFB5MeRD5jHf",
-                "logoFile": "https://drive.google.com/file/d/1ql9WlECYuThvkQNU3RmUOFB5MeRD5jHf/view?usp=drivesdk",
+                "logoName": "ece-elect.jpg",
                 "type": "Sponsor"
             },
             {
-                "uuid": "e998a8f5-12f1-45bd-98e0-e8b830bd16a4",
-                "name": "Ascodecodigo",
-                "alias": "ADC",
-                "site": "http://www.ascodecodigo.com/",
-                "logoName": "https://drive.google.com/uc?id=1y3stgcE-e4onm0-RUdm0WCV8tL7jbbTZ",
-                "logoFile": "https://drive.google.com/file/d/1y3stgcE-e4onm0-RUdm0WCV8tL7jbbTZ/view?usp=drivesdk",
+                "uuid": "b66d2e45-3f67-4406-8db0-af5295e575e2",
+                "name": "Carmesi Services",
+                "alias": "Carmesi Services",
+                "site": "https://carmesiservices.com/",
+                "logoName": "carmesi.png",
+                "type": "Sponsor"
+            },
+            {
+                "uuid": "b1d12525-a18c-429d-ac14-eb52647eae3b",
+                "name": "Jarkol Technologies",
+                "alias": "Jarkol",
+                "site": "https://www.jarkol.com/",
+                "logoName": "jarkol.png",
                 "type": "Sponsor"
             }
         ]

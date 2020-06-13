@@ -53,8 +53,8 @@ permalink: /certificates/
                     return response.json();
                 })
                 .then((data) => {
-                    if (!data.published) window.location = '404.html';
-                    this.cert = getImgUrl(data.file);
+                    console.log(data);
+                    this.cert = data.file.replace('download', 'preview');
                 });
         }
     })

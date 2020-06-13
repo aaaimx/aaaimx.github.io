@@ -20,7 +20,7 @@ image: community.jpg
                             <div class="pricing-header">
                                 <p class="title">Membership</p>
                                 <p class="price">
-                                    <img v-if="membership.expired && !membership.member" src="/img/other/expired.jpg" />
+                                    <img v-if="membership.expired" width="300px" src="/img/other/expired.jpg" />
                                     <img v-else style="max-width: 50%; border-radius: 90%;"
                                         src="/img/other/tenor.gif" />
                                 </p>
@@ -70,10 +70,7 @@ image: community.jpg
                     this.loading = false;
                     var now = new Date();
                     data.exp = new Date(data.exp);
-                    if (data.exp < now)
-                        data.expired = true;
-                    else
-                        data.expired = false;
+                    data.expired = data.exp < now;
                     data.exp = data.exp.toLocaleDateString();
                     this.mem = data;
                 });

@@ -6,7 +6,7 @@ safe: false
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', '*.sh', 'publish.js', 'get*', 'test.py', 'package.json', 'package-lock.json', 'node_modules/', 'CNAME']
+exclude: ['/automation/', '*.sh', 'publish.js', 'get-*', 'test.py', 'package.json', 'package-lock.json', 'node_modules/', 'CNAME']
 
 # Site Settings
 title: "AAAIMX | Student Chapter"
@@ -16,8 +16,8 @@ baseurl: ""
 url: "https://www.aaaimx.org"
 domain: "https://www.aaaimx.org"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "raulnovelo.github.io"
+googleAnalyticsTrackingId: "UA-162008839-1"
+googleAnalyticsSiteUrl: "www.aaaimx.org"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
@@ -147,17 +147,18 @@ subscribeInfo: "Contributing to more students having knowledge of Artificial Int
 socialLinks:
  - {link: "https://github.com/aaaimx", icon: "github"}
  - {link: "https://twitter.com/aaaimxc", icon: "twitter"}
- - {link: "https://www.facebook.com/AAAI-Student-Chapter-Yucat%C3%A1n-M%C3%A9xico-408189306626213/", icon: "facebook"}
+ - {link: "https://www.facebook.com/aaaimx", icon: "facebook"}
 footerBlocks:
 -
   title: "Divisions"
   links:
-   - {permalink: "", text: "Machine Learning"}
-   - {permalink: "", text: "Robotics"}
-   - {permalink: "", text: "Software"}
-   - {permalink: "", text: "Applied Maths & Symbolic AI"}
-   - {permalink: "", text: "Operations"}
-   - {permalink: "", text: "Social Impact"}
+   - {permalink: "/machine-learning/", text: "Machine Learning"}
+   - {permalink: "/robotics/", text: "Robotics"}
+   - {permalink: "/software/", text: "Software"}
+   - {permalink: "/applied-maths/", text: "Applied Maths & Symbolic AI"}
+   - { permalink: '/bioengineering/', text: 'Bioengineering' }
+   - {permalink: "/opeartions/", text: "Operations"}
+   - {permalink: "/social-impact/", text: "Social Impact"}
 -
   title: "Student Chapter"
   links:
