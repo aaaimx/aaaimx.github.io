@@ -1,41 +1,117 @@
 <!-- Begin Direction Details-->
 <section id="direction-details" class="direction-details">
+    {% include navigation.html %}
     <div class="content-wrapper">
-        <section class="image-section standart-height" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.directionDetailsImage }}');">
-            <h3>{{ site.directionDetailsTitle }}</h3>
+        <section class="image-section standart-height"
+            style="background-image: url('/img/sections-background/research-bg.jpg');">
+            <h3>Get around Lviv</h3>
         </section>
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-left">
-                {% assign animationDelay = 0 %}
-                {% for card in site.directionDetailsCards %}
-                {% assign colWidth = 12 | divided_by: forloop.length %}
-                <div class="col-md-{{ colWidth }} col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                <div class="col-md-12 col-xs-12 same-height animated hiding" data-animation="fadeInDown" data-delay="0">
                     <div class="card">
-                        <h4>{{ card.title }}</h4>
-                        <p>{{ card.information }}</p>
+                        <div class="people-details">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-2">
+                                    <div class="flow-img img-circle people-img"
+                                        style="background-image: url('https://www.aaaimx.org/img/people/mauricio-orozco.jpg')">
+                                    </div>
+                                </div>
+                                <div class="col-md-10 col-sm-10 details">
+                                    <p class="name">Roman Mazur <span class="position">Head of
+                                            Android/Java Unit,
+                                            Stanfy, GDG Kyiv</span> </p>
+                                    <div class="modal-ribbon-wrapper"> <a class="modal-ribbon"
+                                            href="https://www.aaaimx.org/img/people/mauricio-orozco.jpg" target="_blank">Google
+                                            Developer Group</a> </div>
+                                    <p class="about">Roman started his way in Android 5 years ago and
+                                        fall in love with
+                                        this platform. Currently he is a head of Android unit in Stanfy
+                                        LLC and a
+                                        co-organizer of Kyiv Google Developers Group focusing on Android
+                                        development.
+                                        Roman is responsible for building a strong team of Android
+                                        developers inside
+                                        Stanfy as well as for organizing Android professionals community
+                                        in Kyiv.</p>
+                                    <ul class="social">
+                                        <li> <a href="https://plus.google.com/+RomanMazur/" target="_blank"> <svg
+                                                    class="icon icon-google-plus" viewBox="0 0 30 32">
+                                                    <use xlink:href="../img/sprites/sprites.svg#icon-google-plus">
+                                                    </use>
+                                                </svg> </a> </li>
+                                        <li> <a href="http://twitter.com/roman_mazur" target="_blank">
+                                                <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                                                    <use xlink:href="../img/sprites/sprites.svg#icon-twitter">
+                                                    </use>
+                                                </svg> </a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                {% assign animationDelay = animationDelay | plus:500 %}
-                {% endfor %}
-                
-                {% for wideCard in site.directionDetailsWideCards %}
+                <!-- <div class="col-md-4 col-xs-12 same-height animated hiding" data-animation="fadeInDown"
+                                            data-delay="500">
+                                            <div class="card">
+                                                <h4>Public Transit</h4>
+                                                <p>Google Transit is available in Lviv. So you can find your way in Google Maps.
+                                                    Moreover, you can download any of the offline public transit apps available
+                                                    for Lviv.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-xs-12 same-height animated hiding" data-animation="fadeInDown"
+                                            data-delay="1000">
+                                            <div class="card">
+                                                <h4>Hotels</h4>
+                                                <p>Lviv has lots of great hotels and hostels. More information will be available
+                                                    later.</p>
+                                            </div>
+                                        </div> -->
                 <div class="col-md-12 col-xs-12 animated hiding" data-animation="fadeInDown" data-delay="0">
                     <div class="card questions">
-                        <h4>{{ wideCard.title }}</h4>
-                        {% for subCard in wideCard.subCards %}
-                        {% assign wideCardColWidth = 12 | divided_by: forloop.length %}
-                        <div class="col-md-{{ wideCardColWidth }} col-xs-12">
-                            <h5>{{ subCard.title }}</h5>
+                        <h4>Questions?</h4>
+                        <div class="col-md-4 col-xs-12">
+                            <h5>Hotels</h5>
                             <ul>
-                                {% for linkElement in subCard.links %}
-                                <li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
-                                {% endfor %}
+                                <li><a href="https://plus.google.com/b/102444623953913144164"
+                                        target="_blank">InterContinental</a></li>
+                                <li><a href="https://plus.google.com/b/102444623953913144164" target="_blank">The Hotel Rex</a>
+                                </li>
+                                <li><a href="https://plus.google.com/b/102444623953913144164" target="_blank">Westin Market
+                                        Street</a></li>
+                                <li><a href="https://plus.google.com/b/102444623953913144164" target="_blank">Hotel Adagio</a>
+                                </li>
                             </ul>
                         </div>
-                        {% endfor %}
+                        <div class="col-md-4 col-xs-12">
+                            <h5>Registration</h5>
+                            <ul>
+                                <li><a href="https://plus.google.com/b/102444623953913144164"
+                                        target="_blank">InterContinental</a></li>
+                                <li><a href="https://plus.google.com/b/102444623953913144164" target="_blank">The Hotel Rex</a>
+                                </li>
+                                <li><a href="https://plus.google.com/b/102444623953913144164" target="_blank">Westin Market
+                                        Street</a></li>
+                                <li><a href="https://plus.google.com/b/102444623953913144164" target="_blank">Hotel Adagio</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <h5>Attendance Details</h5>
+                            <ul>
+                                <li><a href="https://plus.google.com/b/102444623953913144164"
+                                        target="_blank">InterContinental</a></li>
+                                <li><a href="https://plus.google.com/b/102444623953913144164" target="_blank">The Hotel Rex</a>
+                                </li>
+                                <li><a href="https://plus.google.com/b/102444623953913144164" target="_blank">Westin Market
+                                        Street</a></li>
+                                <li><a href="https://plus.google.com/b/102444623953913144164" target="_blank">Hotel Adagio</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                {% endfor %}
             </div>
         </div>
     </div>

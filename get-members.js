@@ -16,7 +16,7 @@ function getImgUrl (url) {
 }
 
 axios
-  .get('https://aaaimx-admin.herokuapp.com/api/members/?panel=true&limit=20')
+  .get('https://aaaimx-admin-stage.herokuapp.com/api/members/?panel=true&limit=20')
   .then(res => {
     var members = res.data.results
     var jsonData = []

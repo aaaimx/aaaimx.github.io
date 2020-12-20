@@ -3,7 +3,6 @@ layout: default
 title: Member
 permalink: /member/
 ---
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <div id="author">
     <!-- Begin Top Section -->
     <section id="top-section" class="top-section image-section {% if page.image %}enable-overlay{% endif %}"
@@ -12,170 +11,55 @@ permalink: /member/
 
         {% include navigation.html %}
         <div class="content-wrapper">
-
-            <div class="jumbotron">
-                <!-- <div>
+            <div class="jumbotron text-left">
+                <div>
                     <h1>[[ member.name ]] [[ member.surname ]]</h1>
                 </div>
-                <p>[[ member.charge ]] &bull; [[ member.adscription ]] </p> -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <div class="user-profile__avatar shadow-effect text-center">
-                                <img class="img-responsive center-block"
-                                    src="https://www.aaaimx.org/img/people/raul-novelo.jpeg" alt="...">
-                                [[ member.name ]] [[ member.surname ]]
-                                <p class="text-muted">[[ member.charge ]]</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-9">
-                            <div class="row">
-                                <div class="col-sm-6">
-
-                                    <div>
-                                        <h4>[[ member.name ]] [[ member.surname ]]</h4>
-                                    </div>
-                                    <p>[[ member.charge ]] &bull; [[ member.adscription ]] </p>
-                                    <!-- User URL -->
-                                    <div class="">
-                                        <a href="https://bootdey.com/">https://bootdey.com/</a>
-                                    </div>
-                                    <!-- User social links -->
-                                    <div class="social">
-                                        <ul class="list-inline">
-                                            <li>
-                                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-
-                                    <!-- Profile info -->
-                                    <ul class="user-profile__info">
-                                        <li>
-                                            <i class="fa fa-calendar-o"></i> Member for 180 days
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-clock-o"></i> Last seen 2 hours ago
-                                        </li>
-                                        <li>
-                                            <i class="fa fa-eye"></i> 50 profile views
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div> <!-- / .row -->
-                        </div>
-                    </div> <!-- / .row -->
-                </div>
+                <p>[[ member.charge ]] &bull; [[ member.adscription ]] </p>
             </div>
-
         </div>
     </section>
     <!-- End Top Section -->
     <!-- Begin Blog-->
     <section id="blog" class="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
+        <div class="content-wrapper text-left">
+            <div class="col-md-11 col-sm-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
 
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            CONTACT
-                        </div>
-                        <div class="panel-body">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-user"></i> My Profile</a></li>
-                                <li><a href="#"><i class="fa fa-edit"></i> Edit Profile</a></li>
-                                <li><a href="#"><i class="fa fa-envelope-o"></i> Messages</a></li>
-                                <li><a href="#"><i class="fa fa-sign-out"></i> Sign Out</a></li>
-                            </ul>
-                        </div>
-                    </div>
 
-                </div>
-                <div class="col-sm-9">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="user-profile__tabs">
-                                <div class="research">
-                                    <ul class="nav nav-tabs nav-justified">
-                                        <li role="presentation" :class="current == 'Article' ? 'active' : ''"><a @click.prevent="current = 'Article'"
-                                                href="">Articles</a>
-                                        </li>
-                                        <li role="presentation" :class="current == 'Thesis' ? 'active' : ''"><a @click.prevent="current = 'Thesis'"
-                                                href="">Theses</a></li>
-                                        <li role="presentation" :class="current == 'Presentation' ? 'active' : ''"><a
-                                                @click.prevent="current = 'Presentation'" href="">Presentations</a></li>
-                                    </ul>
-                                    <br>
-                                    <img class="loading" v-show="!research.length" width="100px" src="/img/other/loader.gif" alt="">
-                                    <article v-for="r in research" v-show="r.type == current" class="row post card flex-md-row box-shadow">
-                                        <strong class="d-inline-block mb-2 text-primary">[[r.type]]</strong>
-                                        <h5>[[r.title]]</h5>
-                                        <div class="post-header">
-                                            <div class="published col-md-12 col-xs-12 authors">
-                                                <span v-for="(author, i) in r.authors" class="publish-date" itemprop="datePublished">
-                                                    <a v-if="author.active" :href="'/member/?id=' + author.member">
-                                                        [[author.surname]] [[author.name | shortName ]]. <sup>[[author.position]]</sup>
-                                                    </a>
-                                                    <template v-else>[[author.surname]] [[author.name | shortName ]].
-                                                        <sup>[[author.position]]</sup></template>
-                                                    <template>[[ ++i === r.authors.length ? '' : ', ']]</template>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <a class="pull-right" v-show="r.link" :href="r.link">continue reading</a>
-                                    </article>
-                                </div>
+                <div class="col-lg-7 col-md-7 col-xs-12 research">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li role="presentation" :class="current == 'Article' ? 'active' : ''"><a
+                                @click.prevent="current = 'Article'" href="">Articles</a>
+                        </li>
+                        <li role="presentation" :class="current == 'Thesis' ? 'active' : ''"><a
+                                @click.prevent="current = 'Thesis'" href="">Theses</a></li>
+                        <li role="presentation" :class="current == 'Presentation' ? 'active' : ''"><a
+                                @click.prevent="current = 'Presentation'" href="">Presentations</a></li>
+                    </ul>
+                    <br>
+                    <img class="loading" v-show="!research.length" width="100px" src="/img/other/loader.gif" alt="">
+                    <article v-for="r in research" v-show="r.type == current"
+                        class="row post card flex-md-row box-shadow">
+                        <strong class="d-inline-block mb-2 text-primary">[[r.type]]</strong>
+                        <h5>[[r.title]]</h5>
+                        <div class="post-header">
+                            <div class="published col-md-12 col-xs-12 authors">
+                                <span v-for="(author, i) in r.authors" class="publish-date" itemprop="datePublished">
+                                    <a v-if="author.active" :href="'/member/?id=' + author.member">
+                                        [[author.surname]] [[author.name | shortName ]]. <sup>[[author.position]]</sup>
+                                    </a>
+                                    <template v-else>[[author.surname]] [[author.name | shortName ]].
+                                        <sup>[[author.position]]</sup></template>
+                                    <template>[[ ++i === r.authors.length ? '' : ', ']]</template>
+                                </span>
                             </div>
                         </div>
-                    </div> <!-- / .row -->
+                        <a class="pull-right" v-show="r.link" :href="r.link">continue reading</a>
+                    </article>
                 </div>
-            </div> <!-- / .row -->
-        </div>
-        <div class="col-md-11 col-sm-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
-
-
-            <div class="col-lg-7 col-md-7 col-xs-12 research">
-                <ul class="nav nav-tabs nav-justified">
-                    <li role="presentation" :class="current == 'Article' ? 'active' : ''"><a
-                            @click.prevent="current = 'Article'" href="">Articles</a>
-                    </li>
-                    <li role="presentation" :class="current == 'Thesis' ? 'active' : ''"><a
-                            @click.prevent="current = 'Thesis'" href="">Theses</a></li>
-                    <li role="presentation" :class="current == 'Presentation' ? 'active' : ''"><a
-                            @click.prevent="current = 'Presentation'" href="">Presentations</a></li>
-                </ul>
-                <br>
-                <img class="loading" v-show="!research.length" width="100px" src="/img/other/loader.gif" alt="">
-                <article v-for="r in research" v-show="r.type == current" class="row post card flex-md-row box-shadow">
-                    <strong class="d-inline-block mb-2 text-primary">[[r.type]]</strong>
-                    <h5>[[r.title]]</h5>
-                    <div class="post-header">
-                        <div class="published col-md-12 col-xs-12 authors">
-                            <span v-for="(author, i) in r.authors" class="publish-date" itemprop="datePublished">
-                                <a v-if="author.active" :href="'/member/?id=' + author.member">
-                                    [[author.surname]] [[author.name | shortName ]]. <sup>[[author.position]]</sup>
-                                </a>
-                                <template v-else>[[author.surname]] [[author.name | shortName ]].
-                                    <sup>[[author.position]]</sup></template>
-                                <template>[[ ++i === r.authors.length ? '' : ', ']]</template>
-                            </span>
-                        </div>
-                    </div>
-                    <a class="pull-right" v-show="r.link" :href="r.link">continue reading</a>
-                </article>
+                {% include social-research.html %}
             </div>
-            {% include social-research.html %}
         </div>
-
     </section>
     <!-- End Blog -->
 </div>
@@ -197,15 +81,15 @@ permalink: /member/
         created() {
             var urlParams = new URLSearchParams(window.location.search);
             var id = urlParams.get('id');
-            fetch('https://aaaimx-admin.herokuapp.com/api/members/' + id + '/')
+            fetch('https://aaaimx-admin-stage.herokuapp.com/api/members/' + id + '/')
                 .then((response) => {
-
+                    
                     return response.json();
                 })
                 .then((data) => {
                     console.log(data);
                     this.member = data;
-                    fetch('https://aaaimx-admin.herokuapp.com/api/partners/' + data.adscription + '/')
+                    fetch('https://aaaimx-admin-stage.herokuapp.com/api/partners/'+ data.adscription + '/')
                         .then((response) => {
                             return response.json();
                         })
@@ -214,7 +98,7 @@ permalink: /member/
                             this.member.adscription = data.name;
                         });
                 });
-            fetch('https://aaaimx-admin.herokuapp.com/api/research/?limit=50')
+            fetch('https://aaaimx-admin-stage.herokuapp.com/api/research/?limit=50')
                 .then((response) => {
                     return response.json();
                 })
@@ -241,202 +125,3 @@ permalink: /member/
     });
 
 </script>
-
-<style>
-    .user-profile__avatar,
-    .user-avatar {
-        border: 1px solid #eee;
-        border-radius: 3px;
-    }
-
-    .user-profile__avatar>img,
-    .user-avatar>img {
-        margin-bottom: 10px;
-        border-radius: 2px;
-    }
-
-    .user-profile__desc {
-        color: #777777;
-    }
-
-    .user-profile__url {
-        margin-bottom: 20px;
-    }
-
-    .user-profile__info {
-        margin: 20px 0;
-        padding-left: 0;
-        list-style: none;
-    }
-
-    .user-profile__info>li {
-        padding: 5px 0;
-    }
-
-    .user-profile__info>li .fa {
-        margin-right: 10px;
-    }
-
-
-    /**
- * Portfolio
- */
-    /* Portfolio navigation */
-    .portfolio__nav {
-        list-style: none;
-        padding-left: 0;
-        margin-bottom: 40px;
-        margin-top: -20px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
-
-    .portfolio__nav>li {
-        display: inline-block;
-    }
-
-    .portfolio__nav>li>a {
-        display: block;
-        padding: 20px 10px;
-        margin-bottom: -1px;
-        border-bottom: 2px solid transparent;
-        color: #757575;
-        -webkit-transition: all .05s linear;
-        -o-transition: all .05s linear;
-        transition: all .05s linear;
-    }
-
-    .portfolio__nav>li>a:hover,
-    .portfolio__nav>li>a:focus {
-        color: #333333;
-        text-decoration: none;
-    }
-
-    .portfolio__nav>li.active>a {
-        color: #ed3e49;
-        border-bottom-color: #ed3e49;
-    }
-
-    @media (max-width: 767px) {
-        .portfolio__nav {
-            border-bottom: 0;
-        }
-
-        .portfolio__nav>li {
-            display: block;
-        }
-
-        .portfolio__nav>li>a {
-            padding: 10px 15px;
-            margin-bottom: 10px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-        }
-
-        .portfolio__nav>li.active>a {
-            font-weight: 600;
-        }
-    }
-
-    /* Portfolio thumbnails */
-    .isotope-item {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    /* Firefox bug fix */
-    @media (min-width: 1200px) {
-        .col-lg-4.isotope-item {
-            width: 33%;
-        }
-    }
-
-    .portfolio__item {
-        margin-bottom: 20px;
-    }
-
-    .portfolio-item__img {
-        position: relative;
-        overflow: hidden;
-        cursor: pointer;
-    }
-
-    .portfolio-item__img:hover .portfolio-item__mask {
-        background: rgba(255, 255, 255, 0.9);
-    }
-
-    .portfolio-item__img:hover .portfolio-item-mask__content {
-        top: 0;
-    }
-
-    .portfolio-item__mask {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(255, 255, 255, 0);
-        -webkit-transition: background .3s;
-        -o-transition: background .3s;
-        transition: background .3s;
-    }
-
-    @media (max-width: 767px) {
-        .portfolio-item__mask {
-            visibility: hidden;
-        }
-    }
-
-    .portfolio-item-mask__content {
-        position: absolute;
-        display: block;
-        top: -100%;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        padding: 40px 20px;
-        overflow: hidden;
-        color: #333333;
-        text-decoration: none;
-        -webkit-transition: top .3s;
-        -o-transition: top .3s;
-        transition: top .3s;
-    }
-
-    .portfolio-item-mask__title {
-        margin-bottom: 20px;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-
-    .portfolio-item-mask__summary {
-        font-size: 12px;
-    }
-
-    .portfolio-item__recent>[class*="col-"] {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .tab-pane {
-        padding-top: 20px;
-    }
-
-    .panel-body>ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .panel-body>ul>li {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-    }
-
-    .panel-body>ul>li>a {
-        display: block;
-        padding: 8px 0;
-        font-weight: 600;
-        font-size: 11px;
-        color: #777777;
-        text-transform: uppercase;
-        text-decoration: none;
-    }
-</style>

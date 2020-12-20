@@ -5,12 +5,14 @@ permalink: /certificates/
 ---
 
 {% include top-section.html %}
-
 <section class="container">
     <div class="row">
         <div id="app" class="col-md-8">
             <div class="card flex-md-row shadow">
                 <img style="max-width: 100%" :src="img" />
+                <!-- <embed style="max-width: 100%" width="500" height="500" frameborder="0" src="http://www.aaaimx.org/certificates/2019/5bd3ffae-666e-4c9f-bd53-aa28d97399c2.pdf"
+                    type="application/pdf"> -->
+
                 <!-- <div class="mb-1 text-muted">2018</div>
               <p class="card-text mb-auto">
                 This is a wider card with supporting text below as a natural
@@ -20,7 +22,7 @@ permalink: /certificates/
                 Internet of things
               </span> -->
             </div>
-            
+
         </div>
         {% include announcement.html %}
     </div>
@@ -45,7 +47,7 @@ permalink: /certificates/
         },
         created() {
             var urlParams = new URLSearchParams(window.location.search);
-            fetch('https://aaaimx-admin.herokuapp.com/api/certificates/' + urlParams.get('id') + '/', config)
+            fetch('https://aaaimx-admin-stage.herokuapp.com/api/certificates/' + urlParams.get('id') + '/', config)
                 .then((response) => {
                     if (response.status == 404) {
                         window.location = '404.html';
@@ -53,8 +55,8 @@ permalink: /certificates/
                     return response.json();
                 })
                 .then((data) => {
-                    console.log(data);
-                    this.cert = data.file.replace('download', 'preview');
+                    console.log(data.file);
+                    window.location.href = data.file;
                 });
         }
     })

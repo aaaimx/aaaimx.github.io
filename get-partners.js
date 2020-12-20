@@ -15,7 +15,7 @@ function getImgUrl (url) {
   return result
 }
 
-axios.get('https://aaaimx-admin.herokuapp.com/api/partners/?all=').then(res => {
+axios.get('https://aaaimx-admin-stage.herokuapp.com/api/partners/?all=').then(res => {
   var partners = res.data
   var data = [
     {
