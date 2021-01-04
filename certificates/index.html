@@ -106,7 +106,9 @@
                     .then((data) => {
                         console.log(data);
                         this.cert = data;
-
+                        if (!data.published) {
+                            window.location = '404.html';
+                        };
                     });
             }
         })
