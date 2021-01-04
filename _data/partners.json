@@ -53,7 +53,7 @@
                 "uuid": "60466fa6-aae9-4784-87f2-53ea6725af39",
                 "name": "AAAIMX Machine Learning Division",
                 "alias": "ML",
-                "site": "",
+                "site": "https://www.facebook.com/divml",
                 "logoName": "divisions/diml.png",
                 "type": "Division"
             },
@@ -69,7 +69,7 @@
                 "uuid": "405d8b93-48f5-4a45-b7e5-bbe558e058a8",
                 "name": "AAAIMX Software Division",
                 "alias": "Software",
-                "site": "/software",
+                "site": "https://web.facebook.com/disoftw",
                 "logoName": "divisions/disoftw.png",
                 "type": "Division"
             },
@@ -77,7 +77,7 @@
                 "uuid": "ca93b056-b140-494e-8e7e-c3f808d1ac86",
                 "name": "AAAIMX Applied Maths & Symbolic AI Division",
                 "alias": "Applied Maths",
-                "site": "",
+                "site": "https://web.facebook.com/AAAI-MX-Applied-Maths-Division-105944681263545",
                 "logoName": "divisions/dimaths.png",
                 "type": "Division"
             },
@@ -93,7 +93,7 @@
                 "uuid": "ca618a87-01d5-42f3-9643-9adfa9119ad2",
                 "name": "AAAIMX Social Impact Division",
                 "alias": "DIS",
-                "site": "https://web.facebook.com/Divisi%C3%B3n-IS-AAAI-Student-Chapter-M%C3%A9xico-100466724697875/",
+                "site": "https://www.facebook.com/AAAI-MX-Social-Impact-Division-100466724697875/",
                 "logoName": "divisions/dis.png",
                 "type": "Division"
             },
