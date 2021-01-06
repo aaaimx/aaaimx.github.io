@@ -9,9 +9,7 @@
         @page {
             size: landscape;
         }
-
         @media print {
-
             html,
             body {
                 height: 100%;
@@ -19,15 +17,13 @@
                 padding: 0 !important;
                 overflow: hidden;
             }
-
-
         }
     </style>
 </head>
 
 <body>
 
-    <div id="app" class="card box">
+    <div id="app" class="card">
         <div class="card-image" v-show="cert.uuid">
             <figure class="image is-4by3">
                 <img :src="cert.file">
