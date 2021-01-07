@@ -43,9 +43,10 @@ becomaeAMemberForm: "/join"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
-#  - {permalink: "/members/", text: "Members"}
+ - {permalink: "/community/", text: "Members"}
  - {permalink: "/structure/", text: "Structure"}
  - {permalink: "/publications/jcr", text: "Research"}
+ - {link: "https://web.facebook.com/pg/aaaimx/events/?ref=page_internal", text: "Events"}
  - {link: "https://web.facebook.com/pg/aaaimx/events/?ref=page_internal", text: "Events"}
 #  - {permalink: "/galery/", text: "Galery"}
 # - {permalink: "/blog/", text: "Blog"}
@@ -183,51 +184,6 @@ showSessions: truelatestNewsTitle
 # Team Block
 teamBlockTitle: "About us"
 aboutUs: "We are a group of students and researchers from the ITM along with researchers from the Center for Mathematical Research (CIMAT) and CentroGeo, some of the leading educational and research centers in Yucatán, México."
-
-# Logistics Find Way Block
-findWayTitle: "Find your way here"
-findWayDistance: "Distance"
-findWayDriving: "DRIVING"
-findWayWalking: "WALKING"
-findWayBicycling: "BICYCLING"
-findWayTransit: "TRANSIT"
-findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
-logisticsMapAutoDirections: false
-
-# Logistics Direction Details Block
-directionDetailsImage: "research-bg.jpg"
-directionDetailsTitle: "Get around Lviv"
-directionDetailsCards:
-  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
-  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
-  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
-directionDetailsWideCards:
- -
-  title: "Questions?"
-  subCards:
-   -
-    title: "Hotels"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Registration"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Attendance Details"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
 hackathonTitle: "Contact"

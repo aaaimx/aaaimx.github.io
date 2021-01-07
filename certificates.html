@@ -11,51 +11,10 @@ permalink: /certificates/
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <script src="{{ " /js/vue.js" }}"></script>
     <style>
-        @font-face {
-            font-family: Cooper;
-            src: url('fonts/CooperHewitt-Light.otf');
-        }
-
-        img {
-            position: relative;
-            text-align: center;
-        }
-
-        strong,
-        p {
-            font-family: Copper;
-            font-size: 1.5vw;
-            color: #003138;
-        }
-
-        /* https://css-tricks.com/fitting-text-to-a-container/ */
-        .description {
-            position: absolute;
-            top: 60%;
-            left: 50%;
-            text-align: center;
-            transform: translate(-50%, -50%);
-        }
-
-        .unselectable {
-            -webkit-user-select: none;
-            /* Chrome all / Safari all */
-            -moz-user-select: none;
-            /* Firefox all */
-            -ms-user-select: none;
-            /* IE 10+ */
-
-            /* No support for these yet, use at own risk */
-            -o-user-select: none;
-            user-select: none;
-        }
-
         @page {
             size: landscape;
         }
-
         @media print {
-
             html,
             body {
                 height: 100%;
@@ -63,19 +22,16 @@ permalink: /certificates/
                 padding: 0 !important;
                 overflow: hidden;
             }
-
-
         }
     </style>
 </head>
 
 <body>
 
-    <div id="app" class="card box">
-        <div class="card-image" @contextmenu="handler($event)" v-show="cert.uuid">
+    <div id="app" class="card">
+        <div class="card-image" v-show="cert.uuid">
             <figure class="image is-4by3">
                 <img :src="cert.file">
-                <div v-if="!cert.has_custom_file" class="description unselectable" v-html="cert.description"></div>
             </figure>
         </div>
     </div>
@@ -91,10 +47,6 @@ permalink: /certificates/
                 cert: {},
             },
             computed: {
-                handler(e) {
-                    window.print();
-                    e.preventDefault();
-                },
                 img() {
                     return this.cert;
                 }

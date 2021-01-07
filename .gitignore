@@ -11,3 +11,15 @@ node_modules
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
+
+### Hosting folders ###
+.htaccess
+DIS/
+admin/
+community/
+certificates/2019/
+certificates/2020/
+covid19-assistant/
+events/
+software/
+storage/
