@@ -1,12 +1,5 @@
 [
     {
-        "surname": "Herrera",
-        "name": "Fernando",
-        "thumbnailUrl": "/img/people/fernando.jpg",
-        "committee": true,
-        "charge": "Applied Maths Leader"
-    },
-    {
         "surname": "Orozco-del-Castillo",
         "name": "Mauricio Gabriel",
         "thumbnailUrl": "/img/people/mauricio-orozco.jpg",
@@ -19,13 +12,6 @@
         "thumbnailUrl": "/img/people/juan.jpg",
         "board": true,
         "charge": "Co-Chair / CentroGeo Researcher"
-    },
-    {
-        "surname": "Brito",
-        "name": "Esteban",
-        "thumbnailUrl": "/img/people/esteban.jpg",
-        "committee": true,
-        "charge": "Machine Learning Leader"
     },
     {
         "surname": "Ortiz-Alemán",
@@ -56,18 +42,39 @@
         "charge": "Member / Senior Researcher, UADY/TecNM-ITM, México"
     },
     {
-        "surname": "Mena",
-        "name": "Paul",
-        "thumbnailUrl": "/img/people/paul.jpg",
-        "committee": true,
-        "charge": "Operations Leader / Advisor"
+        "surname": "Trejo-Sánchez",
+        "name": "Joel Antonio",
+        "thumbnailUrl": "/img/people/joel.jpg",
+        "board": true,
+        "charge": "Secretary / CIMAT Researcher"
+    },
+    {
+        "surname": "Fallas-Soto",
+        "name": "Rodolfo David",
+        "thumbnailUrl": "/img/people/rodolfo-fallas.jpeg",
+        "board": true,
+        "charge": "Member / Professor-Researcher, UCR, Costa Rica"
+    },
+    {
+        "surname": "Vázquez-Montejo",
+        "name": "Juan Manuel",
+        "thumbnailUrl": "/img/people/juan-vazquez.jpeg",
+        "board": true,
+        "charge": "Member / Associate Professor, UPY, México"
     },
     {
         "surname": "Novelo",
         "name": "Raul",
-        "thumbnailUrl": "/img/people/raul-novelo.jpeg",
+        "thumbnailUrl": "/img/people/raul-novelo.jpg",
         "committee": true,
         "charge": "President / Software Leader"
+    },
+    {
+        "surname": "Brito",
+        "name": "Esteban",
+        "thumbnailUrl": "/img/people/esteban.jpg",
+        "committee": true,
+        "charge": "Machine Learning Leader"
     },
     {
         "surname": "Sarabia",
@@ -75,13 +82,6 @@
         "thumbnailUrl": "/img/people/humberto.jpg",
         "committee": true,
         "charge": "Robotics Leader"
-    },
-    {
-        "surname": "Trejo-Sánchez",
-        "name": "Joel Antonio",
-        "thumbnailUrl": "/img/people/joel.jpg",
-        "board": true,
-        "charge": "Secretary / CIMAT Researcher"
     },
     {
         "surname": "Crespo",
@@ -93,16 +93,30 @@
     {
         "surname": "Cordova",
         "name": "Humberto",
-        "thumbnailUrl": "/img/people/default-avatar.jpg",
+        "thumbnailUrl": "/img/people/cordova.jpg",
         "committee": true,
         "charge": "Vice-president / Bioengineering Leader"
+    },
+    {
+        "surname": "Herrera",
+        "name": "Fernando",
+        "thumbnailUrl": "/img/people/fer.jpeg",
+        "committee": true,
+        "charge": "Applied Maths Leader"
+    },
+    {
+        "surname": "Mena",
+        "name": "Paul",
+        "thumbnailUrl": "/img/people/paul.jpg",
+        "committee": true,
+        "charge": "Operations Leader"
     },
     {
         "id": 5,
         "name": "Adolfo",
         "surname": "Álvarez",
         "charge": "Advisor",
-        "thumbnailUrl": "/img/people/adolfo.jpg",
+        "thumbnailUrl": "/img/people/adolfo.jpeg",
         "committee": true
     }
 ]

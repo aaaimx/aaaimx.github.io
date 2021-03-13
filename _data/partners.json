@@ -1,15 +1,7 @@
 [
     {
-        "group": "Research Centers",
+        "group": "Reserch Centers",
         "elements": [
-            {
-                "uuid": "aea6bcca-5c27-406e-83ee-8684bdaebf7b",
-                "name": "Universidad Complutense de Madrid",
-                "alias": "UCM",
-                "site": "https://www.ucm.es/disia",
-                "logoName": "ucm.png",
-                "type": "Research Center"
-            },
             {
                 "uuid": "9036b749-5c6d-4f47-aaba-fbd810010f11",
                 "name": "Litoteca Nacional de Hidrocarburos",
@@ -18,14 +10,7 @@
                 "logoName": "CNH.png",
                 "type": "Research Center"
             },
-            {
-                "uuid": "52f2a630-893c-4f69-b243-d5eaa75d27c9",
-                "name": "Instituto Politécnico Nacional / Centro de Desarrollo Aeroespacial",
-                "alias": "IPN",
-                "site": "https://www.ipn.mx/cda/",
-                "logoName": "pleca-ipn.png",
-                "type": "Research Center"
-            },
+            
             {
                 "uuid": "3b8817e5-1df2-44ab-a1db-1b255b3a8fb4",
                 "name": "Comisión Nacional de Ciencia y Tecnología / Centro de Investigación en Ciencias de Información Geoespacial Subsede Yucatán",
@@ -42,13 +27,49 @@
                 "site": "https://www.cimat.mx/es/unidad-merida",
                 "logoName": "cimat.png",
                 "type": "Research Center"
+            },
+            {
+                "uuid": "52f2a630-893c-4f69-b243-d5eaa75d27c9",
+                "name": "Centro de Desarrollo Aeroespacial / IPN",
+                "alias": "CDA",
+                "site": "https://www.ipn.mx/cda/",
+                "logoName": "cda.png",
+                "type": "Research Center"
+            }
+        ]
+    },
+    {
+        "group": "Universities",
+        "elements": [
+            {
+                "uuid": "8862a10a-9e86-43db-b513-d6101cca2e33",
+                "name": "Tecnológico Nacional de México / I.T. Mérida",
+                "alias": "ITM",
+                "site": "http://www.itmerida.mx/",
+                "logoName": "tec.png",
+                "type": "Partner"
+            },
+            {
+                "uuid": "aea6bcca-5c27-406e-83ee-8684bdaebf7b",
+                "name": "Universidad Complutense de Madrid",
+                "alias": "UCM",
+                "site": "https://www.ucm.es/disia",
+                "logoName": "ucm.png",
+                "type": "University"
+            },
+            {
+                "uuid": "52f2a630-893c-4f69-b243-d5eaa75d27c9",
+                "name": "Instituto Politécnico Nacional",
+                "alias": "IPN",
+                "site": "https://www.ipn.mx/",
+                "logoName": "pleca-ipn.png",
+                "type": "University"
             }
         ]
     },
     {
         "group": "Divisions",
         "elements": [
-
             {
                 "uuid": "60466fa6-aae9-4784-87f2-53ea6725af39",
                 "name": "AAAIMX Machine Learning Division",
@@ -108,22 +129,48 @@
         ]
     },
     {
-        "group": "Partners",
+        "group": "Clubs",
         "elements": [
             {
                 "uuid": "20769776-fe79-4f39-a077-979a48057e1d",
                 "name": "WolfCode programming Squad",
                 "alias": "WolfCode",
                 "site": "https://web.facebook.com/WolfCodeProgrammingSquad/",
-                "logoName": "wolfcode.jpg",
-                "type": "Partner"
+                "logoName": "wolfcode.png",
+                "type": "Club"
             },
             {
-                "uuid": "8862a10a-9e86-43db-b513-d6101cca2e33",
-                "name": "Tecnológico Nacional de México / I.T. Mérida",
-                "alias": "ITM",
-                "site": "http://www.itmerida.mx/",
-                "logoName": "tec.png",
+                "name": "Club de Ciberseguridad",
+                "alias": "CCS",
+                "logoName": "cs2.png",
+                "type": "Club"
+            },
+            {
+                "uuid": "dcb79a6c-276e-448c-8712-e28cdc57887e",
+                "name": "CEISC - Club de Electrónica ISC",
+                "alias": "CEISC",
+                "site": "https://web.facebook.com/DivRobotica/",
+                "logoName": "ceisc.jpg",
+                "type": "Club"
+            },
+            {
+                "name": "Gamewolf",
+                "alias": "Gamewolf AAAIMX",
+                "site": "https://web.facebook.com/Gamewolf.AAAIMX",
+                "logoName": "gamewolf.png",
+                "type": "Club"
+            }
+        ]
+    },
+    {
+        "group": "Partners",
+        "elements": [
+            {
+                "uuid": "8e71926e-df77-4ee1-9a71-b9e04aecdd3c",
+                "name": "Association for Advancement of Artificial Intelligence",
+                "alias": "AAAI",
+                "site": "https://www.aaai.org/",
+                "logoName": "aaai.png",
                 "type": "Partner"
             },
             {
@@ -132,6 +179,14 @@
                 "alias": "TecNM",
                 "site": "https://www.tecnm.mx/",
                 "logoName": "tecnm.png",
+                "type": "Partner"
+            },
+            {
+                "uuid": "91e40237-c8c1-4f38-831f-7f064e79a0ef",
+                "name": "Generación Estudiantil Tecnológica  ITM",
+                "alias": "GETEC",
+                "site": "https://web.facebook.com/GETECITM/",
+                "logoName": "getec.png",
                 "type": "Partner"
             },
             {
@@ -148,22 +203,6 @@
                 "alias": "DISC",
                 "site": "http://www.itmerida.edu.mx/",
                 "logoName": "disc.jpg",
-                "type": "Partner"
-            },
-            {
-                "uuid": "dcb79a6c-276e-448c-8712-e28cdc57887e",
-                "name": "CEISC - Club de Electrónica ISC",
-                "alias": "CEISC",
-                "site": "https://web.facebook.com/DivRobotica/",
-                "logoName": "ceisc.jpg",
-                "type": "Partner"
-            },
-            {
-                "uuid": "8e71926e-df77-4ee1-9a71-b9e04aecdd3c",
-                "name": "Association for Advancement of Artificial Intelligence",
-                "alias": "AAAI",
-                "site": "https://www.aaai.org/",
-                "logoName": "aaai.png",
                 "type": "Partner"
             }
         ]
@@ -186,14 +225,6 @@
                 "alias": "Indaico",
                 "site": "https://web.facebook.com/indaico/",
                 "logoName": "indaico.png",
-                "type": "Sponsor"
-            },
-            {
-                "uuid": "91e40237-c8c1-4f38-831f-7f064e79a0ef",
-                "name": "Generación Estudiantil Tecnológica  ITM",
-                "alias": "GETEC",
-                "site": "https://web.facebook.com/GETECITM/",
-                "logoName": "getec.png",
                 "type": "Sponsor"
             },
             {
@@ -221,11 +252,32 @@
                 "type": "Sponsor"
             },
             {
+                "name": "SoldAI",
+                "alias": "SoldAI",
+                "site": "https://soldai.com/",
+                "logoName": "soldai.svg",
+                "type": "Sponsor"
+            },
+            {
                 "uuid": "b1d12525-a18c-429d-ac14-eb52647eae3b",
                 "name": "Jarkol Technologies",
                 "alias": "Jarkol",
                 "site": "https://www.jarkol.com/",
                 "logoName": "jarkol.png",
+                "type": "Sponsor"
+            },
+            {
+                "name": "Tan Tan Solutions",
+                "alias": "TanTan",
+                "site": "https://tantan.solutions/",
+                "logoName": "tantan.png",
+                "type": "Sponsor"
+            },
+            {
+                "name": "Lighthouse Technologies",
+                "alias": "Lighthouse",
+                "site": "https://www.lighthousetech.io/",
+                "logoName": "lighthouse.png",
                 "type": "Sponsor"
             }
         ]
