@@ -32,7 +32,7 @@
         "name": "Jorge Javier",
         "thumbnailUrl": "/img/people/jorge-javier.jpeg",
         "board": true,
-        "charge": "Member / Senior Researcher, IPN-CDA, México"
+        "charge": "Secretary / Senior Researcher, IPN-CDA, México"
     },
     {
         "surname": "Castillo-Atoche",
@@ -42,11 +42,11 @@
         "charge": "Member / Senior Researcher, UADY/TecNM-ITM, México"
     },
     {
-        "surname": "Trejo-Sánchez",
-        "name": "Joel Antonio",
-        "thumbnailUrl": "/img/people/joel.jpg",
+        "surname": "Hernández-López",
+        "name": "Francisco Javier",
+        "thumbnailUrl": "/img/people/javier-cimat.jpeg",
         "board": true,
-        "charge": "Secretary / CIMAT Researcher"
+        "charge": "Member / CIMAT Researcher"
     },
     {
         "surname": "Fallas-Soto",
