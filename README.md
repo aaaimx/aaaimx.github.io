@@ -39,10 +39,12 @@ Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 
 ### Installing
 
+    sudo apt-get install ruby-full
+
 Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
 To install all development dependencies install [Bundler](http://bundler.io/).
 ```bash
-    gem install bundler
+    sudo gem install bundler
 ```
 and run next command from root folder:
 
