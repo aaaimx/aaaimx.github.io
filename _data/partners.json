@@ -265,20 +265,6 @@
                 "site": "https://www.jarkol.com/",
                 "logoName": "jarkol.png",
                 "type": "Sponsor"
-            },
-            {
-                "name": "Tan Tan Solutions",
-                "alias": "TanTan",
-                "site": "https://tantan.solutions/",
-                "logoName": "tantan.png",
-                "type": "Sponsor"
-            },
-            {
-                "name": "Lighthouse Technologies",
-                "alias": "Lighthouse",
-                "site": "https://www.lighthousetech.io/",
-                "logoName": "lighthouse.png",
-                "type": "Sponsor"
             }
         ]
     }
