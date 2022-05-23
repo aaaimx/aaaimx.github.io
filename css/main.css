@@ -11152,8 +11152,9 @@ text-align: center;
 
 @media screen and (max-width: 800px) {
     #imgprueba{
-        display: block;
-        margin: auto;
+        display: flex;
+        /*margin: auto;*/
+        justify-content: center;
     }
     .pb1,.pb2,.pb3 {
         display: block;
