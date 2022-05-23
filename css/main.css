@@ -9700,6 +9700,7 @@ nav li a:hover {
 }
 
 @media (min-width: 992px) {
+
     .container {
         width: 970px
     }
@@ -11116,20 +11117,26 @@ text-align: center;
 }
 #imgprueba{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .pb1{
+    width: 100%;
     display: inline-block;
     padding-right: 40px;
     padding-left: 40px;
 }
+.text-img {
+    font-size: 4px;
+}
 .pb2{
-
+    width: 100%;
     display: inline-block;
     padding-right: 40px;
     padding-left: 40px;
 }
 .pb3{
-
+    width: 100%;
     display: inline-block;
     padding-right: 40px;
     padding-left: 40px;
@@ -11141,4 +11148,17 @@ text-align: center;
 }
 .artu{
     width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    #imgprueba{
+        display: block;
+        margin: auto;
+    }
+    .pb1,.pb2,.pb3 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
 }
